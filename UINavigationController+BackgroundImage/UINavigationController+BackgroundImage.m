@@ -50,4 +50,14 @@
     return nil;
 }
 
+- (UIImageView *)backgroundImageView
+{
+    if ([self.view.subviews count] && [self.view.subviews[0] isKindOfClass:[UIImageView class]])
+    {
+        return self.view.subviews[0];
+    }
+    
+    return nil;
+}
+
 @end

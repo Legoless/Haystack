@@ -21,4 +21,9 @@
  */
 - (UIImage *)backgroundImage;
 
+/*!
+ * Returns background image view for direct access to image view in navigation controller.
+ */
+- (UIImageView *)backgroundImageView;
+
 @end
