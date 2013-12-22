@@ -4,6 +4,8 @@
 
 #import "UIDevice+DeviceInfo.h"
 
+int	sysctlbyname(const char *, void *, size_t *, void *, size_t);
+
 @implementation UIDevice (DeviceInfo)
 
 - (BOOL)isWidescreen
@@ -21,7 +23,35 @@
     return NO;
 }
 
+- (BOOL)isiPhone
+{
+    if ([self.model isEqualToString:@"iPhone"] && [self userInterfaceIdiom] == UIUserInterfaceIdiomPhone)
+    {
+        return YES;
+    }
+    
+    return NO;
+}
 
+- (BOOL)isiPod
+{
+    if ([self.model isEqualToString:@"iPod"] && [self userInterfaceIdiom] == UIUserInterfaceIdiomPhone)
+    {
+        return YES;
+    }
+    
+    return NO;
+}
+
+- (BOOL)isiPad
+{
+    if ([self userInterfaceIdiom] == UIUserInterfaceIdiomPad)
+    {
+        return YES;
+    }
+    
+    return NO;
+}
 
 - (NSString *)getSysInfoByName:(char *)typeSpecifier
 {
