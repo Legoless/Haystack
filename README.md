@@ -31,6 +31,23 @@ UIColor+Create
 --------
 An UIColor category that allows the creation of UIColors from Hex HTML strings and 8-bit colors.
 
+```objective-c
+/*!
+ * Returns UIColor from separate red, green and blue components.
+ */
++ (UIColor *)colorWith8BitRed:(NSInteger)red green:(NSInteger)green blue:(NSInteger)blue alpha:(CGFloat)alpha;
+
+/*!
+* Converts hex string (HTML color) to UIColor object.
+*/
++ (UIColor *)colorWithHex:(NSString *)hex;
+
+/*!
+ * Returns UIColor object if object is a Hex value color as string, returns same if it is UIColor already, otherwise nil.
+ */
++ (UIColor *)colorWithObject:(id)object;
+```
+
 UIDevice+DeviceInfo
 --------
 This category extends the UIDevice functionality with additional information about current device.
