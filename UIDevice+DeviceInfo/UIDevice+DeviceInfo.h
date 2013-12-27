@@ -6,6 +6,9 @@
 
 #define isWideScreen ([[UIDevice currentDevice] isWidescreen])
 
+/*!
+ * Device family enum
+ */
 typedef NS_ENUM(NSUInteger, UIDeviceFamily)
 {
     UIDeviceFamilyiPhone,
@@ -20,31 +23,44 @@ typedef NS_ENUM(NSUInteger, UIDeviceFamily)
  */
 @interface UIDevice (DeviceInfo)
 
+/*!
+ * Returns YES if device is iPhone.
+ */
 - (BOOL)isiPhone;
 
+/*!
+ * Returns YES if device is iPod.
+ */
 - (BOOL)isiPod;
 
+/*!
+ * Returns YES if device is iPad.
+ */
 - (BOOL)isiPad;
 
+/*!
+ * Returns YES if device has retina display.
+ */
 - (BOOL)isRetina;
 
 /*!
- * Returns if the device is iPhone 5 or newest generation iPod touch that has widescreen display of 16:9 ratio
+ * Returns if the device is iPhone 5 or iPod touch that has widescreen display of 16:9 ratio.
  */
 - (BOOL)isWidescreen;
-
-//
-// Taken from: UIDevice-Hardware
-//
 
 /*!
  * Returns formatted consumer name of Apple device
  */
 - (NSString *)modelIdentifier;
 
+/*!
+ * Returns model name.
+ */
 - (NSString *)modelName;
 
+/*!
+ * Returns device family of the device
+ */
 - (UIDeviceFamily)deviceFamily;
-
 
 @end
