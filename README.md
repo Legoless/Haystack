@@ -1,7 +1,7 @@
 Haystack
 ========
 
-A collection of simple iOS classes and small libraries that make development easier. Most of these classes are not large or structured enough to fit in a special library or framework, but are regurarely needed throughout the most projects you are working on.
+Haystack SDK contains a collection of simple iOS classes and small libraries that make development easier. Most of these classes are not large or structured enough to fit in a special library or framework, but are regurarely needed throughout the most projects you are working on.
 
 Categories
 =======
