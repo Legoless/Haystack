@@ -51,3 +51,46 @@ An UIColor category that allows the creation of UIColors from Hex HTML strings a
 UIDevice+DeviceInfo
 --------
 This category extends the UIDevice functionality with additional information about current device.
+
+```objective-c
+/*!
+ * Returns YES if device is iPhone.
+ */
+- (BOOL)isiPhone;
+
+/*!
+ * Returns YES if device is iPod.
+ */
+- (BOOL)isiPod;
+
+/*!
+ * Returns YES if device is iPad.
+ */
+- (BOOL)isiPad;
+
+/*!
+ * Returns YES if device has retina display.
+ */
+- (BOOL)isRetina;
+
+/*!
+ * Returns if the device is iPhone 5 or iPod touch that has widescreen display of 16:9 ratio.
+ */
+- (BOOL)isWidescreen;
+
+/*!
+ * Returns formatted consumer name of Apple device
+ */
+- (NSString *)modelIdentifier;
+
+/*!
+ * Returns model name.
+ */
+- (NSString *)modelName;
+
+/*!
+ * Returns device family of the device
+ */
+- (UIDeviceFamily)deviceFamily;
+```
+
