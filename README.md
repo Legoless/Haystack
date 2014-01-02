@@ -96,3 +96,29 @@ This category extends the UIDevice functionality with additional information abo
 - (UIDeviceFamily)deviceFamily;
 ```
 
+UIApplication+Version
+--------
+UIApplication category that adds utility methods for application bundle.
+
+```objective-c
+/*!
+ * Returns application name as defined in bundle.
+ *
+ * @return NSString application name
+ */
++ (NSString *)name;
+
+/*!
+ * Returns version number in x.y.z format
+ *
+ * @return NSString version number
+ */
++ (NSString *)version;
+
+/*!
+* Returns build number as defined in bundle.
+*
+ * @return NSString build number
+*/
++ (NSString *)build;
+```
