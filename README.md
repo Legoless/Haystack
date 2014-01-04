@@ -3,7 +3,7 @@ Haystack
 
 Haystack SDK contains a collection of simple iOS classes and small libraries that fit in almost every project. Most of these classes are not large or structured enough to fit in a special library or framework, but are regurarely needed throughout the most projects you are working on.
 
-Please contact me for contributions to the SDK, so it can grow at a steady pace.
+Please contact me for contributions to the SDK. If you notice an useful extension to the iOS SDK's that can be included in the SDK, contact me.
 
 Categories
 =======
