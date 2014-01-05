@@ -5,6 +5,13 @@ Haystack SDK contains a collection of simple iOS classes and small libraries tha
 
 Please contact me for contributions to the SDK. If you notice an useful extension to the iOS SDK's that can be included in the SDK, contact me.
 
+Usage
+=======
+
+You can install the SDK via CocoaPods:
+
+Or manually drag & drop files into Xcode project.
+
 Categories
 =======
 
