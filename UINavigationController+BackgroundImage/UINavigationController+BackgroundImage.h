@@ -10,9 +10,17 @@
 /*!
  * Sets background image to UINavigationController.
  *
- *  @param image which will be used as background
+ * @param image which will be used as background
  */
 - (void)setBackgroundImage:(UIImage *)image;
+
+/*!
+ * Sets background image to UINavigationController.
+ *
+ * @param image which will be used as background
+ * @param YES if animated property
+ */
+- (void)setBackgroundImage:(UIImage *)image animated:(BOOL)animated;
 
 /*!
  * Returns background image for navigation controller if set, nil otherwise.
