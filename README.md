@@ -12,6 +12,13 @@ You can install the SDK via CocoaPods:
 
 Or manually drag & drop files into Xcode project.
 
+Classes
+=======
+
+DRMath
+--------
+A basic class for all the missing mathematical operations.
+
 Categories
 =======
 
