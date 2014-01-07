@@ -8,9 +8,15 @@ Please contact me for contributions to the SDK. If you notice an useful extensio
 Usage
 =======
 
+Installation & Setup
+--------
 You can install the SDK via CocoaPods:
 
 Or manually drag & drop files into Xcode project.
+
+Using in project
+--------
+It is recommended for you to add Haystack.h file into precompiled header (.pch) file. That way all classes and categories are added to all files and you can use them everywhere throughout the project.
 
 Classes
 =======
