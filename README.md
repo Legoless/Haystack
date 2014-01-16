@@ -1,7 +1,7 @@
 Haystack
 ========
 
-Haystack SDK contains a collection of simple iOS classes and small libraries that fit in almost every project. Most of these classes are not large or structured enough to fit in a special library or framework, but are regurarely needed throughout the most projects you are working on.
+Haystack SDK contains a collection of simple iOS classes and small libraries that fit in almost every project. Most of these classes are not large or structured enough to fit in a special library or framework, but are regurarely needed throughout the most projects you are working on. Basically it is meant to fill the hole of classes without libraries.
 
 Please contact me for contributions to the SDK. If you notice an useful extension to the iOS SDK's that can be included in the SDK, contact me.
 
@@ -18,6 +18,10 @@ Using in project
 --------
 It is recommended for you to add Haystack.h file into precompiled header (.pch) file. That way all classes and categories are added to all files and you can use them everywhere throughout the project.
 
+Documentation
+-------
+All header files and fully documented for ease of use. Only method stubs are displayed in readme, to keep it short. The documents are in DoxyGen format.
+
 Classes
 =======
 
@@ -33,31 +37,12 @@ UINavigationController+BackgroundImage
 A simple UINavigationController category that enables the usage of a base background image in navigation controller. Pushing transparent views on top of the navigation stack now keeps the same background image.
 
 ```objective-c
-/*!
- * Sets background image to UINavigationController.
- *
- * @param image which will be used as background
- */
 - (void)setBackgroundImage:(UIImage *)image;
 
-/*!
- * Sets background image to UINavigationController.
- *
- * @param image which will be used as background
- * @param YES if animated property
- */
 - (void)setBackgroundImage:(UIImage *)image animated:(BOOL)animated;
 
-/*!
- * Returns background image for navigation controller if set, nil otherwise.
- *
- * @return UIImage background image for navigation controller
- */
 - (UIImage *)backgroundImage;
 
-/*!
- * Returns background image view for direct access to image view in navigation controller.
- */
 - (UIImageView *)backgroundImageView;
 ```
 
@@ -66,19 +51,10 @@ UIColor+Create
 An UIColor category that allows the creation of UIColors from Hex HTML strings and 8-bit colors.
 
 ```objective-c
-/*!
- * Returns UIColor from separate red, green and blue components.
- */
 + (UIColor *)colorWith8BitRed:(NSInteger)red green:(NSInteger)green blue:(NSInteger)blue alpha:(CGFloat)alpha;
 
-/*!
-* Converts hex string (HTML color) to UIColor object.
-*/
 + (UIColor *)colorWithHex:(NSString *)hex;
 
-/*!
- * Returns UIColor object if object is a Hex value color as string, returns same if it is UIColor already, otherwise nil.
- */
 + (UIColor *)colorWithObject:(id)object;
 ```
 
@@ -87,44 +63,20 @@ UIDevice+DeviceInfo
 This category extends the UIDevice functionality with additional information about current device.
 
 ```objective-c
-/*!
- * Returns YES if device is iPhone.
- */
 - (BOOL)isiPhone;
 
-/*!
- * Returns YES if device is iPod.
- */
 - (BOOL)isiPod;
 
-/*!
- * Returns YES if device is iPad.
- */
 - (BOOL)isiPad;
 
-/*!
- * Returns YES if device has retina display.
- */
 - (BOOL)isRetina;
 
-/*!
- * Returns if the device is iPhone 5 or iPod touch that has widescreen display of 16:9 ratio.
- */
 - (BOOL)isWidescreen;
 
-/*!
- * Returns formatted consumer name of Apple device
- */
 - (NSString *)modelIdentifier;
 
-/*!
- * Returns model name.
- */
 - (NSString *)modelName;
 
-/*!
- * Returns device family of the device
- */
 - (UIDeviceFamily)deviceFamily;
 ```
 
@@ -133,27 +85,35 @@ UIApplication+Version
 UIApplication category that adds utility methods for application bundle.
 
 ```objective-c
-/*!
- * Returns application name as defined in bundle.
- *
- * @return NSString application name
- */
 + (NSString *)name;
 
-/*!
- * Returns version number in x.y.z format
- *
- * @return NSString version number
- */
 + (NSString *)version;
 
-/*!
-* Returns build number as defined in bundle.
-*
- * @return NSString build number
-*/
 + (NSString *)build;
 ```
+
+NSDate+Timestamp
+--------
+A category that adds Unix timestamp methods to NSDate.
+
+```objective-c
++ (NSTimeInterval)unixTimestampFromDate:(NSDate *)date;
+
++ (NSTimeInterval)timeIntervalUntilUnixTimeStamp:(NSTimeInterval)timestamp;
+
+- (NSTimeInterval)unixTimestamp;
+```
+
+Documents
+=======
+Haystack SDK includes documents that can be used in development.
+
+Libraries
+--------
+- AFNetworking
+- BlocksKit
+- MagicalRecord
+
 
 License
 =======
