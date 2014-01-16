@@ -15,13 +15,14 @@
 
 + (NSTimeInterval)timeIntervalUntilUnixTimeStamp:(NSTimeInterval)timestamp;
 {
-    NSDate *timeStampDate = [NSDate dateWithTimeIntervalSince1970:([timestamp doubleValue] / 1000.0)];
+    NSDate *timeStampDate = [NSDate dateWithTimeIntervalSince1970:(timestamp / 1000.0)];
     
     return [timeStampDate timeIntervalSinceNow] * 1000.0;
 }
 
 - (NSTimeInterval)unixTimestamp
 {
-    return [date timeIntervalSince1970] * 1000.0;
+    return [self timeIntervalSince1970] * 1000.0;
 }
+
 @end
