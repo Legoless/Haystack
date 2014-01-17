@@ -58,6 +58,52 @@ An UIColor category that allows the creation of UIColors from Hex HTML strings a
 + (UIColor *)colorWithObject:(id)object;
 ```
 
+UIColor+Flat
+--------
+An UIColor category that encapsulates flat colors used in multiple applications.
+
+```objective-c
++ (UIColor *)turquoiseColor;
+
++ (UIColor *)greenSeaColor;
+
++ (UIColor *)emeraldColor;
+
++ (UIColor *)nephritisColor;
+
++ (UIColor *)peterRiverColor;
+
++ (UIColor *)belizeHoleColor;
+
++ (UIColor *)amethystColor;
+
++ (UIColor *)wisteriaColor;
+
++ (UIColor *)wetAsphaltColor;
+
++ (UIColor *)midnightBlueColor;
+
++ (UIColor *)sunFlowerColor;
+
++ (UIColor *)carrotColor;
+
++ (UIColor *)orangeFruitColor;
+
++ (UIColor *)pumpkinColor;
+
++ (UIColor *)alizarinColor;
+
++ (UIColor *)pomegranateColor;
+
++ (UIColor *)cloudsColor;
+
++ (UIColor *)silverColor;
+
++ (UIColor *)concreteColor;
+
++ (UIColor *)asbestosColor;
+```
+
 UIDevice+DeviceInfo
 --------
 This category extends the UIDevice functionality with additional information about current device.
