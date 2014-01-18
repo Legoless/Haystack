@@ -20,7 +20,7 @@ It is recommended for you to add Haystack.h file into precompiled header (.pch) 
 
 Documentation
 -------
-All header files and fully documented for ease of use. Only method stubs are displayed in readme, to keep it short. The documents are in DoxyGen format.
+All header files and fully documented for ease of use. Only method stubs are displayed in readme, to keep it short. The documentation is in DoxyGen format, allowing you to automatically generate documentation.
 
 Classes
 =======
