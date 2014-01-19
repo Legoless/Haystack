@@ -4,10 +4,19 @@
 
 @interface UIColor (Flat)
 
+/*!
+ * Turquoise color: #1abc9c
+ */
 + (UIColor *)turquoiseColor;
 
+/*!
+ * Green sea color: #16a085
+ */
 + (UIColor *)greenSeaColor;
 
+/*!
+ * Emerald color: #2ecc71
+ */
 + (UIColor *)emeraldColor;
 
 + (UIColor *)nephritisColor;
