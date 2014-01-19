@@ -2,6 +2,9 @@
 //  UIColor+Flat.h
 //
 
+/*!
+ * Category of flat colors. Uses a lazily allocated dictionary for each color, which is only instantiacized once.
+ */
 @interface UIColor (Flat)
 
 /*!
