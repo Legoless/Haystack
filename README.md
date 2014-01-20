@@ -46,6 +46,11 @@ A simple UINavigationController category that enables the usage of a base backgr
 - (UIImageView *)backgroundImageView;
 ```
 
+UIButton+Position
+--------
+A simple category that positions title label in UIButton.
+
+
 UIColor+Create
 --------
 An UIColor category that allows the creation of UIColors from Hex HTML strings and 8-bit colors.
