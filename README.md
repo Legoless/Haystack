@@ -29,6 +29,12 @@ DRMath
 --------
 A basic class for all the missing mathematical operations.
 
+HSViewController
+_______
+
+HSTableViewController
+_______
+
 Categories
 =======
 
