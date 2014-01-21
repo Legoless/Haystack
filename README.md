@@ -11,8 +11,11 @@ Usage
 Installation & Setup
 --------
 You can install the SDK via CocoaPods:
+```
+pod 'Haystack'
+```
 
-Or manually drag & drop files into Xcode project.
+Or manually drag & drop `Haystack` folder into Xcode project.
 
 Using in project
 --------
