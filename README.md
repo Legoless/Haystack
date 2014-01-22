@@ -163,6 +163,9 @@ A category that adds Unix timestamp methods to NSDate.
 
 - (NSTimeInterval)unixTimestamp;
 ```
+NSInvocation+Delay
+--------
+A NSInvocation category that performs invocations after delay with an NSTimer.
 
 Documents
 =======
@@ -172,6 +175,7 @@ Libraries
 --------
 - AFNetworking
 - BlocksKit
+- JSONModel
 - MagicalRecord
 
 
