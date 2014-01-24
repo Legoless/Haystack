@@ -12,10 +12,10 @@ Installation & Setup
 --------
 You can install the SDK via CocoaPods:
 ```
-pod 'Haystack'
+pod 'Haystack', :git => 'https://github.com/Legoless/Haystack.git'
 ```
 
-Or manually drag & drop `Haystack` folder into Xcode project.
+Or manually drag & drop `Haystack` folder into Xcode project, then follow the using in project suggestion.
 
 Using in project
 --------
