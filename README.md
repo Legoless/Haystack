@@ -57,8 +57,17 @@ A simple UINavigationController category that enables the usage of a base backgr
 
 UIButton+Position
 --------
-A simple category that positions title label in UIButton.
+The UIButton alwqys positions title label to the right of the image. In certain cases you want the title to be placed above or below the image. This category fixes the problem.
 
+```objective-c
+- (void)setTitleBelowWithSpacing:(CGFloat)spacing;
+
+- (void)setTitleAboveWithSpacing:(CGFloat)spacing;
+
+- (void)setTitleRightWithSpacing:(CGFloat)spacing;
+
+- (void)setTitleLeftWithSpacing:(CGFloat)spacing;
+```
 
 UIColor+Create
 --------
