@@ -172,9 +172,21 @@ A category that adds Unix timestamp methods to NSDate.
 
 - (NSTimeInterval)unixTimestamp;
 ```
+
 NSInvocation+Delay
 --------
 A NSInvocation category that performs invocations after delay with an NSTimer.
+
+NSString+Additional
+--------
+Fills out the missing methods of NSString.
+
+```objective-c
+- (BOOL)endsWith:(NSString *)string;
+
+- (BOOL)startsWith:(NSString *)string;
+```
+
 
 Documents
 =======
