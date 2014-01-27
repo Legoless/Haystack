@@ -179,7 +179,7 @@ A NSInvocation category that performs invocations after delay with an NSTimer.
 
 NSString+Additional
 --------
-Fills out the missing methods of NSString.
+Adds certain methods to NSString.
 
 ```objective-c
 - (BOOL)endsWith:(NSString *)string;
