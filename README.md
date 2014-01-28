@@ -32,11 +32,18 @@ DRMath
 --------
 A basic class for all the missing mathematical operations.
 
+- DegreesToRadians
+- RadiansToDegrees
+- Random Between Min and Max
+- Random Between 0 and 1.0
+
 HSViewController
 _______
+Subclass of view controller with additional methods.
 
 HSTableViewController
 _______
+Subclass of table view controller with additional methods.
 
 Categories
 =======
