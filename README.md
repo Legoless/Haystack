@@ -30,12 +30,19 @@ Classes
 
 DRMath
 --------
-A basic class for all the missing mathematical operations.
+A basic class for all the missing mathematical and number operations .
 
-- DegreesToRadians
-- RadiansToDegrees
-- Random Between Min and Max
-- Random Between 0 and 1.0
+```objective-c
++ (double)degreesToRadians:(double)angle;
+
++ (double)radiansToDegrees:(double)radians;
+
++ (double)random;
+
++ (double)randomBetweenMin:(double)min max:(double)max;
+
++ (NSInteger)randomBetweenMin:(NSInteger)min max:(NSInteger)max;
+```
 
 HSViewController
 --------
