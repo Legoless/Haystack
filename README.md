@@ -218,28 +218,9 @@ Adds certain methods to NSString.
 - (BOOL)startsWith:(NSString *)string;
 ```
 
-
 Documents
 =======
 Haystack SDK includes documents that can be used in development.
-
-Libraries
---------
-Below is the list of iOS libraries that are common to use in almost every iOS project (in addition to **Haystack SDK**).
-
-- **AFNetworking**
-
-   Networking library with automatic JSON parsing and NSURLSession support.  
-- **BlocksKit**
-
-   Block utility categories for many Foundation classes.  
-
-- **JSONModel**
-
-   Create objects from JSON dictionaries by only defining the properties.  
-- **MagicalRecord**
-
-   Active Record like fetching from Core Data database.  
 
 License
 =======
