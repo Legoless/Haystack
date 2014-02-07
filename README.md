@@ -21,6 +21,8 @@ Haystack is **not limited only** to Objective-C code, but contains multiple reso
 - **Wiki**
 
    Development guidelines, project initialization and deployment workflows, App Store suggestions, Wikis for development tools, instructions, tutorials, most useful libraries and more.  
+   
+   - [Libraries](https://github.com/Legoless/Haystack/blob/master/Wiki/Libraries.md)
 
 Usage
 =======
