@@ -1,6 +1,5 @@
-#define Math DRMath
 
-@interface DRMath
+@interface DRMath : NSObject
 
 /*!
  * Converts angle in degrees to angle in radians.
@@ -41,6 +40,6 @@
  * @param int maximum
  * @return int pseudo-random number
  */
-+ (NSInteger)randomBetweenMin:(NSInteger)min max:(NSInteger)max;
++ (NSInteger)randomIntegerBetweenMin:(NSInteger)min max:(NSInteger)max;
 
 @end

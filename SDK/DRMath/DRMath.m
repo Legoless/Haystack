@@ -1,6 +1,8 @@
+#import "DRMath.h"
+
 #define ARC4RANDOM_MAX 0x100000000
 
-@implementation DRMath ()
+@implementation DRMath
 
 + (double)degreesToRadians:(double)angle
 {
@@ -22,9 +24,13 @@
     return ((max - min) * [self random]) + min;
 }
 
-+ (NSInteger)randomBetweenMin:(NSInteger)min max:(NSInteger)max
++ (NSInteger)randomIntegerBetweenMin:(NSInteger)min max:(NSInteger)max
 {
-    (NSInteger)(min + arc4random_uniform(max + 1 - min));
+    NSInteger scope = max + 1 - min;
+    
+    NSInteger rand = arc4random_uniform((u_int32_t)scope);
+    
+    return (min + rand);
 }
 
 @end
