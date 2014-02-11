@@ -14,6 +14,6 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '6.0'
   s.source       = { :git => "https://github.com/Legoless/Haystack.git", :tag => "0.2.1" }
 
-  s.source_files  = 'SDK/*.{h,m}'
+  s.source_files  = 'SDK/**/*.{h,m}'
   s.requires_arc = true
 end
