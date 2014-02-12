@@ -6,8 +6,6 @@
 
 - (void)setTitleBelowWithSpacing:(CGFloat)spacing
 {
-    CGFloat spacing = spacing;
-    
     // Get the size of the elements here for readability
     CGSize imageSize = self.imageView.frame.size;
     CGSize titleSize = self.titleLabel.frame.size;
