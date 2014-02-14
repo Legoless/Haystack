@@ -86,6 +86,9 @@ Documents
 =======
 Haystack SDK includes documents that can be used in development.
 
+- **Deployment workflow**
+- **Coding guidelines**
+
 License
 =======
 
