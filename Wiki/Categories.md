@@ -1,6 +1,8 @@
 Categories
 =======
 
+This document describes functions in categories in detail. Categories are in on particular order.
+
 UINavigationController+BackgroundImage
 --------
 A simple UINavigationController category that enables the usage of a base background image in navigation controller. Pushing transparent views on top of the navigation stack now keeps the same background image.
