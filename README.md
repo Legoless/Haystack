@@ -34,6 +34,7 @@ Haystack is **not limited only** to Objective-C code, but contains multiple reso
    Development guidelines, project initialization and deployment workflows, App Store suggestions, Wikis for development tools, instructions, tutorials, most useful libraries and more.  
    
    - [Categories](https://github.com/Legoless/Haystack/blob/master/Wiki/Categories.md)
+   - Classes
    - [Libraries](https://github.com/Legoless/Haystack/blob/master/Wiki/Libraries.md)
 
 Usage
@@ -74,14 +75,6 @@ A basic class for all the missing mathematical and number operations .
 
 + (NSInteger)randomBetweenMin:(NSInteger)min max:(NSInteger)max;
 ```
-
-HSViewController
---------
-Subclass of view controller with additional methods.
-
-HSTableViewController
---------
-Subclass of table view controller with additional methods.
 
 Documents
 =======
