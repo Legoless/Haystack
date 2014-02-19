@@ -19,7 +19,7 @@ A simple UINavigationController category that enables the usage of a base backgr
 
 UIButton+Position
 --------
-The UIButton alwqys positions title label to the right of the image. In certain cases you want the title to be placed above or below the image. This category fixes the problem.
+The UIButton always positions title label to the right of the image. In certain cases you want the title to be placed above or below the image. This category fixes the problem.
 
 ```objective-c
 - (void)setTitleBelowWithSpacing:(CGFloat)spacing;
