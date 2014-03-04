@@ -1,21 +1,21 @@
 //
-//  UINavigationController+BackgroundImage.h
+//  UIViewController+BackgroundImage.h
 //
 
 /*!
- * Category for UINavigationController which enables us to set it BackgroundImage
+ * Category for UIViewController which enables us to set it BackgroundImage
  */
-@interface UINavigationController (BackgroundImage)
+@interface UIViewController (BackgroundImage)
 
 /*!
- * Sets background image to UINavigationController.
+ * Sets background image to UIViewController.
  *
  * @param image which will be used as background
  */
 - (void)setBackgroundImage:(UIImage *)image;
 
 /*!
- * Sets background image to UINavigationController.
+ * Sets background image to UIViewController.
  *
  * @param image which will be used as background
  * @param YES if animated property

@@ -1,12 +1,12 @@
 //
-//  UINavigationController+BackgroundImage.m
+//  UIViewController+BackgroundImage.m
 //
 
-#import "UINavigationController+BackgroundImage.h"
+#import "UIViewController+BackgroundImage.h"
 
 #define SWAP_DISSOLVE_ANIMATION_DURATION 2.0f
 
-@implementation UINavigationController (BackgroundImage)
+@implementation UIViewController (BackgroundImage)
 
 - (void)setBackgroundImage:(UIImage *)image
 {
