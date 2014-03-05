@@ -16,4 +16,9 @@
  */
 - (BOOL)isSystemFont;
 
+/*!
+ * Returns true if font has small caps available
+ */
+- (BOOL)hasSmallCaps;
+
 @end
