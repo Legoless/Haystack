@@ -19,20 +19,20 @@ Haystack is **not limited only** to Objective-C code, but contains multiple reso
 
    Contains Objective-C classes and categories that are installed part of a CocoaPods install. The classes are general and extend base Apple SDK's.  
    
-   - Categories
-     - Foundation
-       - NSDate+Timestamp
-       - NSString+Additional
-     - UIKit
-       - UIApplication+Version 
-       - UIButton+Position
-       - UIColor+Create
-       - UIColor+Flat
-       - UIFont+SmallCaps
-       - UIDevice+DeviceInfo
-       - UIViewController+BackgroundImage
-   - Classes
-     - DRMath
+   - **Categories**
+     - *Foundation*
+        - NSDate+Timestamp
+        - NSString+Additional
+     - *UIKit*
+        - UIApplication+Version 
+        - UIButton+Position
+        - UIColor+Create
+        - UIColor+Flat
+        - UIFont+SmallCaps
+        - UIDevice+DeviceInfo
+        - UIViewController+BackgroundImage
+   - **Classes*
+     - *DRMath*
 - **Wiki**
 
    Development guidelines, project initialization and deployment workflows, App Store suggestions, Wikis for development tools, instructions, tutorials, most useful libraries and more.  
