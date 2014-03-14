@@ -1,0 +1,17 @@
+# Podfile
+
+platform :ios, '6.0'
+
+target :Application do
+    # Target ready for development, adds Reveal-iOS-SDK
+    target :'Application-Dev', :exclusive => true do
+        pod 'Reveal-iOS-SDK'
+    end
+    
+    # Add exclusive Testing frameworks to testing target
+    target :ApplicationTests, :exclusive => true do
+        pod 'Kiwi'
+        pod 'KIF', '~> 2.0.0'
+    end
+    
+end
