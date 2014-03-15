@@ -38,7 +38,7 @@ Haystack is **not limited only** to Objective-C code, but contains multiple reso
    Development guidelines, project initialization and deployment workflows, App Store suggestions, Wikis for development tools, instructions, tutorials, most useful libraries and more.  
    
    - [Categories](https://github.com/Legoless/Haystack/blob/master/Wiki/Categories.md)
-   - Classes
+   - [Classes](https://github.com/Legoless/Haystack/blob/master/Wiki/Classes.md)
    - [Libraries](https://github.com/Legoless/Haystack/blob/master/Wiki/Libraries.md)
 
 Usage
@@ -60,25 +60,6 @@ Or manually drag & drop `Haystack` folder into Xcode project, then follow the us
 Using in project
 --------
 It is recommended for you to add Haystack.h file into precompiled header (.pch) file. That way all classes and categories are added to all files and you can use them everywhere throughout the project.
-
-Classes
-=======
-
-DRMath
---------
-A basic class for all the missing mathematical and number operations .
-
-```objective-c
-+ (double)degreesToRadians:(double)angle;
-
-+ (double)radiansToDegrees:(double)radians;
-
-+ (double)random;
-
-+ (double)randomBetweenMin:(double)min max:(double)max;
-
-+ (NSInteger)randomBetweenMin:(NSInteger)min max:(NSInteger)max;
-```
 
 Documents
 =======
