@@ -63,7 +63,7 @@ It is recommended for you to add Haystack.h file into precompiled header (.pch) 
 
 Documents
 =======
-Haystack SDK includes documents that can be used in development.
+Haystack SDK includes documents that can be used to improve development workflow.
 
 - **Deployment workflow**
 - **Coding guidelines**
