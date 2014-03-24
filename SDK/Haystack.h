@@ -8,5 +8,6 @@
 #import "UIColor+Flat.h"
 #import "UIDevice+DeviceInfo.h"
 #import "UIViewController+BackgroundImage.h"
+#import "UIView+Snapshot.h"
 #import "UIApplication+Version.h"
 #import "UIFont+SmallCaps.h"
