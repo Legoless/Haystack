@@ -34,6 +34,11 @@ Haystack is **not limited only** to Objective-C code, but contains multiple reso
         - UIViewController+BackgroundImage
    - **Classes**
      - *DRMath*
+
+- **Templates**
+
+   Contains updates Xcode templates for many different types of projects.
+
 - **Wiki**
 
    Development guidelines, project initialization and deployment workflows, App Store suggestions, Wikis for development tools, instructions, tutorials, most useful libraries and more.  
