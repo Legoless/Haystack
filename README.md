@@ -45,6 +45,7 @@ Haystack is **not limited only** to Objective-C code, but contains multiple reso
    
    - [Categories](https://github.com/Legoless/Haystack/blob/master/Wiki/Categories.md)
    - [Classes](https://github.com/Legoless/Haystack/blob/master/Wiki/Classes.md)
+   - [GitIgnore](https://github.com/Legoless/Haystack/blob/master/Wiki/GitIgnore.md)
    - [Libraries](https://github.com/Legoless/Haystack/blob/master/Wiki/Libraries.md)
 
 Usage
