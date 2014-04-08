@@ -19,6 +19,8 @@ Below is the list of iOS libraries that are common to use in almost every iOS pr
 
    Subclassable singleton object, used in almost every project.
    `pod 'DOSingleton'`
+   
+- IQKeyboardManager
 
 - [**JSONModel**](https://github.com/icanzilb/JSONModel)
 
@@ -31,3 +33,8 @@ Below is the list of iOS libraries that are common to use in almost every iOS pr
    `pod 'MagicalRecord'`
 
 - MSDynamicsDrawerViewController
+
+- Reveal-iOS-SDK
+
+
+- SVPullToFrefresh
