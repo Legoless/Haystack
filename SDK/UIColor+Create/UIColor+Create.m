@@ -64,11 +64,96 @@
 {
     if ([object isKindOfClass:[NSString class]])
     {
+        UIColor* color = [self colorWithName:object];
+        
+        if (color)
+        {
+            return color;
+        }
+        
         return [self colorWithHex:object];
     }
     else if ([object isKindOfClass:[UIColor class]])
     {
         return object;
+    }
+    
+    return nil;
+}
+
++ (UIColor *)colorWithName:(NSString *)name
+{
+    id color = [self colorObjectWithName:name];
+    
+    if ([color isKindOfClass:[NSArray class]])
+    {
+        return [color firstObject];
+    }
+    else if ([color isKindOfClass:[UIColor class]])
+    {
+        return color;
+    }
+    
+    return nil;
+}
+
++ (NSArray *)colorsWithName:(NSString *)name
+{
+    id color = [self colorObjectWithName:name];
+    
+    if ([color isKindOfClass:[NSArray class]])
+    {
+        return color;
+    }
+    
+    return nil;
+}
+
++ (id)colorObjectWithName:(NSString *)name
+{
+    NSString* string = name;
+    
+    //
+    // If there is a color in the string, we make sure it is correct
+    //
+    
+    if ([string rangeOfString:@"Color" options:NSCaseInsensitiveSearch] != NSNotFound)
+    {
+        string = [string stringByReplacingOccurrencesOfString:@"Colors" withString:@"" options:NSCaseInsensitiveSearch range:NSMakeRange(0, [string length])];
+        
+        string = [string stringByReplacingOccurrencesOfString:@"Color" withString:@"" options:NSCaseInsensitiveSearch range:NSMakeRange(0, [string length])];
+    }
+    
+    //
+    // Append color again in correct capitals
+    //
+    
+    NSString* selectorString = [NSString stringWithFormat@"%@Color", string];
+    
+    //
+    // Try if UIColor responds to name
+    //
+    
+    SEL selector = NSSelectorFromNSString(selectorString);
+    
+    if ([UIColor respondsToSelector:selector])
+    {
+        id color = [UIColor performSelector:selector];
+        
+        if (color == nil)
+        {
+            selectorString = [NSString stringWithFormat@"%@Colors", string];
+            
+            //
+            // Try if UIColor responds to name
+            //
+            
+            selector = NSSelectorFromNSString(selectorString);
+            
+            color = [UIColor performSelector:selector];
+        }
+        
+        return color;
     }
     
     return nil;

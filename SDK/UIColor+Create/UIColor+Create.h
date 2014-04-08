@@ -20,6 +20,16 @@
 + (UIColor *)colorWith8BitRed:(NSInteger)red green:(NSInteger)green blue:(NSInteger)blue alpha:(CGFloat)alpha;
 
 /*!
+ * Returns UIColor from separate red, green and blue components.
+ *
+ * @param NSInteger red component
+ * @param NSInteger green component
+ * @param NSInteger blue component
+ * @return UIColor object
+ */
++ (UIColor *)colorWith8BitRed:(NSInteger)red green:(NSInteger)green blue:(NSInteger)blue;
+
+/*!
 * Converts hex string (HTML color) to UIColor object.
 *
 * @param NSString color in hex notation
@@ -34,5 +44,17 @@
  * @return UIColor color object
  */
 + (UIColor *)colorWithObject:(id)object;
+
+/*!
+ * Returns UIColor object if UIColor responds to name selector as a string.
+ *
+ * @param NSString color name
+ * @return UIColor color object
+ */
++ (UIColor *)colorWithName:(NSString *)name;
+
++ (NSArray *)colorsWithName:(NSString *)name;
+
++ (id)colorObjectWithName:(NSString *)name;
 
 @end

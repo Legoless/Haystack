@@ -32,4 +32,24 @@
  */
 - (NSTimeInterval)unixTimestamp;
 
+/*!
+ * Returns NSDate object of provided Unix timestamp.
+ *
+ * @return NSDate object from Unix timestamp
+ */
++ (NSDate *)dateWithUnixTimestamp:(NSTimeInterval)timestamp;
+
+/*!
+ * Returns Unix timestamp that starts today, stripping away hours, minutes and seconds.
+ *
+ * @return NSTimeInterval Unix timestamp for today
+ */
++ (NSTimeInterval)unixTimestampForToday;
+
+/*!
+ * Returns Unix timestamp that starts on the day of date, stripping away hours, minutes and seconds.
+ *
+ * @return NSTimeInterval Unix timestamp for day
+ */
++ (NSTimeInterval)unixTimestampDayForDate:(NSDate *)date;
 @end

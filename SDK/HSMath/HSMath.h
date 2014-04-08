@@ -1,5 +1,5 @@
 
-@interface DRMath : NSObject
+@interface HSMath : NSObject
 
 /*!
  * Converts angle in degrees to angle in radians.

@@ -1,8 +1,8 @@
-#import "DRMath.h"
+#import "HSMath.h"
 
 #define ARC4RANDOM_MAX 0x100000000
 
-@implementation DRMath
+@implementation HSMath
 
 + (double)degreesToRadians:(double)angle
 {
