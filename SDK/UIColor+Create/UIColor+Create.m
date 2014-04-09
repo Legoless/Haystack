@@ -117,7 +117,7 @@
     // If there is a color in the string, we make sure it is correct
     //
     
-    if ([string rangeOfString:@"Color" options:NSCaseInsensitiveSearch] != NSNotFound)
+    if ([string rangeOfString:@"Color" options:NSCaseInsensitiveSearch].location != NSNotFound)
     {
         string = [string stringByReplacingOccurrencesOfString:@"Colors" withString:@"" options:NSCaseInsensitiveSearch range:NSMakeRange(0, [string length])];
         
@@ -128,13 +128,13 @@
     // Append color again in correct capitals
     //
     
-    NSString* selectorString = [NSString stringWithFormat@"%@Color", string];
+    NSString* selectorString = [NSString stringWithFormat:@"%@Color", string];
     
     //
     // Try if UIColor responds to name
     //
     
-    SEL selector = NSSelectorFromNSString(selectorString);
+    SEL selector = NSSelectorFromString(selectorString);
     
     if ([UIColor respondsToSelector:selector])
     {
@@ -142,13 +142,13 @@
         
         if (color == nil)
         {
-            selectorString = [NSString stringWithFormat@"%@Colors", string];
+            selectorString = [NSString stringWithFormat:@"%@Colors", string];
             
             //
             // Try if UIColor responds to name
             //
             
-            selector = NSSelectorFromNSString(selectorString);
+            selector = NSSelectorFromString(selectorString);
             
             color = [UIColor performSelector:selector];
         }
