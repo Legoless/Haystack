@@ -3,7 +3,7 @@ Classes
 
 This wiki describes utility classes in Haystack SDK.
 
-DRMath
+HSMath
 --------
 A basic class for all the missing mathematical and arithmetic operations and functions.
 
