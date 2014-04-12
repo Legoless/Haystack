@@ -32,7 +32,10 @@ Below is the list of iOS libraries that are common to use in almost every iOS pr
    Active Record like fetching from Core Data database.  
    `pod 'MagicalRecord'`
 
-- MSDynamicsDrawerViewController
+- [**MSDynamicsDrawerViewController**](https://github.com/monospacecollective/MSDynamicsDrawerViewController)
+
+   A view controller that has ability of drawers on all directions, built with UIKit dynamics.
+   `pod 'MSDynamicsDrawerViewController'`
 
 - Reveal-iOS-SDK
 
