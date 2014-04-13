@@ -33,11 +33,16 @@ Below is the list of iOS libraries that are common to use in almost every iOS pr
    `pod 'MagicalRecord'`
 
 - [**MSDynamicsDrawerViewController**](https://github.com/monospacecollective/MSDynamicsDrawerViewController)
-
+   
    A view controller that has ability of drawers on all directions, built with UIKit dynamics.
    `pod 'MSDynamicsDrawerViewController'`
 
-- Reveal-iOS-SDK
+- [**Reveal-iOS-SDK**](http://revealapp.com/)
+   
+   Reveal App is an easy to use application to debug UIView hierarchy. Only for debug builds.
+   `pod 'MSDynamicsDrawerViewController'`
 
-
-- SVPullToFrefresh
+- [**SVPullToFrefresh**](https://github.com/samvermette/SVPullToRefresh)
+   
+   Pull to refresh and infinite scrolling library for scroll views. Very easy to setup.
+   `pod 'SVPullToFrefresh'`
