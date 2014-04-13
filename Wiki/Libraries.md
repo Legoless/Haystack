@@ -17,10 +17,13 @@ Below is the list of iOS libraries that are common to use in almost every iOS pr
    
 - [**DOSingleton**](https://github.com/stel/DOSingleton)
 
-   Subclassable singleton object, used in almost every project.
+   Subclassable singleton object, used in almost every project.  
    `pod 'DOSingleton'`
    
-- IQKeyboardManager
+- [**IQKeyboardManager**](https://github.com/hackiftekhar/IQKeyboardManager)
+   
+   Moves text fields and views out of the way of keyboard.  
+   `pod 'IQKeyboardManager'`
 
 - [**JSONModel**](https://github.com/icanzilb/JSONModel)
 
@@ -34,15 +37,16 @@ Below is the list of iOS libraries that are common to use in almost every iOS pr
 
 - [**MSDynamicsDrawerViewController**](https://github.com/monospacecollective/MSDynamicsDrawerViewController)
    
-   A view controller that has ability of drawers on all directions, built with UIKit dynamics.
+   A view controller that has ability of drawers on all directions, built with UIKit dynamics.  
    `pod 'MSDynamicsDrawerViewController'`
 
 - [**Reveal-iOS-SDK**](http://revealapp.com/)
    
-   Reveal App is an easy to use application to debug UIView hierarchy. Only for debug builds.
+   Reveal App is an easy to use application to debug UIView hierarchy. Only for debug builds.  
    `pod 'MSDynamicsDrawerViewController'`
 
-- [**SVPullToFrefresh**](https://github.com/samvermette/SVPullToRefresh)
+- [**SVPullToRefresh**](https://github.com/samvermette/SVPullToRefresh)
    
-   Pull to refresh and infinite scrolling library for scroll views. Very easy to setup.
-   `pod 'SVPullToFrefresh'`
+   Pull to refresh and infinite scrolling library for scroll views. Very easy to setup.  
+   `pod 'SVPullToRefresh'`
+   
