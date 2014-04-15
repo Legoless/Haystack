@@ -3,8 +3,12 @@ Categories
 
 This document describes functions in categories in detail. Categories are in on particular order.
 
-UINavigationController+BackgroundImage
---------
+## UIKit
+
+Extensions to Apple's most used framework on iOS.
+
+### UINavigationController+BackgroundImage
+
 A simple UINavigationController category that enables the usage of a base background image in navigation controller. Pushing transparent views on top of the navigation stack now keeps the same background image.
 
 ```objective-c
@@ -17,8 +21,8 @@ A simple UINavigationController category that enables the usage of a base backgr
 - (UIImageView *)backgroundImageView;
 ```
 
-UIButton+Position
---------
+### UIButton+Position
+
 The UIButton always positions title label to the right of the image. In certain cases you want the title to be placed above or below the image. This category fixes the problem.
 
 ```objective-c
@@ -31,8 +35,8 @@ The UIButton always positions title label to the right of the image. In certain 
 - (void)setTitleLeftWithSpacing:(CGFloat)spacing;
 ```
 
-UIColor+Create
---------
+### UIColor+Create
+
 An UIColor category that allows the creation of UIColors from Hex HTML strings and 8-bit colors.
 
 ```objective-c
@@ -43,8 +47,8 @@ An UIColor category that allows the creation of UIColors from Hex HTML strings a
 + (UIColor *)colorWithObject:(id)object;
 ```
 
-UIColor+Flat
---------
+### UIColor+Flat
+
 An UIColor category that encapsulates flat colors used in multiple applications.
 
 ```objective-c
@@ -89,8 +93,8 @@ An UIColor category that encapsulates flat colors used in multiple applications.
 + (UIColor *)asbestosColor;
 ```
 
-UIDevice+DeviceInfo
---------
+### UIDevice+DeviceInfo
+
 This category extends the UIDevice functionality with additional information about current device.
 
 ```objective-c
@@ -111,8 +115,8 @@ This category extends the UIDevice functionality with additional information abo
 - (UIDeviceFamily)deviceFamily;
 ```
 
-UIApplication+Version
---------
+### UIApplication+Version
+
 UIApplication category that adds utility methods for application bundle.
 
 ```objective-c
@@ -123,9 +127,27 @@ UIApplication category that adds utility methods for application bundle.
 + (NSString *)build;
 ```
 
-NSDate+Timestamp
---------
-A category that adds Unix timestamp methods to NSDate.
+## Foundation
+
+Additions to the most core framework in iOS and OS X.
+
+### NSArray+Class
+
+A category that adds convenience methods to `NSArray`.
+
+```objective-c
+- (BOOL)containsObjectOfClass:(Class)objectClass;
+
+- (BOOL)containsObjectOfInheritedClass:(Class)objectClass;
+
+- (BOOL)containsAllObjectsOfClass:(Class)objectClass;
+
+- (BOOL)containsAllObjectsOfInheritedClass:(Class)objectClass;
+```
+
+### NSDate+Timestamp
+
+A category that adds Unix timestamp methods to `NSDate`.
 
 ```objective-c
 + (NSTimeInterval)unixTimestampFromDate:(NSDate *)date;
@@ -135,9 +157,9 @@ A category that adds Unix timestamp methods to NSDate.
 - (NSTimeInterval)unixTimestamp;
 ```
 
-NSString+Additional
---------
-Adds certain methods to NSString.
+### NSString+Additional
+
+Adds certain methods to `NSString`.
 
 ```objective-c
 - (BOOL)endsWith:(NSString *)string;
