@@ -1,3 +1,4 @@
+#import "NSArray+Class.h"
 #import "NSDate+Timestamp.h"
 #import "NSString+Additional.h"
 
