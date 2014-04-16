@@ -76,9 +76,16 @@ Haystack SDK includes documents that can be used to improve development workflow
 - **Deployment workflow**
 - **Coding guidelines**
 
+Contact
+======
+
+Dal Rupnik
+
+- [legoless](https://github.com/legoless) on **GitHub**
+- [@thelegoless](https://twitter.com/thelegoless) on **Twitter**
+- [legoless@arvystate.net](mailto:legoless@arvystate.net)
+
 License
-=======
+======
 
-Copyright (c) 2014 arvystate.net.
-
-For more information see [LICENSE](https://github.com/Legoless/Haystack/blob/master/LICENSE).
+Completely free. See [LICENSE](https://github.com/Legoless/Haystack/blob/master/LICENSE) file for more information.
