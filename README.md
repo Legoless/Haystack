@@ -29,7 +29,6 @@ Haystack is **not limited only** to Objective-C code, but contains multiple reso
      - *UIKit*
         - UIApplication+Version 
         - UIButton+Position
-        - UIColor+Company
         - UIColor+Create
         - UIColor+Flat
         - UIFont+SmallCaps
