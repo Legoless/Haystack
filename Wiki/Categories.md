@@ -131,9 +131,9 @@ UIApplication category that adds utility methods for application bundle.
 
 Additions to the most core framework in iOS and OS X.
 
-### NSArray+Class
+### NSArray+Class, NSDictionary+Class, NSSet+Class
 
-A category that adds convenience methods to `NSArray`.
+A category that adds convenience methods to `NSArray`, `NSDictionary` and `NSSet`. Methods allow searching collections by object class or inherited class.
 
 ```objective-c
 - (BOOL)containsObjectOfClass:(Class)objectClass;
