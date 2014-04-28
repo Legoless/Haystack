@@ -24,6 +24,7 @@ Haystack is **not limited only** to Objective-C code, but contains multiple reso
         - NSArray+Class
         - NSDate+Timestamp
         - NSDictionary+Class
+        - NSObject+Swizzle
         - NSSet+Class
         - NSString+Additional
      - *UIKit*
