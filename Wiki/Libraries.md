@@ -42,8 +42,8 @@ Below is the list of iOS libraries that are common to use in almost every iOS pr
 
 - [**NUI**](https://github.com/tombenner/nui)
 
-   An UI manager that allows theming of the application using a special variant of the CSS styles.
-   `pod 'NUI'`
+    An UI manager that allows theming of the application using a special variant of the CSS styles.  
+   `pod 'NUI'`      
 
 
 - [**Reveal-iOS-SDK**](http://revealapp.com/)
