@@ -4,7 +4,8 @@
 
 #import "UIViewController+BackgroundImage.h"
 
-#define SWAP_DISSOLVE_ANIMATION_DURATION 2.0f
+#define SWAP_DISSOLVE_ANIMATION_DURATION    2.0f
+#define BACKGROUND_IMAGEVIEW_TAG            @"UIViewControllerBackgroundImage"
 
 @implementation UIViewController (BackgroundImage)
 
@@ -17,19 +18,21 @@
 {
     UIImageView* imageView = nil;
     
-    if ([self.view.subviews count] && [self.view.subviews[0] isKindOfClass:[UIImageView class]])
+    if ([self.view.subviews count] && [self.view.subviews[0] isKindOfClass:[UIImageView class]] && [self.view.subviews[0].tag isEqualToString:BACKGROUND_IMAGEVIEW_TAG])
     {
         imageView = self.view.subviews[0];
     }
     else if ([self.view.subviews count])
     {
         imageView = [[UIImageView alloc] initWithFrame:self.view.bounds];
+        imageView.tag = BACKGROUND_IMAGEVIEW_TAG;
         
         [self.view insertSubview:imageView atIndex:0];
     }
     else
     {
         imageView = [[UIImageView alloc] initWithFrame:self.view.bounds];
+        imageView.tag = BACKGROUND_IMAGEVIEW_TAG;
 
         [self.view addSubview:imageView];
     }
@@ -50,7 +53,7 @@
 
 - (UIImage *)backgroundImage
 {
-    if ([self.view.subviews count] && [self.view.subviews[0] isKindOfClass:[UIImageView class]])
+    if ([self.view.subviews count] && [self.view.subviews[0] isKindOfClass:[UIImageView class]] && [self.view.subviews[0].tag isEqualToString:BACKGROUND_IMAGEVIEW_TAG])
     {
         UIImageView* imageView = self.view.subviews[0];
         
@@ -62,7 +65,7 @@
 
 - (UIImageView *)backgroundImageView
 {
-    if ([self.view.subviews count] && [self.view.subviews[0] isKindOfClass:[UIImageView class]])
+    if ([self.view.subviews count] && [self.view.subviews[0] isKindOfClass:[UIImageView class]] && [self.view.subviews[0].tag isEqualToString:BACKGROUND_IMAGEVIEW_TAG])
     {
         return self.view.subviews[0];
     }
