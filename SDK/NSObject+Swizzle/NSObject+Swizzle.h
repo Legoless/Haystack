@@ -22,4 +22,8 @@
  */
 + (void)swizzleClassMethod:(SEL)firstMethod withMethod:(SEL)secondMethod;
 
++ (void)swizzleInstanceMethod:(SEL)firstMethod withMethod:(SEL)secondMethod inClass:(Class)class;
+
++ (void)swizzleClassMethod:(SEL)firstMethod withMethod:(SEL)secondMethod inClass:(Class)class;
+
 @end

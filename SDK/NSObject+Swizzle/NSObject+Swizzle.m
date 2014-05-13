@@ -14,23 +14,27 @@
     {
         Class class = [self class];
         
-        SEL originalSelector = firstMethod;
-        SEL swizzledSelector = secondMethod;
-        
-        Method originalMethod = class_getInstanceMethod(class, originalSelector);
-        Method swizzledMethod = class_getInstanceMethod(class, swizzledSelector);
-        
-        BOOL didAddMethod = class_addMethod(class, originalSelector, method_getImplementation(swizzledMethod), method_getTypeEncoding(swizzledMethod));
-        
-        if (didAddMethod)
-        {
-            class_replaceMethod(class, swizzledSelector, method_getImplementation(originalMethod), method_getTypeEncoding(originalMethod));
-        }
-        else
-        {
-            method_exchangeImplementations(originalMethod, swizzledMethod);
-        }
+        [[self class] swizzleInstanceMethod:firstMethod withMethod:secondMethod inClass:class];
+    }
+}
 
++ (void)swizzleInstanceMethod:(SEL)firstMethod withMethod:(SEL)secondMethod inClass:(Class)class
+{
+    SEL originalSelector = firstMethod;
+    SEL swizzledSelector = secondMethod;
+    
+    Method originalMethod = class_getInstanceMethod(class, originalSelector);
+    Method swizzledMethod = class_getInstanceMethod(class, swizzledSelector);
+    
+    BOOL didAddMethod = class_addMethod(class, originalSelector, method_getImplementation(swizzledMethod), method_getTypeEncoding(swizzledMethod));
+    
+    if (didAddMethod)
+    {
+        class_replaceMethod(class, swizzledSelector, method_getImplementation(originalMethod), method_getTypeEncoding(originalMethod));
+    }
+    else
+    {
+        method_exchangeImplementations(originalMethod, swizzledMethod);
     }
 }
 
@@ -40,23 +44,27 @@
     {
         Class class = object_getClass((id)self);
         
-        SEL originalSelector = firstMethod;
-        SEL swizzledSelector = secondMethod;
-        
-        Method originalMethod = class_getClassMethod(class, originalSelector);
-        Method swizzledMethod = class_getInstanceMethod(class, swizzledSelector);
-        
-        BOOL didAddMethod = class_addMethod(class, originalSelector, method_getImplementation(swizzledMethod), method_getTypeEncoding(swizzledMethod));
-        
-        if (didAddMethod)
-        {
-            class_replaceMethod(class, swizzledSelector, method_getImplementation(originalMethod), method_getTypeEncoding(originalMethod));
-        }
-        else
-        {
-            method_exchangeImplementations(originalMethod, swizzledMethod);
-        }
+        [self swizzleClassMethod:firstMethod withMethod:secondMethod inClass:class];
+    }
+}
 
++ (void)swizzleClassMethod:(SEL)firstMethod withMethod:(SEL)secondMethod inClass:(Class)class
+{
+    SEL originalSelector = firstMethod;
+    SEL swizzledSelector = secondMethod;
+    
+    Method originalMethod = class_getClassMethod(class, originalSelector);
+    Method swizzledMethod = class_getInstanceMethod(class, swizzledSelector);
+    
+    BOOL didAddMethod = class_addMethod(class, originalSelector, method_getImplementation(swizzledMethod), method_getTypeEncoding(swizzledMethod));
+    
+    if (didAddMethod)
+    {
+        class_replaceMethod(class, swizzledSelector, method_getImplementation(originalMethod), method_getTypeEncoding(originalMethod));
+    }
+    else
+    {
+        method_exchangeImplementations(originalMethod, swizzledMethod);
     }
 }
 
