@@ -1,4 +1,5 @@
 #import "NSObject+Swizzle.h"
+#import "NSObject+PropertyList.h"
 
 #import "NSArray+Class.h"
 #import "NSDate+Timestamp.h"
