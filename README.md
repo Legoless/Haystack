@@ -7,6 +7,10 @@ Project is actively developed and as the Apple SDK's changes, project will be up
 
 *Please contact me for contributions to the project. If you notice an useful extension to the iOS SDK's that can be included in the SDK, contact me.*
 
+Update
+========
+Certain design-oriented classes and categories are in the process of being moved to the DesignKit project. Haystack will still serve as a base project for all common functionalities.
+
 Contents
 ========
 Haystack is **not limited only** to Objective-C code, but contains multiple resources used in development. Resources are divided into sections, each of which is represented by a folder of the same name:
