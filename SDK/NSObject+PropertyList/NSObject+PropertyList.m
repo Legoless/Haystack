@@ -50,7 +50,7 @@
         // All objects in dictionary must also be property lists.
         //
         
-        NSArray* values = [objects allValues];
+        NSArray* values = [object allValues];
         
         for (id value in values)
         {
@@ -60,7 +60,7 @@
             }
         }
         
-        return;
+        return YES;
     }
     else if ([object isKindOfClass:[NSString class]] || [object isKindOfClass:[NSData class]] || [object isKindOfClass:[NSDate class]] || [object isKindOfClass:[NSNumber class]])
     {
