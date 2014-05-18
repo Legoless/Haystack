@@ -40,7 +40,7 @@
         //
         for (id key in keys)
         {
-            if ([key isKindOfClass:[NSString class]])
+            if (![key isKindOfClass:[NSString class]])
             {
                 return NO;
             }
