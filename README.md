@@ -42,6 +42,7 @@ Haystack is **not limited only** to Objective-C code, but contains multiple reso
         - UIViewController+BackgroundImage
    - **Classes**
      - *HSMath*
+     - *HSWeakPointer*
 
 - **Templates**
 
