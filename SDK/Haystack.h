@@ -8,6 +8,7 @@
 #import "HSMath.h"
 #import "HSWeakPointer.h"
 
+#import "UIAlertView+Short.h"
 #import "UIButton+Position.h"
 #import "UIColor+Create.h"
 #import "UIColor+Flat.h"
