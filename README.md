@@ -102,4 +102,4 @@ Dal Rupnik
 License
 ======
 
-Completely free. See [LICENSE](https://github.com/Legoless/Haystack/blob/master/LICENSE) file for more information.
+MIT Licensed. See [LICENSE](https://github.com/Legoless/Haystack/blob/master/LICENSE) file for more information.
