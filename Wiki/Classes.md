@@ -18,3 +18,16 @@ A basic class for all the missing mathematical and arithmetic operations and fun
 
 + (NSInteger)randomBetweenMin:(NSInteger)min max:(NSInteger)max;
 ```
+
+HSWeakPointer
+--------
+A weak pointer wrapper object to be used to store weak references to certain objects.
+
+```objective-c
+
+@property (nonatomic, weak) id object;
+
+- (BOOL)isValid;
+
++ (instancetype)weakPointerWithObject:(id)object;
+```
