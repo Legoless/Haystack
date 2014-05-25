@@ -11,7 +11,7 @@ Project is actively developed and as the Apple SDK's changes, project will be up
 
 Update
 ========
-Certain design-oriented classes and categories are in the process of being moved to the DesignKit project. Haystack will still serve as a base project for all common functionalities.
+Certain design-oriented classes and categories are in the process of being moved to the DesignKit project, to the base module. Haystack will still serve as a base project for all common functionalities.
 
 Contents
 ========
