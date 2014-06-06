@@ -15,6 +15,10 @@ It consists of multiple steps, which are combined from smaller steps. Each step 
   - Beta
 - App Store
 
+# Project creation
+
+Project structure is configured in an app called LiftOff.
+
 ### Testing application schemes
 
 For testing different application schemes we use an app called: [Launch Center Pro](http://contrast.co/launch-center-pro/) by [Contrast](http://contrast.co), which enables you to store launch schemes and share those via Dropbox.
