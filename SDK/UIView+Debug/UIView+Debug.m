@@ -12,7 +12,17 @@
     
     if ([self isKindOfClass:[UIButton class]])
     {
-        [debugDescription appendString:[self titleForState:UIControlStateNormal]];
+        UIButton* button = (UIButton *)self;
+        
+        NSString* title = [button titleForState:button.state];
+        
+        if ([title length])
+        {
+            debugDescription = [[debugDescription substringToIndex:[debugDescription length] - 2] mutableCopy];
+            [debugDescription appendString:@" title=\""];
+            [debugDescription appendString:title];
+            [debugDescription appendString:@"\">"];
+        }
     }
     
     return [debugDescription copy];
