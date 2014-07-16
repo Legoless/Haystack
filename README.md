@@ -20,6 +20,11 @@ Haystack is **not limited only** to Objective-C code, but contains multiple reso
 - **Pods**
 
    Example podfiles that are used in many of the commercial projects, including more advanced configurations and even podspec files to create new specifications.  
+   
+   
+- **Scripts**
+
+   Handful of console scripts that help with iOS development.
 
 - **SDK**
 
