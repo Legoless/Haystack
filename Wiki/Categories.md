@@ -127,6 +127,10 @@ UIApplication category that adds utility methods for application bundle.
 + (NSString *)build;
 ```
 
+### UIView+Snapshot
+
+### UIView+Debug
+
 ## Foundation
 
 Additions to the most core framework in iOS and OS X.
