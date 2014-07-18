@@ -24,7 +24,7 @@ Haystack is **not limited only** to Objective-C code, but contains multiple reso
    
 - **Scripts**
 
-   Handful of console scripts that help with iOS development.
+   Handful of bash and Ruby scripts that help with iOS development. Scripts include management of Xcode SDK's, copying them around, which is useful for Beta development.
 
 - **SDK**
 
@@ -46,6 +46,8 @@ Haystack is **not limited only** to Objective-C code, but contains multiple reso
         - UIColor+Flat
         - UIFont+SmallCaps
         - UIDevice+DeviceInfo
+        - UIView+Debug
+        - UIView+Snapshot
         - UIViewController+BackgroundImage
    - **Classes**
      - *HSMath*
