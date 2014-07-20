@@ -129,6 +129,14 @@ UIApplication category that adds utility methods for application bundle.
 
 ### UIView+Snapshot
 
+UIView category that creates an UIImage snapshot of the specific view.
+
+```objective-c
+- (UIImage *)snapshotImage;
+
+- (UIImage *)snapshotImageWithScale:(CGFloat)scale;
+```
+
 ### UIView+Debug
 
 ## Foundation
