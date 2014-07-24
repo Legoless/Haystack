@@ -6,7 +6,7 @@
 
 - (BOOL)isValidEmail
 {
-    return [self isValidEmail:YES];
+    return [self isValidEmailWithStrictFilter:YES];
 }
 
 - (BOOL)isValidEmailWithStrictFilter:(BOOL)strict
