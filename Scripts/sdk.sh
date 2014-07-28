@@ -30,7 +30,7 @@ SDKS=$(find $XCODE_STABLE_SDK -type d -name iPhoneOS*.sdk)
 
 for FOUND_SDK in $SDKS
 do
-    echo '[COPY]: Copying' $FOUND_SDK ' to Xcode Beta...'
+    echo '[COPY]: Copying' $FOUND_SDK 'to Xcode Beta...'
 
     cp -rf $FOUND_SDK $XCODE_BETA_TARGET
 done
