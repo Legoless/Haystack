@@ -16,6 +16,7 @@
 #import "UIDevice+DeviceInfo.h"
 #import "UIViewController+BackgroundImage.h"
 #import "UIView+Snapshot.h"
+#import "UIView+Cell.h"
 #import "UIView+Debug.h"
 #import "UIApplication+Version.h"
 #import "UIFont+SmallCaps.h"
