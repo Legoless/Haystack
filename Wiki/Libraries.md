@@ -49,10 +49,13 @@ Below is the list of iOS libraries that are common to use in almost every iOS pr
 - [**Reveal-iOS-SDK**](http://revealapp.com/)
    
    Reveal App is an easy to use application to debug UIView hierarchy. Only for debug builds.  
-   `pod 'MSDynamicsDrawerViewController'`
+   `pod 'Reveal-iOS-SDK'`
 
 - [**SVPullToRefresh**](https://github.com/samvermette/SVPullToRefresh)
    
    Pull to refresh and infinite scrolling library for scroll views. Very easy to setup.  
    `pod 'SVPullToRefresh'`
    
+- [**UrbanAirship**](https://urbanairship.com)
+   
+   Cross-platform push notification handling.
