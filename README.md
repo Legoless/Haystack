@@ -46,6 +46,7 @@ Haystack is **not limited only** to Objective-C code, but contains multiple reso
         - UIColor+Flat
         - UIFont+SmallCaps
         - UIDevice+DeviceInfo
+        - UIView+Cell
         - UIView+Debug
         - UIView+Snapshot
         - UIViewController+BackgroundImage
