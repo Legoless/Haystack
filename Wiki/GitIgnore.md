@@ -1,4 +1,4 @@
-Default **Gitignore** we use in most projects. For most cases we do not commit Pods directory into repository, to keep it smaller.
+Default **Gitignore** we use in most projects. For most cases we also commit Pods directory into repository, to keep the project buildable on any system, including test servers.
 
 ```
 # OS X
