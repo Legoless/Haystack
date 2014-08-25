@@ -22,7 +22,13 @@ DerivedData
 *.hmap
 *.ipa
 
+# AppCode
+.idea/
+
+# Dominus
+dominus.cfg
+
 # CocoaPods
-Pods
+#Pods
 
 ```
