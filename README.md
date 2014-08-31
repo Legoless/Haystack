@@ -56,7 +56,7 @@ Haystack is **not limited only** to Objective-C code, but contains multiple reso
 
 - **Templates**
 
-   Contains updates Xcode templates for many different types of iOS or Mac OS X appplications.
+   Contains updates Liftoff templates for many different types of iOS or Mac OS X projects.
 
 - **Wiki**
 
