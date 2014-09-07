@@ -1,4 +1,4 @@
-Default **Gitignore** we use in most projects. For most cases we also commit Pods directory into repository, to keep the project buildable on any system, including test servers.
+Default **Gitignore** we use in most projects. For most cases we also commit Pods directory into repository, to keep the project buildable on any system, including test servers. We also use **Dominus** to build our projects, so we skip it's configuration file, because it may have sensitive data such as keys in some cases.
 
 ```
 # OS X
