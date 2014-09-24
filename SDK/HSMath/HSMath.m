@@ -33,4 +33,28 @@
     return (min + rand);
 }
 
++ (NSInteger)greatestCommonDivisorForA:(NSInteger)a b:(NSInteger)b
+{
+    NSInteger t;
+    NSInteger r;
+    
+    if (a < b)
+    {
+        t = a;
+        a = b;
+        b = t;
+    }
+    
+    r = a % b;
+    
+    if (r == 0)
+    {
+        return b;
+    }
+    else
+    {
+        return [self greatestCommonDivisorForA:b b:r];
+    }
+}
+
 @end

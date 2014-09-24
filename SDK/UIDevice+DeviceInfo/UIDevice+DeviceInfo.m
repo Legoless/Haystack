@@ -3,6 +3,7 @@
 //
 
 #import "UIDevice+DeviceInfo.h"
+#import "HSMath.h"
 
 int	sysctlbyname(const char *, void *, size_t *, void *, size_t);
 
@@ -10,16 +11,23 @@ int	sysctlbyname(const char *, void *, size_t *, void *, size_t);
 
 - (BOOL)isWidescreen
 {
-#ifdef __IPHONE_8_0
+    CGRect bounds = [[UIScreen mainScreen] bounds];
+    
+    #ifdef __IPHONE_8_0
     
     if ([[UIScreen mainScreen] respondsToSelector:@selector(nativeBounds)])
     {
-        return (fabs((double)[[UIScreen mainScreen] nativeBounds].size.height - (double)1136.0) < DBL_EPSILON);
+        bounds = [[UIScreen mainScreen] nativeBounds];
     }
     
-#endif
+    #endif
     
-    return (fabs((double)[[UIScreen mainScreen] bounds].size.height - (double)568.0) < DBL_EPSILON);
+    NSInteger gcd = [HSMath greatestCommonDivisorForA:(NSInteger)bounds.size.width b:(NSInteger)bounds.size.height];
+    
+    double larger = fmax (bounds.size.width, bounds.size.height);
+    double smaller = fmin (bounds.size.width, bounds.size.height);
+    
+    return ( (larger / gcd == 16) && (smaller / gcd == 9) );
 }
 
 - (BOOL)isRetina
