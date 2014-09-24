@@ -27,7 +27,7 @@ int	sysctlbyname(const char *, void *, size_t *, void *, size_t);
     double larger = fmax (bounds.size.width, bounds.size.height);
     double smaller = fmin (bounds.size.width, bounds.size.height);
     
-    return ( (larger / gcd == 16) && (smaller / gcd == 9) );
+    return ( (larger / gcd == 16) && (smaller / gcd == 9) ) || ( (larger / gcd == 71) && (smaller / gcd == 40) );
 }
 
 - (BOOL)isRetina
