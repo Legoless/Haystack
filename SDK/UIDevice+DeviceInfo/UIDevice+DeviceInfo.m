@@ -346,4 +346,13 @@ int	sysctlbyname(const char *, void *, size_t *, void *, size_t);
     return UIDeviceFamilyUnknown;
 }
 
+- (BOOL)hasTouchID
+{
+    NSArray *touchIDModels = @[ @"iPhone6,1", @"iPhone6,2", @"iPhone7,1", @"iPhone7,2" ];
+
+    NSString *model = [self modelIdentifier];
+
+    return [touchIDModels containsObject:model];
+}
+
 @end
