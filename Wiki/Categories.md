@@ -127,6 +127,14 @@ UIApplication category that adds utility methods for application bundle.
 + (NSString *)build;
 ```
 
+### UIView+Cell
+
+This category adds ability to find a parent `UITableViewCell` of any view, if the view is distant or close child of cell.
+
+### UIView+Debug
+
+UIView category that adds different debugging outputs to `UIView` that make debugging easier.
+
 ### UIView+Snapshot
 
 UIView category that creates an UIImage snapshot of the specific view.
@@ -136,8 +144,6 @@ UIView category that creates an UIImage snapshot of the specific view.
 
 - (UIImage *)snapshotImageWithScale:(CGFloat)scale;
 ```
-
-### UIView+Debug
 
 ## Foundation
 
