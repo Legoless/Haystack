@@ -10,7 +10,16 @@ int	sysctlbyname(const char *, void *, size_t *, void *, size_t);
 
 - (BOOL)isWidescreen
 {
-    return (fabs( (double)[[UIScreen mainScreen] bounds].size.height - (double)568.0) < DBL_EPSILON);
+#ifdef __IPHONE_8_0
+    
+    if ([[UIScreen mainScreen] respondsToSelector:@selector(nativeBounds)])
+    {
+        return (fabs((double)[[UIScreen mainScreen] nativeBounds].size.height - (double)1136.0) < DBL_EPSILON);
+    }
+    
+#endif
+    
+    return (fabs((double)[[UIScreen mainScreen] bounds].size.height - (double)568.0) < DBL_EPSILON);
 }
 
 - (BOOL)isRetina
@@ -148,6 +157,16 @@ int	sysctlbyname(const char *, void *, size_t *, void *, size_t);
         return @"iPhone 5S (Global)";
     }
     
+    if ([modelIdentifier isEqualToString:@"iPhone7,1"])
+    {
+        return @"iPhone 6+ (Global)";
+    }
+    
+    if ([modelIdentifier isEqualToString:@"iPhone7,2"])
+    {
+        return @"iPhone 6 (Global)";
+    }
+    
     //
     // iPad http://theiphonewiki.com/wiki/IPad
     //
@@ -174,7 +193,7 @@ int	sysctlbyname(const char *, void *, size_t *, void *, size_t);
     
     if ([modelIdentifier isEqualToString:@"iPad2,4"])
     {
-        return @"iPad 2 (Rev A)";
+        return @"iPad 2 (WiFi, Rev A)";
     }
     
     if ([modelIdentifier isEqualToString:@"iPad3,1"])
@@ -217,6 +236,11 @@ int	sysctlbyname(const char *, void *, size_t *, void *, size_t);
         return @"iPad Air (Cellular)";
     }
     
+    if ([modelIdentifier isEqualToString:@"iPad4,3"])
+    {
+        return @"iPad Air (China)";
+    }
+    
     //
     // iPad Mini http://theiphonewiki.com/wiki/IPad_mini
     //
@@ -246,33 +270,38 @@ int	sysctlbyname(const char *, void *, size_t *, void *, size_t);
         return @"iPad Mini Retina (Cellular)";
     }
     
+    if ([modelIdentifier isEqualToString:@"iPad4,6"])
+    {
+        return @"iPad Mini Retina (China)";
+    }
+    
     //
     // iPod http://theiphonewiki.com/wiki/IPod
     //
     
     if ([modelIdentifier isEqualToString:@"iPod1,1"])
     {
-        return @"iPod Touch 1G";
+        return @"iPod Touch 1st Gen";
     }
     
     if ([modelIdentifier isEqualToString:@"iPod2,1"])
     {
-        return @"iPod Touch 2G";
+        return @"iPod Touch 2nd Gen";
     }
     
     if ([modelIdentifier isEqualToString:@"iPod3,1"])
     {
-        return @"iPod Touch 3G";
+        return @"iPod Touch 3rd Gen";
     }
     
     if ([modelIdentifier isEqualToString:@"iPod4,1"])
     {
-        return @"iPod Touch 4G";
+        return @"iPod Touch 4th Gen";
     }
     
     if ([modelIdentifier isEqualToString:@"iPod5,1"])
     {
-        return @"iPod Touch 5G";
+        return @"iPod Touch 5th Gen";
     }
     
     //
@@ -287,7 +316,7 @@ int	sysctlbyname(const char *, void *, size_t *, void *, size_t);
     return modelIdentifier;
 }
 
-- (UIDeviceFamily) deviceFamily
+- (UIDeviceFamily)deviceFamily
 {
     NSString *modelIdentifier = [self modelIdentifier];
     
