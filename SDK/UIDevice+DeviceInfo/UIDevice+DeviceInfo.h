@@ -63,4 +63,9 @@ typedef NS_ENUM(NSUInteger, UIDeviceFamily)
  */
 - (UIDeviceFamily)deviceFamily;
 
+/*!
+ * Returns YES if device supports Touch ID sensor
+ */
+- (BOOL)hasTouchID;
+
 @end
