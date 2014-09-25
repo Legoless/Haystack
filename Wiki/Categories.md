@@ -113,6 +113,8 @@ This category extends the UIDevice functionality with additional information abo
 - (NSString *)modelName;
 
 - (UIDeviceFamily)deviceFamily;
+
+- (BOOL)hasTouchID;
 ```
 
 ### UIApplication+Version
