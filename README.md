@@ -7,7 +7,7 @@ Haystack SDK contains a multiple resources for **iOS** developers, including a c
 
 Project is actively developed and as the Apple SDK's changes, project will be updated. Note that the project is not finished and might contain bugs. Feel free to open an issue.
 
-*Please contact me for contributions to the project. If you notice an useful extension to the iOS SDK's that can be included in the SDK, contact me.*
+*Please contact me for contributions to the project. If you notice an useful extension to the iOS SDK's that can be included in the SDK, please contact us.*
 
 Update
 ========
