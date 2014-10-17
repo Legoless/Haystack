@@ -1,0 +1,18 @@
+platform :ios, '<%= deployment_target %>'
+
+inhibit_all_warnings!
+
+link_with '<%= project_name %>', '<%= project_name %>Tests'
+
+# Add Application pods here
+
+pod 'AFNetworking', '~> 2.x'
+pod 'ARAnalytics/Crashlytics'
+pod 'ARAnalytics/GoogleAnalytics'
+pod 'ARAnalytics/DSL'
+pod 'CrashlyticsFramework'
+pod 'DOSingleton'
+pod 'JSONModel'
+pod 'Haystack'
+pod 'MagicalRecord/Shorthand'
+pod 'Reveal-iOS-SDK'

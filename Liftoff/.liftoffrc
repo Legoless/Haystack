@@ -1,0 +1,127 @@
+############################################################################
+# The following keys can be used to configure defaults for project creation
+# project_name:
+# company:
+# author:
+# prefix:
+# company_identifier:
+############################################################################
+
+configure_git: false
+warnings_as_errors: true
+enable_static_analyzer: false
+indentation_level: 4
+use_tabs: false
+use_cocoapods: true
+strict_prompts: false
+
+run_script_phases:
+  - crashlytics.sh: Run Crashlytics
+  - fauxpas.sh: Run Fauxpas
+  - todo.sh: Warn for TODO and FIXME comments
+
+templates:
+  - setup.sh: bin/setup
+  - README.md: README.md
+  - StyleSettings.plist: StyleSettings.plist
+
+warnings:
+  - GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED
+  - GCC_WARN_MISSING_PARENTHESES
+  - GCC_WARN_ABOUT_RETURN_TYPE
+  - GCC_WARN_SIGN_COMPARE
+  - GCC_WARN_CHECK_SWITCH_STATEMENTS
+  - GCC_WARN_UNUSED_FUNCTION
+  - GCC_WARN_UNUSED_LABEL
+  - GCC_WARN_UNUSED_VALUE
+  - GCC_WARN_UNUSED_VARIABLE
+  - GCC_WARN_SHADOW
+  - GCC_WARN_64_TO_32_BIT_CONVERSION
+  - GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS
+  - GCC_WARN_ABOUT_MISSING_NEWLINE
+  - GCC_WARN_UNDECLARED_SELECTOR
+  - GCC_WARN_TYPECHECK_CALLS_TO_PRINTF
+  - GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS
+  - CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS
+  - CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF
+  - CLANG_WARN_IMPLICIT_SIGN_CONVERSION
+  - CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION
+  - CLANG_WARN_EMPTY_BODY
+  - CLANG_WARN_ENUM_CONVERSION
+  - CLANG_WARN_INT_CONVERSION
+  - CLANG_WARN_CONSTANT_CONVERSION
+
+xcode_command: open -a 'Xcode' .
+
+project_template: objc
+
+app_target_templates:
+  objc:
+    - <%= project_name %>:
+      - Delegate:
+        - <%= prefix %>AppDelegate.h
+        - <%= prefix %>AppDelegate.m
+      - Global:
+        - <%= prefix %>Globals.h
+        - <%= prefix %>Globals.m
+      - Library:
+        - Custom:
+        - Vendor:
+      - Model:
+        - Core:
+        - Local:
+          - <%= prefix %>LocalModel.h
+        - Network:
+          - <%= prefix %>OnlineManager.h
+          - <%= prefix %>OnlineManager.m
+          - <%= prefix %>NetworkModel.h
+        - <%= prefix %>Model.h
+      - Resources:
+        - Content:
+        - Fonts:
+        - Images.xcassets
+      - Supporting Files:
+        - <%= project_name %>-Info.plist
+        - <%= project_name %>-Prefix.pch
+        - FauxPasAnnotations.h
+        - main.m
+      - View Controllers:
+      - Views:
+        - Buttons:
+        - Cells:
+        - Custom:
+  swift:
+    - <%= project_name %>:
+      - Delegate:
+      - Global:
+      - Library:
+        - Custom:
+        - Vendor:
+      - Model:
+        - Core:
+        - Local:
+        - Network:
+      - Resources:
+        - Content:
+        - Fonts:
+        - Images.xcassets
+      - View Controllers:
+      - Views:
+        - Buttons:
+        - Cells:
+        - Custom:
+
+test_target_templates:
+  objc:
+    - <%= project_name %>Tests:
+      - Supporting Files:
+        - <%= project_name %>Tests-Info.plist
+      - Tests:
+        - Integration:
+        - Unit:
+          - <%= project_name %>Tests.m
+  swift:
+    - <%= project_name %>Tests:
+      - Tests:
+        - Integration:
+        - Unit:
