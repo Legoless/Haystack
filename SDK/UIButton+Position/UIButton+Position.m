@@ -9,7 +9,6 @@
     // Get the size of the elements here for readability
     CGSize imageSize = self.imageView.frame.size;
     CGSize titleSize = self.titleLabel.frame.size;
-    CGSize textSize = [self.titleLabel.text sizeWithAttributes:@{ NSFontAttributeName : self.titleLabel.font }];
     CGSize frameSize = self.frame.size;
 
     // Get the height they will take up as a unit
