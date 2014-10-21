@@ -28,7 +28,7 @@
  * Returns pseudo-random floating point number in desired interval
  *
  * @param min minimum
- * @param min maximum
+ * @param max maximum
  * @return random number between minimum and maximum
  */
 + (double)randomBetweenMin:(double)min max:(double)max;
