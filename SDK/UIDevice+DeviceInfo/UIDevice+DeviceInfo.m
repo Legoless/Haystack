@@ -250,6 +250,20 @@ int	sysctlbyname(const char *, void *, size_t *, void *, size_t);
     }
     
     //
+    // iPad Air 2
+    //
+    
+    if ([modelIdentifier isEqualToString:@"iPad5,3"])
+    {
+        return @"iPad Air 2";
+    }
+    
+    if ([modelIdentifier isEqualToString:@"iPad5,4"])
+    {
+        return @"iPad Air 2";
+    }
+    
+    //
     // iPad Mini http://theiphonewiki.com/wiki/IPad_mini
     //
     
@@ -281,6 +295,21 @@ int	sysctlbyname(const char *, void *, size_t *, void *, size_t);
     if ([modelIdentifier isEqualToString:@"iPad4,6"])
     {
         return @"iPad Mini Retina (China)";
+    }
+    
+    if ([modelIdentifier isEqualToString:@"iPad4,7"])
+    {
+        return @"iPad Mini 3";
+    }
+    
+    if ([modelIdentifier isEqualToString:@"iPad4,8"])
+    {
+        return @"iPad Mini 3";
+    }
+    
+    if ([modelIdentifier isEqualToString:@"iPad4,9"])
+    {
+        return @"iPad Mini 3";
     }
     
     //
@@ -348,10 +377,10 @@ int	sysctlbyname(const char *, void *, size_t *, void *, size_t);
 
 - (BOOL)hasTouchID
 {
-    NSArray *touchIDModels = @[ @"iPhone6,1", @"iPhone6,2", @"iPhone7,1", @"iPhone7,2" ];
-
+    NSArray *touchIDModels = @[ @"iPhone6,1", @"iPhone6,2", @"iPhone7,1", @"iPhone7,2", @"iPad5,3", @"iPad5,4", @"iPad4,7", @"iPad4,8", @"iPad4,9" ];
+    
     NSString *model = [self modelIdentifier];
-
+    
     return [touchIDModels containsObject:model];
 }
 
