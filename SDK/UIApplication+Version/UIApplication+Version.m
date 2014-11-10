@@ -2,7 +2,7 @@
 //  UIApplication+Version.m
 //
 
-@implementation UIColor (Create)
+@implementation UIApplication (Version)
 
 + (NSString *)name
 {

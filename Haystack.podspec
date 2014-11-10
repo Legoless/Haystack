@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "Haystack"
-  s.version      = "0.5.7"
+  s.version      = "0.5.8"
   s.summary      = "A collection of simple iOS classes and categories that fit in almost every project."
 
   s.description  = <<-DESC
@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.license      = 'MIT'
   s.author       = { "Dal Rupnik" => "legoless@gmail.com" }
   s.platform     = :ios, '7.0'
-  s.source       = { :git => "https://github.com/Legoless/Haystack.git", :tag => "0.5.7" }
+  s.source       = { :git => "https://github.com/Legoless/Haystack.git", :tag => "0.5.8" }
 
   s.frameworks   = 'CoreText' 
   s.source_files = 'SDK/**/*.{h,m}'

@@ -2,8 +2,6 @@
 //  UIApplication+Version.h
 //
 
-#import <UIKit/UIKit.h>
-
 @interface UIApplication (Version)
 
 /*!
