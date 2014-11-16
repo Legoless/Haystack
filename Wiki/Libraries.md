@@ -20,6 +20,11 @@ Below is the list of iOS libraries that are common to use in almost every iOS pr
    Subclassable singleton object, used in almost every project.  
    `pod 'DOSingleton'`
    
+- [**FLEX**](https://github.com/flipboard/FLEX)
+
+   Debug tool for view hiearchy and memory.
+   `pod 'FLEX'`
+   
 - [**IQKeyboardManager**](https://github.com/hackiftekhar/IQKeyboardManager)
    
    Moves text fields and views out of the way of keyboard.  
