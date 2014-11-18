@@ -42,6 +42,7 @@
 		38D7A0511A1148260070158C /* HSUnitFormatterPrefix.m in Sources */ = {isa = PBXBuildFile; fileRef = 38D7A0501A1148260070158C /* HSUnitFormatterPrefix.m */; };
 		38D7A0541A114B370070158C /* HSUnitFormatterUnit.m in Sources */ = {isa = PBXBuildFile; fileRef = 38D7A0531A114B370070158C /* HSUnitFormatterUnit.m */; };
 		38D7A0581A11647D0070158C /* UIDevice+Software.m in Sources */ = {isa = PBXBuildFile; fileRef = 38D7A0571A11647D0070158C /* UIDevice+Software.m */; };
+		38E2D63C1A1B4451008171CB /* UIView+Hierarchy.m in Sources */ = {isa = PBXBuildFile; fileRef = 38E2D63B1A1B4451008171CB /* UIView+Hierarchy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -125,6 +126,8 @@
 		38D7A0531A114B370070158C /* HSUnitFormatterUnit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSUnitFormatterUnit.m; sourceTree = "<group>"; };
 		38D7A0561A11647D0070158C /* UIDevice+Software.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+Software.h"; sourceTree = "<group>"; };
 		38D7A0571A11647D0070158C /* UIDevice+Software.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+Software.m"; sourceTree = "<group>"; };
+		38E2D63A1A1B4451008171CB /* UIView+Hierarchy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Hierarchy.h"; sourceTree = "<group>"; };
+		38E2D63B1A1B4451008171CB /* UIView+Hierarchy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Hierarchy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -240,6 +243,7 @@
 				38D7A0191A11250B0070158C /* UIFont+SmallCaps */,
 				38D7A01C1A11250B0070158C /* UIView+Cell */,
 				38D7A01F1A11250B0070158C /* UIView+Debug */,
+				38E2D6391A1B4451008171CB /* UIView+Hierarchy */,
 				38D7A0221A11250B0070158C /* UIView+Snapshot */,
 				38D7A0251A11250B0070158C /* UIViewController+BackgroundImage */,
 			);
@@ -496,6 +500,15 @@
 			path = "UIDevice+Software";
 			sourceTree = "<group>";
 		};
+		38E2D6391A1B4451008171CB /* UIView+Hierarchy */ = {
+			isa = PBXGroup;
+			children = (
+				38E2D63A1A1B4451008171CB /* UIView+Hierarchy.h */,
+				38E2D63B1A1B4451008171CB /* UIView+Hierarchy.m */,
+			);
+			path = "UIView+Hierarchy";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -612,6 +625,7 @@
 				38D7A03C1A11250B0070158C /* UIColor+Flat.m in Sources */,
 				38D7A0351A11250B0070158C /* NSObject+Swizzle.m in Sources */,
 				38A3BF7D1A1123F000F2B8F9 /* main.m in Sources */,
+				38E2D63C1A1B4451008171CB /* UIView+Hierarchy.m in Sources */,
 				38D7A03D1A11250B0070158C /* UIDevice+Capabilities.m in Sources */,
 				38D7A0461A11250B0070158C /* HSWeakPointer.m in Sources */,
 				38D7A04A1A112BDD0070158C /* UIApplication+Information.m in Sources */,
