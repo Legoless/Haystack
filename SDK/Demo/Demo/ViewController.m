@@ -23,6 +23,13 @@
     [self logDeviceInformation];
 }
 
+- (void)viewDidAppear:(BOOL)animated
+{
+    [super viewDidAppear:animated];
+    
+    UIImage* image = [[UIApplication sharedApplication] screenshot];
+}
+
 - (void)logDeviceInformation
 {
     NSLog(@"--- Hardware Information Dump ---");

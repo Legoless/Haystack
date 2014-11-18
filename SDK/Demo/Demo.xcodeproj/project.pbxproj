@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3871600C1A1BDEAD00155A45 /* UIApplication+Screenshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 3871600B1A1BDEAD00155A45 /* UIApplication+Screenshot.m */; };
 		38A3BF7D1A1123F000F2B8F9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 38A3BF7C1A1123F000F2B8F9 /* main.m */; };
 		38A3BF801A1123F000F2B8F9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 38A3BF7F1A1123F000F2B8F9 /* AppDelegate.m */; };
 		38A3BF831A1123F000F2B8F9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38A3BF821A1123F000F2B8F9 /* ViewController.m */; };
@@ -56,6 +57,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3871600A1A1BDEAD00155A45 /* UIApplication+Screenshot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+Screenshot.h"; sourceTree = "<group>"; };
+		3871600B1A1BDEAD00155A45 /* UIApplication+Screenshot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+Screenshot.m"; sourceTree = "<group>"; };
 		38A3BF771A1123F000F2B8F9 /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		38A3BF7B1A1123F000F2B8F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		38A3BF7C1A1123F000F2B8F9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -148,6 +151,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		387160091A1BDEAD00155A45 /* UIApplication+Screenshot */ = {
+			isa = PBXGroup;
+			children = (
+				3871600A1A1BDEAD00155A45 /* UIApplication+Screenshot.h */,
+				3871600B1A1BDEAD00155A45 /* UIApplication+Screenshot.m */,
+			);
+			path = "UIApplication+Screenshot";
+			sourceTree = "<group>";
+		};
 		38A3BF6E1A1123F000F2B8F9 = {
 			isa = PBXGroup;
 			children = (
@@ -231,8 +243,9 @@
 				38D79FFB1A11250B0070158C /* NSString+Additional */,
 				38D79FFE1A11250B0070158C /* NSString+Validation */,
 				38D7A0011A11250B0070158C /* UIAlertView+Short */,
-				38D7A0041A11250B0070158C /* UIApplication+Version */,
 				38D7A0471A112BDD0070158C /* UIApplication+Information */,
+				387160091A1BDEAD00155A45 /* UIApplication+Screenshot */,
+				38D7A0041A11250B0070158C /* UIApplication+Version */,
 				38D7A0071A11250B0070158C /* UIButton+Position */,
 				38D7A00A1A11250B0070158C /* UIColor+Create */,
 				38D7A00D1A11250B0070158C /* UIColor+Flat */,
@@ -620,6 +633,7 @@
 				38D7A0511A1148260070158C /* HSUnitFormatterPrefix.m in Sources */,
 				38D7A0391A11250B0070158C /* UIApplication+Version.m in Sources */,
 				38D7A0441A11250B0070158C /* UIViewController+BackgroundImage.m in Sources */,
+				3871600C1A1BDEAD00155A45 /* UIApplication+Screenshot.m in Sources */,
 				38A3BF801A1123F000F2B8F9 /* AppDelegate.m in Sources */,
 				38D7A03A1A11250B0070158C /* UIButton+Position.m in Sources */,
 				38D7A03C1A11250B0070158C /* UIColor+Flat.m in Sources */,
