@@ -27,7 +27,7 @@
 {
     [super viewDidAppear:animated];
     
-    UIImage* image = [[UIApplication sharedApplication] screenshot];
+    //UIImage* image = [[UIApplication sharedApplication] screenshot];
 }
 
 - (void)logDeviceInformation
@@ -55,9 +55,9 @@
     NSLog (@"Disk Total Space: %@", [NSByteCountFormatter stringFromByteCount:[UIDevice currentDevice].hs_diskTotalSpace countStyle:NSByteCountFormatterCountStyleBinary]);
     NSLog (@"Disk Free Space: %@", [NSByteCountFormatter stringFromByteCount:[UIDevice currentDevice].hs_diskFreeSpace countStyle:NSByteCountFormatterCountStyleBinary]);
     
-    NSLog (@"MAC Address: %@", [UIDevice currentDevice].hs_macAddress);
-    
     NSLog (@"--- Software Information Dump ---");
+    
+    NSLog (@"System uptime: %@", [UIDevice currentDevice].hs_systemBootDate);
     
     NSLog (@"Process Count: %lu", (unsigned long)[UIDevice currentDevice].hs_processCount);
     NSLog (@"CPU Usage: %d%%", (int)([UIDevice currentDevice].hs_cpuUsage * 100.0));
@@ -67,6 +67,13 @@
     NSLog (@"Application Memory Footprint: %@", [NSByteCountFormatter stringFromByteCount:[UIApplication sharedApplication].memorySize countStyle:NSByteCountFormatterCountStyleBinary]);
     
     NSLog (@"Thread Count: %lu", (unsigned long)[UIApplication sharedApplication].threadCount);
+    
+    NSLog (@"--- Network Information Dump ---");
+    
+    NSLog (@"SSID: %@", [[UIDevice currentDevice] hs_SSID]);
+    NSLog (@"BSSID: %@", [[UIDevice currentDevice] hs_BSSID]);
+    NSLog (@"MAC Address: %@", [[UIDevice currentDevice] hs_macAddress]);
+    NSLog (@"Local IP Addresses: %@", [[UIDevice currentDevice] hs_localIPAddresses]);
 }
 
 @end

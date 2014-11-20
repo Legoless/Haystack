@@ -23,6 +23,7 @@
 #import "UIDevice+Capabilities.h"
 #import "UIDevice+DeviceInfo.h"
 #import "UIDevice+Hardware.h"
+#import "UIDevice+Network.h"
 #import "UIDevice+Software.h"
 
 #import "UIViewController+BackgroundImage.h"

@@ -44,6 +44,7 @@
 		38D7A0541A114B370070158C /* HSUnitFormatterUnit.m in Sources */ = {isa = PBXBuildFile; fileRef = 38D7A0531A114B370070158C /* HSUnitFormatterUnit.m */; };
 		38D7A0581A11647D0070158C /* UIDevice+Software.m in Sources */ = {isa = PBXBuildFile; fileRef = 38D7A0571A11647D0070158C /* UIDevice+Software.m */; };
 		38E2D63C1A1B4451008171CB /* UIView+Hierarchy.m in Sources */ = {isa = PBXBuildFile; fileRef = 38E2D63B1A1B4451008171CB /* UIView+Hierarchy.m */; };
+		38EECF9C1A1E353F006CFD30 /* UIDevice+Network.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EECF9B1A1E353F006CFD30 /* UIDevice+Network.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -131,6 +132,8 @@
 		38D7A0571A11647D0070158C /* UIDevice+Software.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+Software.m"; sourceTree = "<group>"; };
 		38E2D63A1A1B4451008171CB /* UIView+Hierarchy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Hierarchy.h"; sourceTree = "<group>"; };
 		38E2D63B1A1B4451008171CB /* UIView+Hierarchy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Hierarchy.m"; sourceTree = "<group>"; };
+		38EECF9A1A1E353F006CFD30 /* UIDevice+Network.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+Network.h"; sourceTree = "<group>"; };
+		38EECF9B1A1E353F006CFD30 /* UIDevice+Network.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+Network.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -252,6 +255,7 @@
 				38D7A0101A11250B0070158C /* UIDevice+Capabilities */,
 				38D7A0131A11250B0070158C /* UIDevice+DeviceInfo */,
 				38D7A0161A11250B0070158C /* UIDevice+Hardware */,
+				38EECF991A1E353F006CFD30 /* UIDevice+Network */,
 				38D7A0551A11647D0070158C /* UIDevice+Software */,
 				38D7A0191A11250B0070158C /* UIFont+SmallCaps */,
 				38D7A01C1A11250B0070158C /* UIView+Cell */,
@@ -522,6 +526,16 @@
 			path = "UIView+Hierarchy";
 			sourceTree = "<group>";
 		};
+		38EECF991A1E353F006CFD30 /* UIDevice+Network */ = {
+			isa = PBXGroup;
+			children = (
+				38EECF9A1A1E353F006CFD30 /* UIDevice+Network.h */,
+				38EECF9B1A1E353F006CFD30 /* UIDevice+Network.m */,
+			);
+			name = "UIDevice+Network";
+			path = "../../../../library/Haystack/SDK/Categories/UIDevice+Network";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -630,6 +644,7 @@
 				38D7A0381A11250B0070158C /* UIAlertView+Short.m in Sources */,
 				38A3BF831A1123F000F2B8F9 /* ViewController.m in Sources */,
 				38D7A03E1A11250B0070158C /* UIDevice+DeviceInfo.m in Sources */,
+				38EECF9C1A1E353F006CFD30 /* UIDevice+Network.m in Sources */,
 				38D7A0511A1148260070158C /* HSUnitFormatterPrefix.m in Sources */,
 				38D7A0391A11250B0070158C /* UIApplication+Version.m in Sources */,
 				38D7A0441A11250B0070158C /* UIViewController+BackgroundImage.m in Sources */,
