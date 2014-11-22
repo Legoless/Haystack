@@ -12,7 +12,7 @@ Below is the list of iOS libraries that are common to use in almost every iOS pr
    
 - [**ARAnalytics**](https://github.com/orta/ARAnalytics)
 
-   Abstract analytics library including most of the common analytics services.
+   Abstract analytics library includes most of the common analytics services and combines them into a single component.
    
    `pod 'ARAnalytics'`
    
