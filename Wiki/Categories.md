@@ -1,7 +1,7 @@
 Categories
 =======
 
-This document describes functions in categories in detail. Categories are in on particular order.
+This document describes functions in categories in detail. Categories are in on particular order. To be updated.
 
 ## UIKit
 
