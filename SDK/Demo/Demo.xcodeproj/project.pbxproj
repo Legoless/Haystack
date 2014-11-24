@@ -44,6 +44,7 @@
 		38D7A0541A114B370070158C /* HSUnitFormatterUnit.m in Sources */ = {isa = PBXBuildFile; fileRef = 38D7A0531A114B370070158C /* HSUnitFormatterUnit.m */; };
 		38D7A0581A11647D0070158C /* UIDevice+Software.m in Sources */ = {isa = PBXBuildFile; fileRef = 38D7A0571A11647D0070158C /* UIDevice+Software.m */; };
 		38E2D63C1A1B4451008171CB /* UIView+Hierarchy.m in Sources */ = {isa = PBXBuildFile; fileRef = 38E2D63B1A1B4451008171CB /* UIView+Hierarchy.m */; };
+		38E3433A1A233C4A00CEE145 /* NSObject+Runtime.m in Sources */ = {isa = PBXBuildFile; fileRef = 38E343391A233C4A00CEE145 /* NSObject+Runtime.m */; };
 		38EECF9C1A1E353F006CFD30 /* UIDevice+Network.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EECF9B1A1E353F006CFD30 /* UIDevice+Network.m */; };
 /* End PBXBuildFile section */
 
@@ -132,6 +133,8 @@
 		38D7A0571A11647D0070158C /* UIDevice+Software.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+Software.m"; sourceTree = "<group>"; };
 		38E2D63A1A1B4451008171CB /* UIView+Hierarchy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Hierarchy.h"; sourceTree = "<group>"; };
 		38E2D63B1A1B4451008171CB /* UIView+Hierarchy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Hierarchy.m"; sourceTree = "<group>"; };
+		38E343381A233C4A00CEE145 /* NSObject+Runtime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Runtime.h"; sourceTree = "<group>"; };
+		38E343391A233C4A00CEE145 /* NSObject+Runtime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Runtime.m"; sourceTree = "<group>"; };
 		38EECF9A1A1E353F006CFD30 /* UIDevice+Network.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+Network.h"; sourceTree = "<group>"; };
 		38EECF9B1A1E353F006CFD30 /* UIDevice+Network.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+Network.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -242,6 +245,7 @@
 				38D79FEF1A11250B0070158C /* NSDate+Timestamp */,
 				38D79FF21A11250B0070158C /* NSDictionary+Class */,
 				38D79FF51A11250B0070158C /* NSObject+PropertyList */,
+				38E343371A233C4A00CEE145 /* NSObject+Runtime */,
 				38D79FF81A11250B0070158C /* NSObject+Swizzle */,
 				38D79FFB1A11250B0070158C /* NSString+Additional */,
 				38D79FFE1A11250B0070158C /* NSString+Validation */,
@@ -526,6 +530,15 @@
 			path = "UIView+Hierarchy";
 			sourceTree = "<group>";
 		};
+		38E343371A233C4A00CEE145 /* NSObject+Runtime */ = {
+			isa = PBXGroup;
+			children = (
+				38E343381A233C4A00CEE145 /* NSObject+Runtime.h */,
+				38E343391A233C4A00CEE145 /* NSObject+Runtime.m */,
+			);
+			path = "NSObject+Runtime";
+			sourceTree = "<group>";
+		};
 		38EECF991A1E353F006CFD30 /* UIDevice+Network */ = {
 			isa = PBXGroup;
 			children = (
@@ -652,6 +665,7 @@
 				38A3BF801A1123F000F2B8F9 /* AppDelegate.m in Sources */,
 				38D7A03A1A11250B0070158C /* UIButton+Position.m in Sources */,
 				38D7A03C1A11250B0070158C /* UIColor+Flat.m in Sources */,
+				38E3433A1A233C4A00CEE145 /* NSObject+Runtime.m in Sources */,
 				38D7A0351A11250B0070158C /* NSObject+Swizzle.m in Sources */,
 				38A3BF7D1A1123F000F2B8F9 /* main.m in Sources */,
 				38E2D63C1A1B4451008171CB /* UIView+Hierarchy.m in Sources */,
