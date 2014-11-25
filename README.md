@@ -37,6 +37,7 @@ Haystack is **not limited only** to Objective-C code, but contains multiple reso
         - NSDate+Timestamp
         - NSDictionary+Class
         - NSObject+PropertyList
+        - NSObject+Runtime
         - NSObject+Swizzle
         - NSSet+Class
         - NSString+Additional
@@ -44,6 +45,7 @@ Haystack is **not limited only** to Objective-C code, but contains multiple reso
      - *UIKit*
         - UIAlertView+Short
         - UIApplication+Information
+        - UIApplication+Screenshot
         - UIApplication+Version
         - UIButton+Position
         - UIColor+Create
