@@ -31,4 +31,7 @@ dominus.cfg
 # CocoaPods
 #Pods
 
+# KZBootstrap
+KZBootstrapUserMacros.h
+
 ```
