@@ -3,6 +3,7 @@
 #import "NSObject+Runtime.h"
 
 #import "NSArray+Class.h"
+#import "NSData+Base64.h"
 #import "NSDate+Timestamp.h"
 #import "NSString+Additional.h"
 #import "NSString+Validation.h"
