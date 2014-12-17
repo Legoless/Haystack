@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		3871600C1A1BDEAD00155A45 /* UIApplication+Screenshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 3871600B1A1BDEAD00155A45 /* UIApplication+Screenshot.m */; };
+		387E75771A41B9D0006F41DA /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 387E75761A41B9D0006F41DA /* NSData+Base64.m */; };
+		387E757B1A41B9F5006F41DA /* NSObject+Property.m in Sources */ = {isa = PBXBuildFile; fileRef = 387E757A1A41B9F5006F41DA /* NSObject+Property.m */; };
 		38A3BF7D1A1123F000F2B8F9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 38A3BF7C1A1123F000F2B8F9 /* main.m */; };
 		38A3BF801A1123F000F2B8F9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 38A3BF7F1A1123F000F2B8F9 /* AppDelegate.m */; };
 		38A3BF831A1123F000F2B8F9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38A3BF821A1123F000F2B8F9 /* ViewController.m */; };
@@ -61,6 +63,10 @@
 /* Begin PBXFileReference section */
 		3871600A1A1BDEAD00155A45 /* UIApplication+Screenshot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+Screenshot.h"; sourceTree = "<group>"; };
 		3871600B1A1BDEAD00155A45 /* UIApplication+Screenshot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+Screenshot.m"; sourceTree = "<group>"; };
+		387E75751A41B9D0006F41DA /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
+		387E75761A41B9D0006F41DA /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
+		387E75791A41B9F5006F41DA /* NSObject+Property.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Property.h"; sourceTree = "<group>"; };
+		387E757A1A41B9F5006F41DA /* NSObject+Property.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Property.m"; sourceTree = "<group>"; };
 		38A3BF771A1123F000F2B8F9 /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		38A3BF7B1A1123F000F2B8F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		38A3BF7C1A1123F000F2B8F9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -166,6 +172,26 @@
 			path = "UIApplication+Screenshot";
 			sourceTree = "<group>";
 		};
+		387E75741A41B9D0006F41DA /* NSData+Base64 */ = {
+			isa = PBXGroup;
+			children = (
+				387E75751A41B9D0006F41DA /* NSData+Base64.h */,
+				387E75761A41B9D0006F41DA /* NSData+Base64.m */,
+			);
+			name = "NSData+Base64";
+			path = "../../../../library/Haystack/SDK/Categories/NSData+Base64";
+			sourceTree = "<group>";
+		};
+		387E75781A41B9F5006F41DA /* NSObject+Property */ = {
+			isa = PBXGroup;
+			children = (
+				387E75791A41B9F5006F41DA /* NSObject+Property.h */,
+				387E757A1A41B9F5006F41DA /* NSObject+Property.m */,
+			);
+			name = "NSObject+Property";
+			path = "../../../../library/Haystack/SDK/Categories/NSObject+Property";
+			sourceTree = "<group>";
+		};
 		38A3BF6E1A1123F000F2B8F9 = {
 			isa = PBXGroup;
 			children = (
@@ -241,9 +267,11 @@
 			isa = PBXGroup;
 			children = (
 				38D79FE91A11250B0070158C /* NSArray+Class */,
+				387E75741A41B9D0006F41DA /* NSData+Base64 */,
 				38D79FEC1A11250B0070158C /* NSDate+Additional */,
 				38D79FEF1A11250B0070158C /* NSDate+Timestamp */,
 				38D79FF21A11250B0070158C /* NSDictionary+Class */,
+				387E75781A41B9F5006F41DA /* NSObject+Property */,
 				38D79FF51A11250B0070158C /* NSObject+PropertyList */,
 				38E343371A233C4A00CEE145 /* NSObject+Runtime */,
 				38D79FF81A11250B0070158C /* NSObject+Swizzle */,
@@ -661,11 +689,13 @@
 				38D7A0511A1148260070158C /* HSUnitFormatterPrefix.m in Sources */,
 				38D7A0391A11250B0070158C /* UIApplication+Version.m in Sources */,
 				38D7A0441A11250B0070158C /* UIViewController+BackgroundImage.m in Sources */,
+				387E757B1A41B9F5006F41DA /* NSObject+Property.m in Sources */,
 				3871600C1A1BDEAD00155A45 /* UIApplication+Screenshot.m in Sources */,
 				38A3BF801A1123F000F2B8F9 /* AppDelegate.m in Sources */,
 				38D7A03A1A11250B0070158C /* UIButton+Position.m in Sources */,
 				38D7A03C1A11250B0070158C /* UIColor+Flat.m in Sources */,
 				38E3433A1A233C4A00CEE145 /* NSObject+Runtime.m in Sources */,
+				387E75771A41B9D0006F41DA /* NSData+Base64.m in Sources */,
 				38D7A0351A11250B0070158C /* NSObject+Swizzle.m in Sources */,
 				38A3BF7D1A1123F000F2B8F9 /* main.m in Sources */,
 				38E2D63C1A1B4451008171CB /* UIView+Hierarchy.m in Sources */,

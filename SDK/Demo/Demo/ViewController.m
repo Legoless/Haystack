@@ -12,6 +12,8 @@
 
 @interface ViewController ()
 
+
+
 @end
 
 @implementation ViewController
@@ -74,6 +76,10 @@
     NSLog (@"BSSID: %@", [[UIDevice currentDevice] hs_BSSID]);
     NSLog (@"MAC Address: %@", [[UIDevice currentDevice] hs_macAddress]);
     NSLog (@"Local IP Addresses: %@", [[UIDevice currentDevice] hs_localIPAddresses]);
+
+    
+    NSLog (@"--- Properties ---");
+    NSLog (@"%@", [[UIViewController class] properties]);
 }
 
 @end

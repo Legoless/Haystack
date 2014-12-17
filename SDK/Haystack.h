@@ -1,4 +1,5 @@
 #import "NSObject+Swizzle.h"
+#import "NSObject+Property.h"
 #import "NSObject+PropertyList.h"
 #import "NSObject+Runtime.h"
 
