@@ -12,8 +12,7 @@ Below is the list of iOS libraries that are common to use in almost every iOS pr
    
 - [**ARAnalytics**](https://github.com/orta/ARAnalytics)
 
-   Abstract analytics library includes most of the common analytics services and combines them into a single component.
-   
+   Abstract analytics library includes most of the common analytics services and combines them into a single component.  
    `pod 'ARAnalytics'`
    
 - [**BlocksKit**](https://github.com/pandamonia/BlocksKit)
@@ -28,8 +27,7 @@ Below is the list of iOS libraries that are common to use in almost every iOS pr
    
 - [**FLEX**](https://github.com/flipboard/FLEX)
 
-   Debug tool for view hiearchy and memory.
-   
+   Debug tool for view hiearchy and memory.  
    `pod 'FLEX'`
    
 - [**IQKeyboardManager**](https://github.com/hackiftekhar/IQKeyboardManager)
@@ -54,9 +52,8 @@ Below is the list of iOS libraries that are common to use in almost every iOS pr
 
 - [**NUI**](https://github.com/tombenner/nui)
 
-    An UI manager that allows theming of the application using a special variant of the CSS styles.  
-   `pod 'NUI'`      
-
+   An UI manager that allows theming of the application using a special variant of the CSS styles.  
+   `pod 'NUI'`
 
 - [**Reveal-iOS-SDK**](http://revealapp.com/)
    
@@ -70,6 +67,5 @@ Below is the list of iOS libraries that are common to use in almost every iOS pr
    
 - [**UrbanAirship**](https://urbanairship.com)
    
-   Cross-platform push notification handling.
-
+   Cross-platform push notification handling.  
    `pod 'UrbanAirship-iOS-SDK'`
