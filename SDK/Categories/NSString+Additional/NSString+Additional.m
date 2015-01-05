@@ -16,7 +16,7 @@
     return [self hasPrefix:string];
 }
 
-- (NSUInteger)numberOfOccurencesOfString:(NSString *)string
+- (NSUInteger)numberOfOccurencesOfString:(NSString *)str
 {
     NSUInteger count = 0, length = [str length];
     NSRange range = NSMakeRange(0, length);

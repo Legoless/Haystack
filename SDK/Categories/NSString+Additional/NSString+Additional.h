@@ -10,6 +10,6 @@
 
 - (BOOL)startsWith:(NSString *)string;
 
-- (NSUInteger)numberOfOccurencesOfString:(NSString *)string;
+- (NSUInteger)numberOfOccurencesOfString:(NSString *)str;
 
 @end
