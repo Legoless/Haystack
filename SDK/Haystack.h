@@ -8,6 +8,7 @@
 #import "NSDate+Timestamp.h"
 #import "NSString+Additional.h"
 #import "NSString+Validation.h"
+#import "NSURL+Parameters.h"
 
 #import "HSMath.h"
 #import "HSWeakPointer.h"

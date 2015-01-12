@@ -80,6 +80,9 @@
     
     NSLog (@"--- Properties ---");
     NSLog (@"%@", [[UIViewController class] properties]);
+    
+    NSLog (@"--- URL Parameters ---");
+    NSLog (@"%@", [NSURL URLWithString:@"http://www.google.com/google?test=test&something=1"].queryParameters);
 }
 
 @end

@@ -17,6 +17,7 @@
 		38A3BF881A1123F000F2B8F9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38A3BF871A1123F000F2B8F9 /* Images.xcassets */; };
 		38A3BF8B1A1123F000F2B8F9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 38A3BF891A1123F000F2B8F9 /* LaunchScreen.xib */; };
 		38A3BF971A1123F000F2B8F9 /* HaystackTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 38A3BF961A1123F000F2B8F9 /* HaystackTests.m */; };
+		38CA19B61A6412E400D84EF9 /* NSURL+Parameters.m in Sources */ = {isa = PBXBuildFile; fileRef = 38CA19B51A6412E400D84EF9 /* NSURL+Parameters.m */; };
 		38D7A0301A11250B0070158C /* NSArray+Class.m in Sources */ = {isa = PBXBuildFile; fileRef = 38D79FEB1A11250B0070158C /* NSArray+Class.m */; };
 		38D7A0311A11250B0070158C /* NSDate+Additional.m in Sources */ = {isa = PBXBuildFile; fileRef = 38D79FEE1A11250B0070158C /* NSDate+Additional.m */; };
 		38D7A0321A11250B0070158C /* NSDate+Timestamp.m in Sources */ = {isa = PBXBuildFile; fileRef = 38D79FF11A11250B0070158C /* NSDate+Timestamp.m */; };
@@ -80,6 +81,8 @@
 		38A3BF901A1123F000F2B8F9 /* HaystackTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HaystackTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		38A3BF951A1123F000F2B8F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		38A3BF961A1123F000F2B8F9 /* HaystackTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HaystackTests.m; sourceTree = "<group>"; };
+		38CA19B41A6412E400D84EF9 /* NSURL+Parameters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL+Parameters.h"; sourceTree = "<group>"; };
+		38CA19B51A6412E400D84EF9 /* NSURL+Parameters.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+Parameters.m"; sourceTree = "<group>"; };
 		38D79FEA1A11250B0070158C /* NSArray+Class.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Class.h"; sourceTree = "<group>"; };
 		38D79FEB1A11250B0070158C /* NSArray+Class.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Class.m"; sourceTree = "<group>"; };
 		38D79FED1A11250B0070158C /* NSDate+Additional.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Additional.h"; sourceTree = "<group>"; };
@@ -253,6 +256,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		38CA19B31A6412E400D84EF9 /* NSURL+Parameters */ = {
+			isa = PBXGroup;
+			children = (
+				38CA19B41A6412E400D84EF9 /* NSURL+Parameters.h */,
+				38CA19B51A6412E400D84EF9 /* NSURL+Parameters.m */,
+			);
+			path = "NSURL+Parameters";
+			sourceTree = "<group>";
+		};
 		38D79FE71A1124F10070158C /* Haystack */ = {
 			isa = PBXGroup;
 			children = (
@@ -277,6 +289,7 @@
 				38D79FF81A11250B0070158C /* NSObject+Swizzle */,
 				38D79FFB1A11250B0070158C /* NSString+Additional */,
 				38D79FFE1A11250B0070158C /* NSString+Validation */,
+				38CA19B31A6412E400D84EF9 /* NSURL+Parameters */,
 				38D7A0011A11250B0070158C /* UIAlertView+Short */,
 				38D7A0471A112BDD0070158C /* UIApplication+Information */,
 				387160091A1BDEAD00155A45 /* UIApplication+Screenshot */,
@@ -699,6 +712,7 @@
 				38D7A0351A11250B0070158C /* NSObject+Swizzle.m in Sources */,
 				38A3BF7D1A1123F000F2B8F9 /* main.m in Sources */,
 				38E2D63C1A1B4451008171CB /* UIView+Hierarchy.m in Sources */,
+				38CA19B61A6412E400D84EF9 /* NSURL+Parameters.m in Sources */,
 				38D7A03D1A11250B0070158C /* UIDevice+Capabilities.m in Sources */,
 				38D7A0461A11250B0070158C /* HSWeakPointer.m in Sources */,
 				38D7A04A1A112BDD0070158C /* UIApplication+Information.m in Sources */,
