@@ -1,4 +1,4 @@
-#import <Availability.h>
+@import Darwin.Availability;
 
 #ifndef __IPHONE_<%= deployment_target.to_s.gsub('.', '_') %>
 #warning "This project uses features only available in iOS SDK <%= deployment_target %> and later."
@@ -9,14 +9,24 @@
     @import Foundation;
 
     #import "FauxPasAnnotations.h"
+    #import "KZBootstrapUserMacros.h"
+    #import <KZBootstrap/KZBootstrap.h>
 
     #import <Haystack/Haystack.h>
+    #import <CocoaLumberjack/CocoaLumberjack.h>
+    #import <ReactiveCocoa/ReactiveCocoa.h>
+
+    static const int ddLogLevel = DDLogLevelVerbose;
 
     #define MR_SHORTHAND
     #import <MagicalRecord/CoreData+MagicalRecord.h>
 
     #import <AFNetworking/AFNetworking.h>
+    #import <AFNetworking-RACExtensions/RACAFNetworking.h>
+
     #import <JSONModel/JSONModel.h>
+    #import <IQKeyboardManager/IQKeyboardManager.h>
+    #import <IQKeyboardManager/IQKeyboardReturnKeyHandler.h>
 
     #import "<%= prefix %>Globals.h"
 #endif

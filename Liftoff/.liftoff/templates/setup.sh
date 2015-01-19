@@ -1,16 +1,35 @@
 #!/usr/bin/env bash
 
-bundle install
-pod install
+setup_bootstrap()
+{
+  #
+  # Check if KZBootstrap exists in project and generate own user
+  #
+
+  ENVIRONMENTS=`find . -iname KZBEnvironments.plist | head -n1`
+
+  echo $ENVIRONMENTS
+
+  IFS=$'\n'
+
+  if [[ -f $ENVIRONMENTS ]]; then
+    BOOTSTRAP=$(dirname ${ENVIRONMENTS})
+
+    echo $BOOTSTRAP
+
+    touch "$BOOTSTRAP/KZBootstrapUserMacros.h"
+  fi
+}
 
 #
 # Setup Dominus and Quality submodules
 #
 
-git submodule add git@github.com:Legoless/Dominus.git
+echo 'Initializing modules...'
+
 git submodule init
 git submodule update
 
-chmod +x ./Dominus/dominus.sh
-./Dominus/Dominus.sh setup project
-./Dominus/Dominus.sh setup travis
+echo 'Preparing bootstrap...'
+
+setup_bootstrap

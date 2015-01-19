@@ -1,11 +1,10 @@
 //
-//  <%= prefix %>OnlineManager.h
+//  Quality.Debug.xcconfig
 //  <%= project_name %>
 //
 //  Created by <%= author %> on <%= Time.now.strftime("%-m/%-d/%y") %>
 //  Copyright (c) <%= Time.now.strftime('%Y') %> <%= company %>. All rights reserved.
 //
 
-@interface <%= prefix %>OnlineManager : AFHTTPSessionManager
-
-@end
+#include "../Debug/Development.Debug.xcconfig"
+#include "../Global/Shared.Quality.xcconfig"

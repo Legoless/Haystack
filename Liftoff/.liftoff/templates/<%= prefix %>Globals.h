@@ -6,8 +6,7 @@
 //  Copyright (c) <%= Time.now.strftime('%Y') %> <%= company %>. All rights reserved.
 //
 
-extern NSString* const kURLServerMain;
-extern NSString* const kURLAPIMain;
+extern NSString* const <%= prefix %>URLServerMain;
 
-extern NSString* const kKeyGoogleAnalytics;
-extern NSString* const kKeyCrashlytics;
+extern NSString* const <%= prefix %>KeyGoogleAnalytics;
+extern NSString* const <%= prefix %>KeyCrashlytics;

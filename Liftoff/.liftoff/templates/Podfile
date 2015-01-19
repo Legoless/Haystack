@@ -7,12 +7,32 @@ link_with '<%= project_name %>', '<%= project_name %>Tests'
 # Add Application pods here
 
 pod 'AFNetworking', '~> 2.x'
+pod 'AFNetworking-RACExtensions'
+#pod 'Alpha', :git => 'https://github.com/Legoless/Alpha.git'
 pod 'ARAnalytics/Crashlytics'
 pod 'ARAnalytics/GoogleAnalytics'
 pod 'ARAnalytics/DSL'
 pod 'CrashlyticsFramework'
+pod 'CocoaLumberjack', :git => 'https://github.com/CocoaLumberjack/CocoaLumberjack.git'
+pod 'CrashlyticsFramework'
+pod 'CrashlyticsLumberjack', :git => 'https://github.com/legoless/CrashlyticsLumberjack.git'
 pod 'DOSingleton'
 pod 'JSONModel'
 pod 'Haystack'
+pod 'IQKeyboardManager'
+pod 'KZAsserts'
+pod 'KZBootstrap'
+pod 'KZBootstrap/Logging'
+pod 'KZBootstrap/Debug'
 pod 'MagicalRecord/Shorthand'
-pod 'Reveal-iOS-SDK'
+pod 'ReactiveCocoa'
+
+target :<%= project_name %>Tests, :exclusive => true do
+  pod 'Specta'
+  pod 'Expecta'
+  pod 'LLReactiveMatchers', :git => 'https://github.com/lawrencelomax/LLReactiveMatchers.git'
+end
+
+# Debug pods
+
+pod 'Reveal-iOS-SDK', :configurations => [ 'Development.Debug', 'Production.Debug', 'Quality.Debug' ]

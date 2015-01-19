@@ -18,7 +18,7 @@ strict_prompts: false
 run_script_phases:
   - crashlytics.sh: Run Crashlytics
   - fauxpas.sh: Run Fauxpas
-  - todo.sh: Warn for TODO and FIXME comments
+  - bootstrap.sh: Run Bootstrap
 
 templates:
   - setup.sh: bin/setup
@@ -26,30 +26,6 @@ templates:
   - StyleSettings.plist: StyleSettings.plist
 
 warnings:
-  - GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED
-  - GCC_WARN_MISSING_PARENTHESES
-  - GCC_WARN_ABOUT_RETURN_TYPE
-  - GCC_WARN_SIGN_COMPARE
-  - GCC_WARN_CHECK_SWITCH_STATEMENTS
-  - GCC_WARN_UNUSED_FUNCTION
-  - GCC_WARN_UNUSED_LABEL
-  - GCC_WARN_UNUSED_VALUE
-  - GCC_WARN_UNUSED_VARIABLE
-  - GCC_WARN_SHADOW
-  - GCC_WARN_64_TO_32_BIT_CONVERSION
-  - GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS
-  - GCC_WARN_ABOUT_MISSING_NEWLINE
-  - GCC_WARN_UNDECLARED_SELECTOR
-  - GCC_WARN_TYPECHECK_CALLS_TO_PRINTF
-  - GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS
-  - CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS
-  - CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF
-  - CLANG_WARN_IMPLICIT_SIGN_CONVERSION
-  - CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION
-  - CLANG_WARN_EMPTY_BODY
-  - CLANG_WARN_ENUM_CONVERSION
-  - CLANG_WARN_INT_CONVERSION
-  - CLANG_WARN_CONSTANT_CONVERSION
 
 xcode_command: open -a 'Xcode' .
 
@@ -81,11 +57,36 @@ app_target_templates:
         - Fonts:
         - Images.xcassets
       - Supporting Files:
+        - Configurations:
+          - Debug:
+            - Development.Debug.xcconfig
+            - Production.Debug.xcconfig
+          - Environment:
+            - Development.xcconfig
+            - Production.xcconfig
+          - Global:
+            - Environment.xcconfig
+            - Project.xcconfig
+            - Shared.App.xcconfig
+            - Shared.Debug.xcconfig
+            - Shared.Quality.xcconfig
+            - Shared.Test.xcconfig
+            - Warning.xcconfig
+          - Quality:
+            - Quality.Debug.xcconfig
+            - Quality.Release.xcconfig
+          - Release:
+            - Development.Release.xcconfig
+            - Production.Release.xcconfig
         - <%= project_name %>-Info.plist
         - <%= project_name %>-Prefix.pch
         - FauxPasAnnotations.h
+        - KZBootstrapUserMacros.h
+        - KZBEnvironments.plist
         - main.m
+        - Settings.bundle
       - View Controllers:
+      - View Models:
       - Views:
         - Buttons:
         - Cells:
@@ -118,8 +119,8 @@ test_target_templates:
         - <%= project_name %>Tests-Info.plist
       - Tests:
         - Integration:
-        - Unit:
-          - <%= project_name %>Tests.m
+        - Specs:
+          - <%= project_name %>BaseSpecs.m
   swift:
     - <%= project_name %>Tests:
       - Tests:

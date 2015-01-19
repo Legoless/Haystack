@@ -1,0 +1,24 @@
+//
+//  Shared.App.xcconfig
+//  <%= project_name %>
+//
+//  Created by <%= author %> on <%= Time.now.strftime("%-m/%-d/%y") %>
+//  Copyright (c) <%= Time.now.strftime('%Y') %> <%= company %>. All rights reserved.
+//
+
+#include "Shared.xcconfig"
+
+DSTROOT = /tmp/xcodeproj.dst;
+
+GCC_PRECOMPILE_PREFIX_HEADER = YES;
+
+GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+
+INFOPLIST_FILE = <%= project_name %>/Supporting Files/<%= project_name %>-Info.plist;
+INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+
+LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1 $(inherited)";
+OTHER_CPLUSPLUSFLAGS = "-DNS_BLOCK_ASSERTIONS=1 $(inherited)";
+
+PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";

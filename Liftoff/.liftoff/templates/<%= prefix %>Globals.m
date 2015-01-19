@@ -10,8 +10,7 @@
 // TODO: Set constants
 //
 
-NSString* const kURLServerMain      = @"";
-NSString* const kURLAPIMain         = @"";
+NSString* const <%= prefix %>URLServerMain      = @"<%= prefix %>URLServerMain";
 
-NSString* const kKeyGoogleAnalytics = @"";
-NSString* const kKeyCrashlytics     = @"";
+NSString* const <%= prefix %>KeyGoogleAnalytics = @"";
+NSString* const <%= prefix %>KeyCrashlytics     = @"";

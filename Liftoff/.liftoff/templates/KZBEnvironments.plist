@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key><%= prefix %>URLServerMain</key>
+	<dict>
+		<key>Production</key>
+		<string>https://www.google.com</string>
+		<key>Development</key>
+		<string>http://www.google.co.uk</string>
+	</dict>
+	<key>KZBEnvironments</key>
+	<array>
+		<string>Production</string>
+		<string>Development</string>
+	</array>
+</dict>
+</plist>

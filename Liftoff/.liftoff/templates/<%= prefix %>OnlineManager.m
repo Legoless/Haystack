@@ -12,12 +12,14 @@
 
 + (instancetype)manager
 {
+     //
+    // If url starts with WND it is a key for environment URL,
+    // otherwise just specify the URL
     //
-    // TODO: Set server URL
-    //
-    NSString *url = [NSString stringWithFormat:@"%@%@", kURLServerMain, kURLAPIMain];
     
-    return [[[self class] alloc] initWithBaseURL:[NSURL URLWithString:url]];
+    NSString *selectedURL = [url hasPrefix:@"<%= prefix %>"] ? [KZBootstrap envVariableForKey:url] : url;
+    
+    return [[[self class] alloc] initWithBaseURL:[NSURL URLWithString:selectedURL]];
 }
 
 - (id)initWithBaseURL:(NSURL *)url
