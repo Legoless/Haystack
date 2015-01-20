@@ -30,7 +30,7 @@ Haystack is **not limited only** to Objective-C code, but contains multiple reso
 
    Contains Objective-C classes and categories that are installed part of a CocoaPods install. The classes are general and extend base Apple SDK's.  
    
-   - **Categories**
+   - **[Categories](https://github.com/Legoless/Haystack/blob/master/Wiki/Categories.md)**
      - *Foundation*
         - NSArray+Class
         - NSDate+Additional
@@ -59,7 +59,7 @@ Haystack is **not limited only** to Objective-C code, but contains multiple reso
         - UIView+Debug
         - UIView+Snapshot
         - UIViewController+BackgroundImage
-   - **Classes**
+   - **[Classes](https://github.com/Legoless/Haystack/blob/master/Wiki/Classes.md)**
      - *HSMath*
      - *HSUnitFormatter*
      - *HSWeakPointer*
