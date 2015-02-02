@@ -1,9 +1,11 @@
-[[ ${FAUXPAS_SKIP} == 1 ]] && exit 0
- 
- FAUXPAS_PATH="/usr/bin/local/fauxpas"
- 
- if [[ -f "${FAUXPAS_PATH}" ]]; then
-   "${FAUXPAS_PATH}" check-xcode
- else
-   echo "warning: Faux Pas was not found at '${FAUXPAS_PATH}'"
- fi
+if [[ ${RUN_FAUXPAS} != 1 ]]; then
+  exit 0
+fi
+
+FAUXPAS_PATH="/usr/local/bin/fauxpas"
+
+if [[ -f "${FAUXPAS_PATH}" ]]; then
+  "${FAUXPAS_PATH}" check-xcode
+else
+  echo "warning: Faux Pas was not found at '${FAUXPAS_PATH}'"
+fi
