@@ -37,7 +37,7 @@ Below is the list of iOS libraries that are common to use in almost every iOS pr
 
 - [**JLRoutes**](https://github.com/joeldev/JLRoutes)
    
-   Setups special application routes with block-based callback API.
+   Setups special application routes with block-based callback API.  
    `pod 'JLRoutes'`
 
 - [**JSONModel**](https://github.com/icanzilb/JSONModel)
