@@ -35,6 +35,11 @@ Below is the list of iOS libraries that are common to use in almost every iOS pr
    Moves text fields and views out of the way of keyboard.  
    `pod 'IQKeyboardManager'`
 
+- [**JLRoutes**](https://github.com/joeldev/JLRoutes)
+   
+   Setups special application routes with block-based callback API.
+   `pod 'JLRoutes'`
+
 - [**JSONModel**](https://github.com/icanzilb/JSONModel)
 
    Create objects from JSON dictionaries by only defining the properties.  
