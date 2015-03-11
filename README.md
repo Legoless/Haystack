@@ -108,7 +108,6 @@ Haystack SDK includes documents that can be used to improve development workflow
 - **Deployment workflow**
   - Automated testing
   - Continuous Integration
-  - Deploy to user testing
 - **Coding guidelines**
 - **Development tools**
 
