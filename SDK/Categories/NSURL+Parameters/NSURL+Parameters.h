@@ -8,4 +8,8 @@
 
 - (NSDictionary *)queryParameters;
 
+- (NSURL *)urlByAppendingParameter:(NSString *)parameter value:(NSString *)value;
+
+- (NSURL *)urlByAppendingParameters:(NSDictionary *)parameters;
+
 @end

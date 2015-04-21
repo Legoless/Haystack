@@ -34,4 +34,28 @@
     return [parameters copy];
 }
 
+- (NSURL *)urlByAppendingParameter:(NSString *)parameter value:(NSString *)value
+{
+    return [self urlByAppendingParameters:@{ parameter : value }];
+}
+
+- (NSURL *)urlByAppendingParameters:(NSDictionary *)parameters
+{
+    NSMutableString *absoluteURL = [[self absoluteString] mutableCopy];
+    
+    for (id parameter in parameters)
+    {
+        NSString *prefix = @"?";
+        
+        if ([absoluteURL rangeOfString:prefix].location != NSNotFound)
+        {
+            prefix = @"&";
+        }
+        
+        [absoluteURL appendFormat:@"%@%@=%@", prefix, parameter, parameters[parameter]];
+    }
+    
+    return [[self class] URLWithString:absoluteURL];
+}
+
 @end
