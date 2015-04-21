@@ -7,6 +7,7 @@
 #import "NSData+Base64.h"
 #import "NSDate+Timestamp.h"
 #import "NSString+Additional.h"
+#import "NSString+Random.h"
 #import "NSString+Validation.h"
 #import "NSURL+Parameters.h"
 

@@ -83,6 +83,11 @@
     
     NSLog (@"--- URL Parameters ---");
     NSLog (@"%@", [NSURL URLWithString:@"http://www.google.com/google?test=test&something=1"].queryParameters);
+    
+    NSLog (@"--- Random strings ---");
+    NSLog (@"Alpha string: %@", [NSString hs_randomAlphaStringOfLength:10]);
+    NSLog (@"Alpha-numeric string: %@", [NSString hs_randomAlphaNumericStringOfLength:10]);
+    NSLog (@"Random string: %@", [NSString hs_randomStringOfLength:10]);
 }
 
 @end

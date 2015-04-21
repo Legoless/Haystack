@@ -10,6 +10,7 @@
 		3871600C1A1BDEAD00155A45 /* UIApplication+Screenshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 3871600B1A1BDEAD00155A45 /* UIApplication+Screenshot.m */; };
 		387E75771A41B9D0006F41DA /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 387E75761A41B9D0006F41DA /* NSData+Base64.m */; };
 		387E757B1A41B9F5006F41DA /* NSObject+Property.m in Sources */ = {isa = PBXBuildFile; fileRef = 387E757A1A41B9F5006F41DA /* NSObject+Property.m */; };
+		3895ACBD1AE6570300059D83 /* NSString+Random.m in Sources */ = {isa = PBXBuildFile; fileRef = 3895ACBC1AE6570300059D83 /* NSString+Random.m */; };
 		38A3BF7D1A1123F000F2B8F9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 38A3BF7C1A1123F000F2B8F9 /* main.m */; };
 		38A3BF801A1123F000F2B8F9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 38A3BF7F1A1123F000F2B8F9 /* AppDelegate.m */; };
 		38A3BF831A1123F000F2B8F9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38A3BF821A1123F000F2B8F9 /* ViewController.m */; };
@@ -68,6 +69,8 @@
 		387E75761A41B9D0006F41DA /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
 		387E75791A41B9F5006F41DA /* NSObject+Property.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Property.h"; sourceTree = "<group>"; };
 		387E757A1A41B9F5006F41DA /* NSObject+Property.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Property.m"; sourceTree = "<group>"; };
+		3895ACBB1AE6570300059D83 /* NSString+Random.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Random.h"; sourceTree = "<group>"; };
+		3895ACBC1AE6570300059D83 /* NSString+Random.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Random.m"; sourceTree = "<group>"; };
 		38A3BF771A1123F000F2B8F9 /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		38A3BF7B1A1123F000F2B8F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		38A3BF7C1A1123F000F2B8F9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -195,6 +198,15 @@
 			path = "../../../../library/Haystack/SDK/Categories/NSObject+Property";
 			sourceTree = "<group>";
 		};
+		3895ACBA1AE6570300059D83 /* NSString+Random */ = {
+			isa = PBXGroup;
+			children = (
+				3895ACBB1AE6570300059D83 /* NSString+Random.h */,
+				3895ACBC1AE6570300059D83 /* NSString+Random.m */,
+			);
+			path = "NSString+Random";
+			sourceTree = "<group>";
+		};
 		38A3BF6E1A1123F000F2B8F9 = {
 			isa = PBXGroup;
 			children = (
@@ -288,6 +300,7 @@
 				38E343371A233C4A00CEE145 /* NSObject+Runtime */,
 				38D79FF81A11250B0070158C /* NSObject+Swizzle */,
 				38D79FFB1A11250B0070158C /* NSString+Additional */,
+				3895ACBA1AE6570300059D83 /* NSString+Random */,
 				38D79FFE1A11250B0070158C /* NSString+Validation */,
 				38CA19B31A6412E400D84EF9 /* NSURL+Parameters */,
 				38D7A0011A11250B0070158C /* UIAlertView+Short */,
@@ -692,6 +705,7 @@
 			files = (
 				38D7A0361A11250B0070158C /* NSString+Additional.m in Sources */,
 				38D7A0311A11250B0070158C /* NSDate+Additional.m in Sources */,
+				3895ACBD1AE6570300059D83 /* NSString+Random.m in Sources */,
 				38D7A03F1A11250B0070158C /* UIDevice+Hardware.m in Sources */,
 				38D7A03B1A11250B0070158C /* UIColor+Create.m in Sources */,
 				38D7A0451A11250B0070158C /* HSMath.m in Sources */,
