@@ -9,4 +9,4 @@ env:
   global:
   - SDK=8.1
   - PLATFORM='iphone'
-  - DIR_PATH='./haystack-master'
+  - DIR_PATH='./SDK/Demo'
