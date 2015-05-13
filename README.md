@@ -2,6 +2,7 @@ Haystack
 ========
 
 [![Build Status](https://travis-ci.org/Legoless/Haystack.svg)](https://travis-ci.org/Legoless/Haystack) [![Version Badge](https://cocoapod-badges.herokuapp.com/v/Haystack/badge.png)](http://www.google.com)  [![Badge w/ Platform](https://cocoapod-badges.herokuapp.com/p/NSStringMask/badge.svg)](https://cocoadocs.org/docsets/NSStringMask)
+[![Pod License](http://img.shields.io/cocoapods/l/Haystack.svg?style=flat)](http://opensource.org/licenses/MIT)
 
 Haystack SDK contains a multiple resources for **iOS** developers, including a collection of simple Objective-C classes and categories that fit in almost every project. Most of these classes are not large or structured enough to fit in a special library or framework, but are regurarely needed throughout the most projects you are working on. Basically it is meant to fill the void of classes without entire libraries.
 
