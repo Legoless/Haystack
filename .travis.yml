@@ -9,3 +9,4 @@ env:
   global:
   - SDK=8.1
   - PLATFORM='iphone'
+  - DIR_PATH='./SDK/Demo'
