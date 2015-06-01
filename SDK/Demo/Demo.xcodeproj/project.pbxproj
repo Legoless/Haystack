@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		381E6EBD1B1C5B9400A09D55 /* NSInvocation+Argument.m in Sources */ = {isa = PBXBuildFile; fileRef = 381E6EBC1B1C5B9400A09D55 /* NSInvocation+Argument.m */; };
 		3871600C1A1BDEAD00155A45 /* UIApplication+Screenshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 3871600B1A1BDEAD00155A45 /* UIApplication+Screenshot.m */; };
 		387E75771A41B9D0006F41DA /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 387E75761A41B9D0006F41DA /* NSData+Base64.m */; };
 		387E757B1A41B9F5006F41DA /* NSObject+Property.m in Sources */ = {isa = PBXBuildFile; fileRef = 387E757A1A41B9F5006F41DA /* NSObject+Property.m */; };
@@ -63,6 +64,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		381E6EBB1B1C5B9400A09D55 /* NSInvocation+Argument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSInvocation+Argument.h"; sourceTree = "<group>"; };
+		381E6EBC1B1C5B9400A09D55 /* NSInvocation+Argument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSInvocation+Argument.m"; sourceTree = "<group>"; };
 		3871600A1A1BDEAD00155A45 /* UIApplication+Screenshot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+Screenshot.h"; sourceTree = "<group>"; };
 		3871600B1A1BDEAD00155A45 /* UIApplication+Screenshot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+Screenshot.m"; sourceTree = "<group>"; };
 		387E75751A41B9D0006F41DA /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
@@ -169,6 +172,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		381E6EBA1B1C5B9400A09D55 /* NSInvocation+Argument */ = {
+			isa = PBXGroup;
+			children = (
+				381E6EBB1B1C5B9400A09D55 /* NSInvocation+Argument.h */,
+				381E6EBC1B1C5B9400A09D55 /* NSInvocation+Argument.m */,
+			);
+			name = "NSInvocation+Argument";
+			path = "../../../haystack/sdk/categories/NSInvocation+Argument";
+			sourceTree = "<group>";
+		};
 		387160091A1BDEAD00155A45 /* UIApplication+Screenshot */ = {
 			isa = PBXGroup;
 			children = (
@@ -295,6 +308,7 @@
 				38D79FEC1A11250B0070158C /* NSDate+Additional */,
 				38D79FEF1A11250B0070158C /* NSDate+Timestamp */,
 				38D79FF21A11250B0070158C /* NSDictionary+Class */,
+				381E6EBA1B1C5B9400A09D55 /* NSInvocation+Argument */,
 				387E75781A41B9F5006F41DA /* NSObject+Property */,
 				38D79FF51A11250B0070158C /* NSObject+PropertyList */,
 				38E343371A233C4A00CEE145 /* NSObject+Runtime */,
@@ -722,6 +736,7 @@
 				38D7A03A1A11250B0070158C /* UIButton+Position.m in Sources */,
 				38D7A03C1A11250B0070158C /* UIColor+Flat.m in Sources */,
 				38E3433A1A233C4A00CEE145 /* NSObject+Runtime.m in Sources */,
+				381E6EBD1B1C5B9400A09D55 /* NSInvocation+Argument.m in Sources */,
 				387E75771A41B9D0006F41DA /* NSData+Base64.m in Sources */,
 				38D7A0351A11250B0070158C /* NSObject+Swizzle.m in Sources */,
 				38A3BF7D1A1123F000F2B8F9 /* main.m in Sources */,
