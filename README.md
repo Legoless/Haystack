@@ -1,7 +1,12 @@
 Haystack
 ========
 
-[![Build Status](https://travis-ci.org/Legoless/Haystack.svg)](https://travis-ci.org/Legoless/Haystack) [![Version Badge](https://cocoapod-badges.herokuapp.com/v/Haystack/badge.png)](http://www.google.com)  [![Badge w/ Platform](https://cocoapod-badges.herokuapp.com/p/NSStringMask/badge.svg)](https://cocoadocs.org/docsets/NSStringMask)
+[![Issues on Waffle](https://img.shields.io/badge/issues on-Waffle-blue.svg)](http://waffle.io/legoless/Haystack)
+[![Built by Dominus](https://img.shields.io/badge/built by-Dominus-brightgreen.svg)](http://github.com/legoless/Dominus)
+[![Build Status](https://travis-ci.org/Legoless/Haystack.svg)](https://travis-ci.org/legoless/Haystack)
+[![Obj-C Code](https://img.shields.io/badge/code in-Objective--C-yellow.svg)](http://github.com/legoless/Haystack)
+[![Pod Version](http://img.shields.io/cocoapods/v/Haystack.svg?style=flat)](http://cocoadocs.org/docsets/Haystack/)
+[![Pod Platform](http://img.shields.io/cocoapods/p/Haystack.svg?style=flat)](http://cocoadocs.org/docsets/Haystack/)
 [![Pod License](http://img.shields.io/cocoapods/l/Haystack.svg?style=flat)](http://opensource.org/licenses/MIT)
 
 Haystack SDK contains a multiple resources for **iOS** developers, including a collection of simple Objective-C classes and categories that fit in almost every project. Most of these classes are not large or structured enough to fit in a special library or framework, but are regurarely needed throughout the most projects you are working on. Basically it is meant to fill the void of classes without entire libraries.
