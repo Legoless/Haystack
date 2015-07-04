@@ -133,4 +133,4 @@ Dal Rupnik
 License
 ======
 
-MIT Licensed. See [LICENSE](https://github.com/Legoless/Haystack/blob/master/LICENSE) file for more information.
+**Haystack** is available under the **MIT** license. See [LICENSE](https://github.com/Legoless/Haystack/blob/master/LICENSE) file for more information.
