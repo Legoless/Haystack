@@ -1,6 +1,6 @@
 language: objective-c
 sudo: false
-osx_image: beta-xcode6.4
+osx_image: xcode6.4
 script:
 - curl -fsSL https://raw.githubusercontent.com/legoless/Dominus/master/install.sh | sh
 env:
