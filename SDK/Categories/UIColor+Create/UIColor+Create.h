@@ -2,7 +2,7 @@
 //  UIColor+Create.h
 //
 
-#define UIColorFromKey(color) [UIColor colorWithObject:color]
+#define UIColorFromKey(color) [UIColor hay_colorWithObject:color]
 
 @import UIKit;
 
