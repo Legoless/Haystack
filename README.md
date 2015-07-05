@@ -9,15 +9,9 @@ Haystack
 [![Pod Platform](http://img.shields.io/cocoapods/p/Haystack.svg?style=flat)](http://cocoadocs.org/docsets/Haystack/)
 [![Pod License](http://img.shields.io/cocoapods/l/Haystack.svg?style=flat)](http://opensource.org/licenses/MIT)
 
-Haystack SDK contains a multiple resources for **iOS** developers, including a collection of simple Objective-C classes and categories that fit in almost every project. Most of these classes are not large or structured enough to fit in a special library or framework, but are regurarely needed throughout the most projects you are working on. Basically it is meant to fill the void of classes without entire libraries.
+Haystack SDK contains multiple extensions and enhancements for **iOS** developers, including a collection of simple Objective-C classes and categories that fit in almost every project. Most of these classes are not large or structured enough to fit in a special library or framework, but are regurarely needed throughout the most projects you are working on. Basically it is meant to fill the void of classes without entire libraries.
 
-Project is actively developed and as the Apple SDK's changes, project is updated. Note that the project is not finished and might contain bugs. Feel free to open an issue.
-
-*Please contact me for contributions to the project. If you notice an useful extension to the iOS SDK's that can be included in the SDK, please contact us.*
-
-Update
-========
-Certain design-oriented classes and categories are in the process of being moved to the DesignKit project, to the base module. Haystack will still serve as a base project for all common functionalities.
+Project is actively developed and as the Apple SDK's changes, project is updated. Note that the project is not finished and might contain bugs. Feel free to open an issue. To avoid clashing with any future framework improvements, all Haystack categories and classes are prefixed with `Hay`.
 
 Contents
 ========
@@ -43,6 +37,7 @@ Haystack is **not limited only** to Objective-C code, but contains multiple reso
         - NSDate+Additional
         - NSDate+Timestamp
         - NSDictionary+Class
+        - NSInvocation+Argument
         - NSObject+Property
         - NSObject+PropertyList
         - NSObject+Runtime
@@ -50,6 +45,7 @@ Haystack is **not limited only** to Objective-C code, but contains multiple reso
         - NSString+Additional
         - NSString+Random
         - NSString+Validation
+        - NSURL+Parameters
      - *UIKit*
         - UIAlertView+Short
         - UIApplication+Information
@@ -70,9 +66,9 @@ Haystack is **not limited only** to Objective-C code, but contains multiple reso
         - UIView+Snapshot
         - UIViewController+BackgroundImage
    - **[Classes](https://github.com/Legoless/Haystack/blob/master/Wiki/Classes.md)**
-     - *HSMath*
-     - *HSUnitFormatter*
-     - *HSWeakPointer*
+     - *HAYMath*
+     - *HAYUnitFormatter*
+     - *HAYWeakPointer*
 
 - **Templates**
 
@@ -101,7 +97,7 @@ All header files and fully documented for ease of use. Only method stubs are dis
 Installation & Setup
 --------
 You can install the SDK via CocoaPods:
-```
+```ruby
 pod 'Haystack'
 ```
 
