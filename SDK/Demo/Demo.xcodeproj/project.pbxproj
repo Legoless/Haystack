@@ -141,7 +141,7 @@
 		38AF336A1B498A410066E2D9 /* UIView+Snapshot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Snapshot.m"; sourceTree = "<group>"; };
 		38AF336C1B498A410066E2D9 /* UIViewController+BackgroundImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+BackgroundImage.h"; sourceTree = "<group>"; };
 		38AF336D1B498A410066E2D9 /* UIViewController+BackgroundImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+BackgroundImage.m"; sourceTree = "<group>"; };
-		38AF337C1B498A410066E2D9 /* Haystack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Haystack.h; path = ../../../../library/Haystack/SDK/Haystack.h; sourceTree = "<group>"; };
+		38AF337C1B498A410066E2D9 /* Haystack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Haystack.h; path = ../Haystack.h; sourceTree = "<group>"; };
 		38AF33A41B498C7B0066E2D9 /* HAYMath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HAYMath.h; sourceTree = "<group>"; };
 		38AF33A51B498C7B0066E2D9 /* HAYMath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HAYMath.m; sourceTree = "<group>"; };
 		38AF33A71B498C7B0066E2D9 /* HAYUnitFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HAYUnitFormatter.h; sourceTree = "<group>"; };
@@ -280,7 +280,7 @@
 				38AF336B1B498A410066E2D9 /* UIViewController+BackgroundImage */,
 			);
 			name = Categories;
-			path = ../../../../library/Haystack/SDK/Categories;
+			path = ../Categories;
 			sourceTree = "<group>";
 		};
 		38AF330E1B498A410066E2D9 /* NSArray+Class */ = {
@@ -579,7 +579,7 @@
 				38AF33AD1B498C7B0066E2D9 /* HAYWeakPointer */,
 			);
 			name = Classes;
-			path = ../../../../library/Haystack/SDK/Classes;
+			path = ../Classes;
 			sourceTree = "<group>";
 		};
 		38AF33A31B498C7B0066E2D9 /* HAYMath */ = {
