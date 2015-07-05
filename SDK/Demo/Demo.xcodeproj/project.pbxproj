@@ -46,11 +46,11 @@
 		38AF339A1B498A410066E2D9 /* UIView+Hierarchy.m in Sources */ = {isa = PBXBuildFile; fileRef = 38AF33671B498A410066E2D9 /* UIView+Hierarchy.m */; };
 		38AF339B1B498A410066E2D9 /* UIView+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 38AF336A1B498A410066E2D9 /* UIView+Snapshot.m */; };
 		38AF339C1B498A410066E2D9 /* UIViewController+BackgroundImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 38AF336D1B498A410066E2D9 /* UIViewController+BackgroundImage.m */; };
-		38AF339D1B498A410066E2D9 /* HAYMath.m in Sources */ = {isa = PBXBuildFile; fileRef = 38AF33711B498A410066E2D9 /* HAYMath.m */; };
-		38AF339E1B498A410066E2D9 /* HAYUnitFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 38AF33741B498A410066E2D9 /* HAYUnitFormatter.m */; };
-		38AF339F1B498A410066E2D9 /* HAYUnitFormatterPrefix.m in Sources */ = {isa = PBXBuildFile; fileRef = 38AF33761B498A410066E2D9 /* HAYUnitFormatterPrefix.m */; };
-		38AF33A01B498A410066E2D9 /* HAYUnitFormatterUnit.m in Sources */ = {isa = PBXBuildFile; fileRef = 38AF33781B498A410066E2D9 /* HAYUnitFormatterUnit.m */; };
-		38AF33A11B498A410066E2D9 /* HAYWeakPointer.m in Sources */ = {isa = PBXBuildFile; fileRef = 38AF337B1B498A410066E2D9 /* HAYWeakPointer.m */; };
+		38AF33B01B498C7B0066E2D9 /* HAYMath.m in Sources */ = {isa = PBXBuildFile; fileRef = 38AF33A51B498C7B0066E2D9 /* HAYMath.m */; };
+		38AF33B11B498C7B0066E2D9 /* HAYUnitFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 38AF33A81B498C7B0066E2D9 /* HAYUnitFormatter.m */; };
+		38AF33B21B498C7B0066E2D9 /* HAYUnitFormatterPrefix.m in Sources */ = {isa = PBXBuildFile; fileRef = 38AF33AA1B498C7B0066E2D9 /* HAYUnitFormatterPrefix.m */; };
+		38AF33B31B498C7B0066E2D9 /* HAYUnitFormatterUnit.m in Sources */ = {isa = PBXBuildFile; fileRef = 38AF33AC1B498C7B0066E2D9 /* HAYUnitFormatterUnit.m */; };
+		38AF33B41B498C7B0066E2D9 /* HAYWeakPointer.m in Sources */ = {isa = PBXBuildFile; fileRef = 38AF33AF1B498C7B0066E2D9 /* HAYWeakPointer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -141,17 +141,17 @@
 		38AF336A1B498A410066E2D9 /* UIView+Snapshot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Snapshot.m"; sourceTree = "<group>"; };
 		38AF336C1B498A410066E2D9 /* UIViewController+BackgroundImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+BackgroundImage.h"; sourceTree = "<group>"; };
 		38AF336D1B498A410066E2D9 /* UIViewController+BackgroundImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+BackgroundImage.m"; sourceTree = "<group>"; };
-		38AF33701B498A410066E2D9 /* HAYMath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HAYMath.h; sourceTree = "<group>"; };
-		38AF33711B498A410066E2D9 /* HAYMath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HAYMath.m; sourceTree = "<group>"; };
-		38AF33731B498A410066E2D9 /* HAYUnitFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HAYUnitFormatter.h; sourceTree = "<group>"; };
-		38AF33741B498A410066E2D9 /* HAYUnitFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HAYUnitFormatter.m; sourceTree = "<group>"; };
-		38AF33751B498A410066E2D9 /* HAYUnitFormatterPrefix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HAYUnitFormatterPrefix.h; sourceTree = "<group>"; };
-		38AF33761B498A410066E2D9 /* HAYUnitFormatterPrefix.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HAYUnitFormatterPrefix.m; sourceTree = "<group>"; };
-		38AF33771B498A410066E2D9 /* HAYUnitFormatterUnit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HAYUnitFormatterUnit.h; sourceTree = "<group>"; };
-		38AF33781B498A410066E2D9 /* HAYUnitFormatterUnit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HAYUnitFormatterUnit.m; sourceTree = "<group>"; };
-		38AF337A1B498A410066E2D9 /* HAYWeakPointer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HAYWeakPointer.h; sourceTree = "<group>"; };
-		38AF337B1B498A410066E2D9 /* HAYWeakPointer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HAYWeakPointer.m; sourceTree = "<group>"; };
 		38AF337C1B498A410066E2D9 /* Haystack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Haystack.h; path = ../../../../library/Haystack/SDK/Haystack.h; sourceTree = "<group>"; };
+		38AF33A41B498C7B0066E2D9 /* HAYMath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HAYMath.h; sourceTree = "<group>"; };
+		38AF33A51B498C7B0066E2D9 /* HAYMath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HAYMath.m; sourceTree = "<group>"; };
+		38AF33A71B498C7B0066E2D9 /* HAYUnitFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HAYUnitFormatter.h; sourceTree = "<group>"; };
+		38AF33A81B498C7B0066E2D9 /* HAYUnitFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HAYUnitFormatter.m; sourceTree = "<group>"; };
+		38AF33A91B498C7B0066E2D9 /* HAYUnitFormatterPrefix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HAYUnitFormatterPrefix.h; sourceTree = "<group>"; };
+		38AF33AA1B498C7B0066E2D9 /* HAYUnitFormatterPrefix.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HAYUnitFormatterPrefix.m; sourceTree = "<group>"; };
+		38AF33AB1B498C7B0066E2D9 /* HAYUnitFormatterUnit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HAYUnitFormatterUnit.h; sourceTree = "<group>"; };
+		38AF33AC1B498C7B0066E2D9 /* HAYUnitFormatterUnit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HAYUnitFormatterUnit.m; sourceTree = "<group>"; };
+		38AF33AE1B498C7B0066E2D9 /* HAYWeakPointer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HAYWeakPointer.h; sourceTree = "<group>"; };
+		38AF33AF1B498C7B0066E2D9 /* HAYWeakPointer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HAYWeakPointer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -237,7 +237,7 @@
 			isa = PBXGroup;
 			children = (
 				38AF330D1B498A410066E2D9 /* Categories */,
-				38AF336E1B498A410066E2D9 /* Classes */,
+				38AF33A21B498C7B0066E2D9 /* Classes */,
 				38AF337C1B498A410066E2D9 /* Haystack.h */,
 			);
 			name = Haystack;
@@ -571,46 +571,46 @@
 			path = "UIViewController+BackgroundImage";
 			sourceTree = "<group>";
 		};
-		38AF336E1B498A410066E2D9 /* Classes */ = {
+		38AF33A21B498C7B0066E2D9 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				38AF336F1B498A410066E2D9 /* HSMath */,
-				38AF33721B498A410066E2D9 /* HSUnitFormatter */,
-				38AF33791B498A410066E2D9 /* HSWeakPointer */,
+				38AF33A31B498C7B0066E2D9 /* HAYMath */,
+				38AF33A61B498C7B0066E2D9 /* HAYUnitFormatter */,
+				38AF33AD1B498C7B0066E2D9 /* HAYWeakPointer */,
 			);
 			name = Classes;
 			path = ../../../../library/Haystack/SDK/Classes;
 			sourceTree = "<group>";
 		};
-		38AF336F1B498A410066E2D9 /* HSMath */ = {
+		38AF33A31B498C7B0066E2D9 /* HAYMath */ = {
 			isa = PBXGroup;
 			children = (
-				38AF33701B498A410066E2D9 /* HAYMath.h */,
-				38AF33711B498A410066E2D9 /* HAYMath.m */,
+				38AF33A41B498C7B0066E2D9 /* HAYMath.h */,
+				38AF33A51B498C7B0066E2D9 /* HAYMath.m */,
 			);
-			path = HSMath;
+			path = HAYMath;
 			sourceTree = "<group>";
 		};
-		38AF33721B498A410066E2D9 /* HSUnitFormatter */ = {
+		38AF33A61B498C7B0066E2D9 /* HAYUnitFormatter */ = {
 			isa = PBXGroup;
 			children = (
-				38AF33731B498A410066E2D9 /* HAYUnitFormatter.h */,
-				38AF33741B498A410066E2D9 /* HAYUnitFormatter.m */,
-				38AF33751B498A410066E2D9 /* HAYUnitFormatterPrefix.h */,
-				38AF33761B498A410066E2D9 /* HAYUnitFormatterPrefix.m */,
-				38AF33771B498A410066E2D9 /* HAYUnitFormatterUnit.h */,
-				38AF33781B498A410066E2D9 /* HAYUnitFormatterUnit.m */,
+				38AF33A71B498C7B0066E2D9 /* HAYUnitFormatter.h */,
+				38AF33A81B498C7B0066E2D9 /* HAYUnitFormatter.m */,
+				38AF33A91B498C7B0066E2D9 /* HAYUnitFormatterPrefix.h */,
+				38AF33AA1B498C7B0066E2D9 /* HAYUnitFormatterPrefix.m */,
+				38AF33AB1B498C7B0066E2D9 /* HAYUnitFormatterUnit.h */,
+				38AF33AC1B498C7B0066E2D9 /* HAYUnitFormatterUnit.m */,
 			);
-			path = HSUnitFormatter;
+			path = HAYUnitFormatter;
 			sourceTree = "<group>";
 		};
-		38AF33791B498A410066E2D9 /* HSWeakPointer */ = {
+		38AF33AD1B498C7B0066E2D9 /* HAYWeakPointer */ = {
 			isa = PBXGroup;
 			children = (
-				38AF337A1B498A410066E2D9 /* HAYWeakPointer.h */,
-				38AF337B1B498A410066E2D9 /* HAYWeakPointer.m */,
+				38AF33AE1B498C7B0066E2D9 /* HAYWeakPointer.h */,
+				38AF33AF1B498C7B0066E2D9 /* HAYWeakPointer.m */,
 			);
-			path = HSWeakPointer;
+			path = HAYWeakPointer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -718,7 +718,7 @@
 				38AF339A1B498A410066E2D9 /* UIView+Hierarchy.m in Sources */,
 				38AF33801B498A410066E2D9 /* NSDate+Timestamp.m in Sources */,
 				38AF33861B498A410066E2D9 /* NSObject+Swizzle.m in Sources */,
-				38AF339D1B498A410066E2D9 /* HAYMath.m in Sources */,
+				38AF33B01B498C7B0066E2D9 /* HAYMath.m in Sources */,
 				38AF33871B498A410066E2D9 /* NSString+Additional.m in Sources */,
 				38AF33841B498A410066E2D9 /* NSObject+PropertyList.m in Sources */,
 				38A3BF831A1123F000F2B8F9 /* ViewController.m in Sources */,
@@ -727,7 +727,7 @@
 				38AF33981B498A410066E2D9 /* UIView+Cell.m in Sources */,
 				38AF33911B498A410066E2D9 /* UIColor+Flat.m in Sources */,
 				38AF33821B498A410066E2D9 /* NSInvocation+Argument.m in Sources */,
-				38AF339F1B498A410066E2D9 /* HAYUnitFormatterPrefix.m in Sources */,
+				38AF33B21B498C7B0066E2D9 /* HAYUnitFormatterPrefix.m in Sources */,
 				38AF338D1B498A410066E2D9 /* UIApplication+Screenshot.m in Sources */,
 				38AF33921B498A410066E2D9 /* UIDevice+Capabilities.m in Sources */,
 				38AF33951B498A410066E2D9 /* UIDevice+Network.m in Sources */,
@@ -744,16 +744,16 @@
 				38AF338B1B498A410066E2D9 /* UIAlertView+Short.m in Sources */,
 				38AF338F1B498A410066E2D9 /* UIButton+Position.m in Sources */,
 				38AF338E1B498A410066E2D9 /* UIApplication+Version.m in Sources */,
-				38AF33A11B498A410066E2D9 /* HAYWeakPointer.m in Sources */,
+				38AF33B41B498C7B0066E2D9 /* HAYWeakPointer.m in Sources */,
 				38AF339C1B498A410066E2D9 /* UIViewController+BackgroundImage.m in Sources */,
 				38AF33831B498A410066E2D9 /* NSObject+Property.m in Sources */,
-				38AF339E1B498A410066E2D9 /* HAYUnitFormatter.m in Sources */,
+				38AF33B11B498C7B0066E2D9 /* HAYUnitFormatter.m in Sources */,
 				38AF338C1B498A410066E2D9 /* UIApplication+Information.m in Sources */,
 				38AF339B1B498A410066E2D9 /* UIView+Snapshot.m in Sources */,
 				38AF33971B498A410066E2D9 /* UIFont+SmallCaps.m in Sources */,
 				38AF33891B498A410066E2D9 /* NSString+Validation.m in Sources */,
 				38AF33811B498A410066E2D9 /* NSDictionary+Class.m in Sources */,
-				38AF33A01B498A410066E2D9 /* HAYUnitFormatterUnit.m in Sources */,
+				38AF33B31B498C7B0066E2D9 /* HAYUnitFormatterUnit.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
