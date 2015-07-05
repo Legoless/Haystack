@@ -6,8 +6,8 @@
 //  Copyright (c) 2014 Dal Rupnik. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
-#import <XCTest/XCTest.h>
+@import UIKit;
+@import XCTest;
 
 @interface DemoTests : XCTestCase
 

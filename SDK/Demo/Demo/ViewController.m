@@ -27,65 +27,65 @@
 {
     [super viewDidAppear:animated];
     
-    //UIImage* image = [[UIApplication sharedApplication] screenshot];
+    //UIImage* image = [[UIApplication sharedApplication] hay_screenshot];
 }
 
 - (void)logDeviceInformation
 {
     NSLog(@"--- Hardware Information Dump ---");
     
-    NSLog (@"CPU Count: %lu", (unsigned long)[UIDevice currentDevice].hs_cpuCount);
-    NSLog (@"Active CPU Count: %lu", (unsigned long)[UIDevice currentDevice].hs_cpuActiveCount);
-    NSLog (@"Physical CPU Count: %lu", (unsigned long)[UIDevice currentDevice].hs_cpuPhysicalCount);
-    NSLog (@"Physical Max CPU Count: %lu", (unsigned long)[UIDevice currentDevice].hs_cpuPhysicalMaximumCount);
-    NSLog (@"Logical CPU Count: %lu", (unsigned long)[UIDevice currentDevice].hs_cpuLogicalCount);
-    NSLog (@"Logical Max CPU Count: %lu", (unsigned long)[UIDevice currentDevice].hs_cpuLogicalMaximumCount);
-    NSLog (@"CPU Frequency: %@", [HSUnitFormatter stringFromNumber:@([UIDevice currentDevice].hs_cpuFrequency) forUnit:HSUnitFormatterUnitTypeHertz]);
-    NSLog (@"CPU Maximum Frequency: %@", [HSUnitFormatter stringFromNumber:@([UIDevice currentDevice].hs_cpuMaximumFrequency) forUnit:HSUnitFormatterUnitTypeHertz]);
-    NSLog (@"CPU Minimum Frequency: %@", [HSUnitFormatter stringFromNumber:@([UIDevice currentDevice].hs_cpuMinimumFrequency) forUnit:HSUnitFormatterUnitTypeHertz]);
-    NSLog (@"CPU Type: %@", [UIDevice currentDevice].hs_cpuType);
-    NSLog (@"CPU Subtype: %@", [UIDevice currentDevice].hs_cpuSubType);
-    NSLog (@"CPU Architectures: %@", [UIDevice currentDevice].hs_cpuArchitectures);
+    NSLog (@"CPU Count: %lu", (unsigned long)[UIDevice currentDevice].hay_cpuCount);
+    NSLog (@"Active CPU Count: %lu", (unsigned long)[UIDevice currentDevice].hay_cpuActiveCount);
+    NSLog (@"Physical CPU Count: %lu", (unsigned long)[UIDevice currentDevice].hay_cpuPhysicalCount);
+    NSLog (@"Physical Max CPU Count: %lu", (unsigned long)[UIDevice currentDevice].hay_cpuPhysicalMaximumCount);
+    NSLog (@"Logical CPU Count: %lu", (unsigned long)[UIDevice currentDevice].hay_cpuLogicalCount);
+    NSLog (@"Logical Max CPU Count: %lu", (unsigned long)[UIDevice currentDevice].hay_cpuLogicalMaximumCount);
+    NSLog (@"CPU Frequency: %@", [HAYUnitFormatter stringFromNumber:@([UIDevice currentDevice].hay_cpuFrequency) forUnit:HSUnitFormatterUnitTypeHertz]);
+    NSLog (@"CPU Maximum Frequency: %@", [HAYUnitFormatter stringFromNumber:@([UIDevice currentDevice].hay_cpuMaximumFrequency) forUnit:HSUnitFormatterUnitTypeHertz]);
+    NSLog (@"CPU Minimum Frequency: %@", [HAYUnitFormatter stringFromNumber:@([UIDevice currentDevice].hay_cpuMinimumFrequency) forUnit:HSUnitFormatterUnitTypeHertz]);
+    NSLog (@"CPU Type: %@", [UIDevice currentDevice].hay_cpuType);
+    NSLog (@"CPU Subtype: %@", [UIDevice currentDevice].hay_cpuSubType);
+    NSLog (@"CPU Architectures: %@", [UIDevice currentDevice].hay_cpuArchitectures);
     
-    NSLog (@"Memory Marketing Size: %@", [NSByteCountFormatter stringFromByteCount:[UIDevice currentDevice].hs_memoryMarketingSize countStyle:NSByteCountFormatterCountStyleBinary]);
-    NSLog (@"Memory Physical Size: %@", [NSByteCountFormatter stringFromByteCount:[UIDevice currentDevice].hs_memoryPhysicalSize countStyle:NSByteCountFormatterCountStyleBinary]);
+    NSLog (@"Memory Marketing Size: %@", [NSByteCountFormatter stringFromByteCount:[UIDevice currentDevice].hay_memoryMarketingSize countStyle:NSByteCountFormatterCountStyleBinary]);
+    NSLog (@"Memory Physical Size: %@", [NSByteCountFormatter stringFromByteCount:[UIDevice currentDevice].hay_memoryPhysicalSize countStyle:NSByteCountFormatterCountStyleBinary]);
     
-    NSLog (@"Disk Marketing Space: %@", [NSByteCountFormatter stringFromByteCount:[UIDevice currentDevice].hs_diskMarketingSpace countStyle:NSByteCountFormatterCountStyleBinary]);
+    NSLog (@"Disk Marketing Space: %@", [NSByteCountFormatter stringFromByteCount:[UIDevice currentDevice].hay_diskMarketingSpace countStyle:NSByteCountFormatterCountStyleBinary]);
     
-    NSLog (@"Disk Total Space: %@", [NSByteCountFormatter stringFromByteCount:[UIDevice currentDevice].hs_diskTotalSpace countStyle:NSByteCountFormatterCountStyleBinary]);
-    NSLog (@"Disk Free Space: %@", [NSByteCountFormatter stringFromByteCount:[UIDevice currentDevice].hs_diskFreeSpace countStyle:NSByteCountFormatterCountStyleBinary]);
+    NSLog (@"Disk Total Space: %@", [NSByteCountFormatter stringFromByteCount:[UIDevice currentDevice].hay_diskTotalSpace countStyle:NSByteCountFormatterCountStyleBinary]);
+    NSLog (@"Disk Free Space: %@", [NSByteCountFormatter stringFromByteCount:[UIDevice currentDevice].hay_diskFreeSpace countStyle:NSByteCountFormatterCountStyleBinary]);
     
     NSLog (@"--- Software Information Dump ---");
     
-    NSLog (@"System uptime: %@", [UIDevice currentDevice].hs_systemBootDate);
+    NSLog (@"System uptime: %@", [UIDevice currentDevice].hay_systemBootDate);
     
-    NSLog (@"Process Count: %lu", (unsigned long)[UIDevice currentDevice].hs_processCount);
-    NSLog (@"CPU Usage: %d%%", (int)([UIDevice currentDevice].hs_cpuUsage * 100.0));
+    NSLog (@"Process Count: %lu", (unsigned long)[UIDevice currentDevice].hay_processCount);
+    NSLog (@"CPU Usage: %d%%", (int)([UIDevice currentDevice].hay_cpuUsage * 100.0));
     
     NSLog (@"--- Application Information Dump ---");
     
-    NSLog (@"Application Memory Footprint: %@", [NSByteCountFormatter stringFromByteCount:[UIApplication sharedApplication].memorySize countStyle:NSByteCountFormatterCountStyleBinary]);
+    NSLog (@"Application Memory Footprint: %@", [NSByteCountFormatter stringFromByteCount:[UIApplication sharedApplication].hay_memorySize countStyle:NSByteCountFormatterCountStyleBinary]);
     
-    NSLog (@"Thread Count: %lu", (unsigned long)[UIApplication sharedApplication].threadCount);
+    NSLog (@"Thread Count: %lu", (unsigned long)[UIApplication sharedApplication].hay_threadCount);
     
     NSLog (@"--- Network Information Dump ---");
     
-    NSLog (@"SSID: %@", [[UIDevice currentDevice] hs_SSID]);
-    NSLog (@"BSSID: %@", [[UIDevice currentDevice] hs_BSSID]);
-    NSLog (@"MAC Address: %@", [[UIDevice currentDevice] hs_macAddress]);
-    NSLog (@"Local IP Addresses: %@", [[UIDevice currentDevice] hs_localIPAddresses]);
+    NSLog (@"SSID: %@", [[UIDevice currentDevice] hay_SSID]);
+    NSLog (@"BSSID: %@", [[UIDevice currentDevice] hay_BSSID]);
+    NSLog (@"MAC Address: %@", [[UIDevice currentDevice] hay_macAddress]);
+    NSLog (@"Local IP Addresses: %@", [[UIDevice currentDevice] hay_localIPAddresses]);
 
     
     NSLog (@"--- Properties ---");
-    NSLog (@"%@", [[UIViewController class] properties]);
+    NSLog (@"%@", [[UIViewController class] hay_properties]);
     
     NSLog (@"--- URL Parameters ---");
-    NSLog (@"%@", [NSURL URLWithString:@"http://www.google.com/google?test=test&something=1"].queryParameters);
+    NSLog (@"%@", [NSURL URLWithString:@"http://www.google.com/google?test=test&something=1"].hay_queryParameters);
     
     NSLog (@"--- Random strings ---");
-    NSLog (@"Alpha string: %@", [NSString hs_randomAlphaStringOfLength:10]);
-    NSLog (@"Alpha-numeric string: %@", [NSString hs_randomAlphaNumericStringOfLength:10]);
-    NSLog (@"Random string: %@", [NSString hs_randomStringOfLength:10]);
+    NSLog (@"Alpha string: %@", [NSString hay_randomAlphaStringOfLength:10]);
+    NSLog (@"Alpha-numeric string: %@", [NSString hay_randomAlphaNumericStringOfLength:10]);
+    NSLog (@"Random string: %@", [NSString hay_randomStringOfLength:10]);
 }
 
 @end
