@@ -88,7 +88,7 @@ Usage
 
 Documentation
 -------
-All header files and fully documented for ease of use. Only method stubs are displayed in readme, to keep it short. The documentation is in DoxyGen format, allowing Xcode to parse documentation headers.
+All header files and fully documented for ease of use. Only method stubs are displayed in readme, to keep it short. The documentation is in DoxyGen format, allowing Xcode to parse documentation headers or generate HTML docs.
 
 Installation & Setup
 --------
