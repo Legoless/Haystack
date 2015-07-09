@@ -120,7 +120,7 @@ Dal Rupnik
 
 - [legoless](https://github.com/legoless) on **GitHub**
 - [@thelegoless](https://twitter.com/thelegoless) on **Twitter**
-- [legoless@arvystate.net](mailto:legoless@arvystate.net)
+- [dal@unifiedsense.com](mailto:dal@unifiedsense.com)
 
 License
 ======
