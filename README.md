@@ -101,7 +101,7 @@ Or manually drag & drop `Haystack` folder into Xcode project, then follow the **
 
 Using in project
 --------
-It is recommended for you to add Haystack.h file into precompiled header (.pch) file. That way all classes and categories are added to all files and you can use them everywhere throughout the project.
+It is recommended for you to add Haystack.h file into precompiled header (.pch). That way all classes and categories are added to all files and you can use them everywhere throughout the project.
 
 Documents
 =======
