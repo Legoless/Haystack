@@ -3,7 +3,7 @@ Classes
 
 This wiki describes utility classes in Haystack SDK.
 
-HSMath
+HAYMath
 --------
 A basic class for all the missing mathematical and arithmetic operations and functions.
 
@@ -19,7 +19,17 @@ A basic class for all the missing mathematical and arithmetic operations and fun
 + (NSInteger)randomBetweenMin:(NSInteger)min max:(NSInteger)max;
 ```
 
-HSWeakPointer
+HAYUnitFormatter
+--------
+A simple class that helps with formatting units and adds correct prefix, such as milli, kilo, etc.
+
+```objective-c
++ (NSString *)stringFromNumber:(NSNumber *)number forUnit:(HSUnitFormatterUnitType)unit;
+
++ (NSString *)fullStringFromNumber:(NSNumber *)number forUnit:(HSUnitFormatterUnitType)unit;
+```
+
+HAYWeakPointer
 --------
 A weak pointer wrapper object to be used to store weak references to certain objects.
 
