@@ -30,6 +30,16 @@ A simple category for basic information about application.
 - (BOOL)hay_isRunningTests;
 ```
 
+### UIApplication+Screenshot
+
+A category that helps by taking screenshots of application window.
+
+```objective-c
+- (UIImage *)hay_screenshot;
+- (UIImage *)hay_screenshotExcludingWindows:(NSArray *)windows;
+- (UIImage *)hay_screenshotExcludingWindows:(NSArray *)windows withStatusBar:(BOOL)statusBar;
+```
+
 ### UINavigationController+BackgroundImage
 
 A simple UINavigationController category that enables the usage of a base background image in navigation controller. Pushing transparent views on top of the navigation stack now keeps the same background image.
