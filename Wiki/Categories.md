@@ -40,6 +40,17 @@ A category that helps by taking screenshots of application window.
 - (UIImage *)hay_screenshotExcludingWindows:(NSArray *)windows withStatusBar:(BOOL)statusBar;
 ```
 
+### UIApplication+Version
+
+UIApplication category that adds utility methods for application bundle.
+
+```objective-c
+- (NSString *)hay_name;
+- (NSString *)hay_version;
+- (NSString *)hay_build;
+- (NSString *)hay_bundleIdentifier;
+```
+
 ### UIButton+Position
 
 The UIButton always positions title label to the right of the image. In certain cases you want the title to be placed above or below the image. This category fixes the problem.
@@ -136,17 +147,6 @@ This category extends the UIDevice functionality with additional information abo
 - (BOOL)hasTouchID;
 ```
 
-### UIApplication+Version
-
-UIApplication category that adds utility methods for application bundle.
-
-```objective-c
-+ (NSString *)name;
-
-+ (NSString *)version;
-
-+ (NSString *)build;
-```
 
 ### UIView+Cell
 
@@ -163,6 +163,14 @@ UIView category that adds different debugging outputs to `UIView` that make debu
 
 ```objective-c
 - (NSString *)hay_detailedDebugDescription;
+```
+
+### UIView+Hierarchy
+
+UIView category that adds different debugging outputs to `UIView` that make debugging easier.
+
+```objective-c
+- (UIView *)hay_parentViewOfType:(Class)class;
 ```
 
 ### UIView+Snapshot
