@@ -150,22 +150,29 @@ UIApplication category that adds utility methods for application bundle.
 
 ### UIView+Cell
 
-This category adds ability to find a parent `UITableViewCell` of any view, if the view is distant or close child of cell.
+This category adds ability to find a parent `UITableViewCell` or `UICollectionViewCell` of any view, if the view is distant or close child of cell.
+
+```objective-c
+- (UITableViewCell *)hay_parentTableViewCell;
+- (UICollectionViewCell *)hay_parentCollectionViewCell;
+```
 
 ### UIView+Debug
 
 UIView category that adds different debugging outputs to `UIView` that make debugging easier.
+
+```objective-c
+- (NSString *)hay_detailedDebugDescription;
+```
 
 ### UIView+Snapshot
 
 UIView category that creates an UIImage snapshot of the specific view.
 
 ```objective-c
-- (UIImage *)snapshotImage;
-
-- (UIImage *)snapshotImageWithScale:(CGFloat)scale;
+- (UIImage *)hay_snapshotImage;
+- (UIImage *)hay_snapshotImageWithScale:(CGFloat)scale;
 ```
-
 
 ### UIViewController+BackgroundImage
 
