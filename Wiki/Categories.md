@@ -40,20 +40,6 @@ A category that helps by taking screenshots of application window.
 - (UIImage *)hay_screenshotExcludingWindows:(NSArray *)windows withStatusBar:(BOOL)statusBar;
 ```
 
-### UINavigationController+BackgroundImage
-
-A simple UINavigationController category that enables the usage of a base background image in navigation controller. Pushing transparent views on top of the navigation stack now keeps the same background image.
-
-```objective-c
-- (void)setBackgroundImage:(UIImage *)image;
-
-- (void)setBackgroundImage:(UIImage *)image animated:(BOOL)animated;
-
-- (UIImage *)backgroundImage;
-
-- (UIImageView *)backgroundImageView;
-```
-
 ### UIButton+Position
 
 The UIButton always positions title label to the right of the image. In certain cases you want the title to be placed above or below the image. This category fixes the problem.
