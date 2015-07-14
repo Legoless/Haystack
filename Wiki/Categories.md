@@ -166,6 +166,20 @@ UIView category that creates an UIImage snapshot of the specific view.
 - (UIImage *)snapshotImageWithScale:(CGFloat)scale;
 ```
 
+
+### UIViewController+BackgroundImage
+
+A simple UIViewController category that enables the usage of a base background image in a view controller.
+
+```objective-c
+- (void)hay_setBackgroundImage:(UIImage *)image;
+- (void)hay_setBackgroundImage:(UIImage *)image animated:(BOOL)animated;
+
+- (UIImage *)hay_backgroundImage;
+- (UIImageView *)hay_backgroundImageView;
+```
+
+
 ## Foundation
 
 Additions to the most core framework in iOS and OS X.
