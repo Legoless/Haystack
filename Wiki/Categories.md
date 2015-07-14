@@ -19,6 +19,17 @@ Makes displaying alert view very quick and easy.
 + (void)hay_showWithTitle:(NSString *)title message:(NSString *)message delegate:(id <UIAlertViewDelegate>)delegate cancelButtonTitle:(NSString *)cancelButtonTitle otherButtonTitles:(NSString *)otherButtonTitles, ... NS_REQUIRES_NIL_TERMINATION;
 ```
 
+### UIApplication+Information
+
+A simple category for basic information about application.
+
+```objective-c
+- (long long)hay_memorySize;
+- (NSUInteger)hay_threadCount;
+- (float)hay_cpuUsage;
+- (BOOL)hay_isRunningTests;
+```
+
 ### UINavigationController+BackgroundImage
 
 A simple UINavigationController category that enables the usage of a base background image in navigation controller. Pushing transparent views on top of the navigation stack now keeps the same background image.
