@@ -64,11 +64,13 @@ The UIButton always positions title label to the right of the image. In certain 
 An UIColor category that allows the creation of UIColors from Hex HTML strings and 8-bit colors.
 
 ```objective-c
-+ (UIColor *)colorWith8BitRed:(NSInteger)red green:(NSInteger)green blue:(NSInteger)blue alpha:(CGFloat)alpha;
-
-+ (UIColor *)colorWithHex:(NSString *)hex;
-
-+ (UIColor *)colorWithObject:(id)object;
++ (UIColor *)hay_colorWith8BitRed:(NSInteger)red green:(NSInteger)green blue:(NSInteger)blue alpha:(CGFloat)alpha;
++ (UIColor *)hay_colorWith8BitRed:(NSInteger)red green:(NSInteger)green blue:(NSInteger)blue;
++ (UIColor *)hay_colorWithHex:(NSString *)hex;
++ (UIColor *)hay_colorWithObject:(id)object;
++ (UIColor *)hay_colorWithName:(NSString *)name;
++ (NSArray *)hay_colorsWithName:(NSString *)name;
++ (id)hay_colorObjectWithName:(NSString *)name;
 ```
 
 ### UIColor+Flat
