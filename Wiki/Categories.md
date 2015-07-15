@@ -56,13 +56,7 @@ UIApplication category that adds utility methods for application bundle.
 The UIButton always positions title label to the right of the image. In certain cases you want the title to be placed above or below the image. This category fixes the problem.
 
 ```objective-c
-- (void)setTitleBelowWithSpacing:(CGFloat)spacing;
-
-- (void)setTitleAboveWithSpacing:(CGFloat)spacing;
-
-- (void)setTitleRightWithSpacing:(CGFloat)spacing;
-
-- (void)setTitleLeftWithSpacing:(CGFloat)spacing;
+- (void)hay_setTitleBelowWithSpacing:(CGFloat)spacing;
 ```
 
 ### UIColor+Create
