@@ -78,45 +78,26 @@ An UIColor category that allows the creation of UIColors from Hex HTML strings a
 An UIColor category that encapsulates flat colors used in multiple applications.
 
 ```objective-c
-+ (UIColor *)turquoiseColor;
-
-+ (UIColor *)greenSeaColor;
-
-+ (UIColor *)emeraldColor;
-
-+ (UIColor *)nephritisColor;
-
-+ (UIColor *)peterRiverColor;
-
-+ (UIColor *)belizeHoleColor;
-
-+ (UIColor *)amethystColor;
-
-+ (UIColor *)wisteriaColor;
-
-+ (UIColor *)wetAsphaltColor;
-
-+ (UIColor *)midnightBlueColor;
-
-+ (UIColor *)sunFlowerColor;
-
-+ (UIColor *)carrotColor;
-
-+ (UIColor *)orangeFruitColor;
-
-+ (UIColor *)pumpkinColor;
-
-+ (UIColor *)alizarinColor;
-
-+ (UIColor *)pomegranateColor;
-
-+ (UIColor *)cloudsColor;
-
-+ (UIColor *)silverColor;
-
-+ (UIColor *)concreteColor;
-
-+ (UIColor *)asbestosColor;
++ (UIColor *)hay_turquoiseColor;
++ (UIColor *)hay_greenSeaColor;
++ (UIColor *)hay_emeraldColor;
++ (UIColor *)hay_nephritisColor;
++ (UIColor *)hay_peterRiverColor;
++ (UIColor *)hay_belizeHoleColor;
++ (UIColor *)hay_amethystColor;
++ (UIColor *)hay_wisteriaColor;
++ (UIColor *)hay_wetAsphaltColor;
++ (UIColor *)hay_midnightBlueColor;
++ (UIColor *)hay_sunFlowerColor;
++ (UIColor *)hay_carrotColor;
++ (UIColor *)hay_orangeFruitColor;
++ (UIColor *)hay_pumpkinColor;
++ (UIColor *)hay_alizarinColor;
++ (UIColor *)hay_pomegranateColor;
++ (UIColor *)hay_cloudsColor;
++ (UIColor *)hay_silverColor;
++ (UIColor *)hay_concreteColor;
++ (UIColor *)hay_asbestosColor;
 ```
 
 ### UIDevice+DeviceInfo
