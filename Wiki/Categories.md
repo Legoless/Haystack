@@ -181,13 +181,12 @@ Additions to the most core framework in iOS and OS X.
 A category that adds convenience methods to `NSArray`, `NSDictionary` and `NSSet`. Methods allow searching collections by object class or inherited class.
 
 ```objective-c
-- (BOOL)containsObjectOfClass:(Class)objectClass;
-
-- (BOOL)containsObjectOfInheritedClass:(Class)objectClass;
-
-- (BOOL)containsAllObjectsOfClass:(Class)objectClass;
-
-- (BOOL)containsAllObjectsOfInheritedClass:(Class)objectClass;
+- (id)hay_firstObjectOfClass:(Class)objectClass;
+- (id)hay_lastObjectOfClass:(Class)objectClass;
+- (BOOL)hay_containsObjectOfClass:(Class)objectClass;
+- (BOOL)hay_containsObjectOfInheritedClass:(Class)objectClass;
+- (BOOL)hay_containsAllObjectsOfClass:(Class)objectClass;
+- (BOOL)hay_containsAllObjectsOfInheritedClass:(Class)objectClass;
 ```
 
 ### NSDate+Timestamp
