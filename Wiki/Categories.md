@@ -189,6 +189,14 @@ A category that adds convenience methods to `NSArray`, `NSDictionary` and `NSSet
 - (BOOL)hay_containsAllObjectsOfInheritedClass:(Class)objectClass;
 ```
 
+### NSData+Base64
+
+Implements Base64 string decoding.
+
+```objective-c
+- (NSString *)hay_base64String;
+```
+
 ### NSDate+Timestamp
 
 A category that adds Unix timestamp methods to `NSDate`.
