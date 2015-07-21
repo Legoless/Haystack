@@ -214,9 +214,11 @@ A category that adds Unix timestamp methods to `NSDate`.
 Adds certain methods to `NSString`.
 
 ```objective-c
-- (BOOL)endsWith:(NSString *)string;
+- (BOOL)hay_endsWith:(NSString *)string;
 
-- (BOOL)startsWith:(NSString *)string;
+- (BOOL)hay_startsWith:(NSString *)string;
+
+- (NSUInteger)hay_numberOfOccurencesOfString:(NSString *)string;
 ```
 
 ### NSURL+Parameters
