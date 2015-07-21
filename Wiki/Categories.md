@@ -202,11 +202,12 @@ Implements Base64 string decoding.
 A category that adds Unix timestamp methods to `NSDate`.
 
 ```objective-c
-+ (NSTimeInterval)unixTimestampFromDate:(NSDate *)date;
-
-+ (NSTimeInterval)timeIntervalUntilUnixTimeStamp:(NSTimeInterval)timestamp;
-
-- (NSTimeInterval)unixTimestamp;
++ (NSTimeInterval)hay_unixTimestampFromDate:(NSDate *)date;
++ (NSTimeInterval)hay_timeIntervalUntilUnixTimeStamp:(NSTimeInterval)timestamp;
+- (NSTimeInterval)hay_unixTimestamp;
++ (NSDate *)hay_dateWithUnixTimestamp:(NSTimeInterval)timestamp;
++ (NSTimeInterval)hay_unixTimestampForToday;
++ (NSTimeInterval)hay_unixTimestampDayForDate:(NSDate *)date;
 ```
 
 ### NSString+Additional
