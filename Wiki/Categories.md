@@ -218,3 +218,15 @@ Adds certain methods to `NSString`.
 
 - (BOOL)startsWith:(NSString *)string;
 ```
+
+### NSURL+Parameters
+
+Adds parameter manipulating methods to `NSURL`.
+
+```objective-c
+- (NSDictionary *)hay_queryParameters;
+
+- (NSURL *)hay_urlByAppendingParameter:(NSString *)parameter value:(NSString *)value;
+
+- (NSURL *)hay_urlByAppendingParameters:(NSDictionary *)parameters;
+```
