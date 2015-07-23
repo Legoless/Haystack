@@ -233,3 +233,11 @@ Adds parameter manipulating methods to `NSURL`.
 
 - (NSURL *)hay_urlByAppendingParameters:(NSDictionary *)parameters;
 ```
+
+### NSInvocation+Argument
+
+Makes retrieving argument properties from invocations easy.
+
+```objective-c
+- (id)hay_objectAtIndex:(NSInteger)index;
+```
