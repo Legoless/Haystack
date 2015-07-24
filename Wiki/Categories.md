@@ -241,3 +241,7 @@ Makes retrieving argument properties from invocations easy.
 ```objective-c
 - (id)hay_objectAtIndex:(NSInteger)index;
 ```
+
+### NSObject+Swizzle
+
+Easy and simple method swizzling category.
