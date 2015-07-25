@@ -247,6 +247,10 @@ Makes retrieving argument properties from invocations easy.
 Easy and simple method swizzling category.
 
 ```objective-c
++ (void)hay_swizzleInstanceMethod:(SEL)firstMethod withMethod:(SEL)secondMethod;
++ (void)hay_swizzleClassMethod:(SEL)firstMethod withMethod:(SEL)secondMethod;
++ (void)hay_swizzleInstanceMethod:(SEL)firstMethod withMethod:(SEL)secondMethod inClass:(Class)class;
++ (void)hay_swizzleClassMethod:(SEL)firstMethod withMethod:(SEL)secondMethod inClass:(Class)class;
 ```
 
 ### NSString+Random
