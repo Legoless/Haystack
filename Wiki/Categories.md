@@ -245,3 +245,17 @@ Makes retrieving argument properties from invocations easy.
 ### NSObject+Swizzle
 
 Easy and simple method swizzling category.
+
+```objective-c
+```
+
+### NSString+Random
+
+Generate strings with random characters.
+
+```objective-c
++ (NSString *)hay_randomAlphaNumericStringOfLength:(NSUInteger)length;
++ (NSString *)hay_randomAlphaStringOfLength:(NSUInteger)length;
++ (NSString *)hay_randomStringOfLength:(NSUInteger)length;
++ (NSString *)hay_UUID;
+```
