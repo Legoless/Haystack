@@ -71,7 +71,7 @@
         return UIDeviceJailbreakStatusPathExists;
     }
     
-    
+    /*
     //
     // For check
     //
@@ -86,6 +86,7 @@
     {
         return UIDeviceJailbreakStatusSandboxWrite;
     }
+    */
     
     //
     // Symbolic link verification
