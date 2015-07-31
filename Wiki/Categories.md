@@ -263,3 +263,12 @@ Generate strings with random characters.
 + (NSString *)hay_randomStringOfLength:(NSUInteger)length;
 + (NSString *)hay_UUID;
 ```
+
+### NSString+Validation
+
+Validate string with for basic use cases.
+
+```objective-c
+- (BOOL)hay_isValidEmail;
+- (BOOL)hay_isValidEmailWithStrictFilter:(BOOL)strict;
+```
