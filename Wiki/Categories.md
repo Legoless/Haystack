@@ -210,36 +210,22 @@ A category that adds Unix timestamp methods to `NSDate`.
 + (NSTimeInterval)hay_unixTimestampDayForDate:(NSDate *)date;
 ```
 
-### NSString+Additional
-
-Adds certain methods to `NSString`.
-
-```objective-c
-- (BOOL)hay_endsWith:(NSString *)string;
-
-- (BOOL)hay_startsWith:(NSString *)string;
-
-- (NSUInteger)hay_numberOfOccurencesOfString:(NSString *)string;
-```
-
-### NSURL+Parameters
-
-Adds parameter manipulating methods to `NSURL`.
-
-```objective-c
-- (NSDictionary *)hay_queryParameters;
-
-- (NSURL *)hay_urlByAppendingParameter:(NSString *)parameter value:(NSString *)value;
-
-- (NSURL *)hay_urlByAppendingParameters:(NSDictionary *)parameters;
-```
-
 ### NSInvocation+Argument
 
 Makes retrieving argument properties from invocations easy.
 
 ```objective-c
 - (id)hay_objectAtIndex:(NSInteger)index;
+```
+
+### NSObject+Runtime
+
+Convenience methods for runtime inspection.
+
+```objective-c
++ (NSArray *)hay_subclasses;
+- (NSArray *)hay_subclasses;
++ (NSArray *)hay_subclassesOfClass:(Class)parentClass;
 ```
 
 ### NSObject+Swizzle
@@ -251,6 +237,18 @@ Easy and simple method swizzling category.
 + (void)hay_swizzleClassMethod:(SEL)firstMethod withMethod:(SEL)secondMethod;
 + (void)hay_swizzleInstanceMethod:(SEL)firstMethod withMethod:(SEL)secondMethod inClass:(Class)class;
 + (void)hay_swizzleClassMethod:(SEL)firstMethod withMethod:(SEL)secondMethod inClass:(Class)class;
+```
+
+### NSString+Additional
+
+Adds certain methods to `NSString`.
+
+```objective-c
+- (BOOL)hay_endsWith:(NSString *)string;
+
+- (BOOL)hay_startsWith:(NSString *)string;
+
+- (NSUInteger)hay_numberOfOccurencesOfString:(NSString *)string;
 ```
 
 ### NSString+Random
@@ -271,4 +269,16 @@ Validate string with for basic use cases.
 ```objective-c
 - (BOOL)hay_isValidEmail;
 - (BOOL)hay_isValidEmailWithStrictFilter:(BOOL)strict;
+```
+
+### NSURL+Parameters
+
+Adds parameter manipulating methods to `NSURL`.
+
+```objective-c
+- (NSDictionary *)hay_queryParameters;
+
+- (NSURL *)hay_urlByAppendingParameter:(NSString *)parameter value:(NSString *)value;
+
+- (NSURL *)hay_urlByAppendingParameters:(NSDictionary *)parameters;
 ```
