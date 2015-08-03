@@ -218,6 +218,16 @@ Makes retrieving argument properties from invocations easy.
 - (id)hay_objectAtIndex:(NSInteger)index;
 ```
 
+### NSObject+Property
+
+Information about properties on certain class or object.
+
+```objective-c
+- (NSDictionary *)hay_properties;
+
++ (NSDictionary *)hay_properties;
+```
+
 ### NSObject+PropertyList
 
 Convenience methods for working with property lists.
@@ -225,6 +235,7 @@ Convenience methods for working with property lists.
 ```objective-c
 - (BOOL)hay_isPropertyList;
 ```
+
 ### NSObject+Runtime
 
 Convenience methods for runtime inspection.
