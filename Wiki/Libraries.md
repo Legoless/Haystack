@@ -10,6 +10,11 @@ Below is the list of iOS libraries that are common to use in almost every iOS pr
    Networking library with automatic JSON parsing and NSURLSession support.  
    `pod 'AFNetworking'`
    
+- [**Alpha**](https://github.com/legoless/Alpha)
+
+   Next generation debugging framework for iOS.
+   `pod 'Alpha'`   
+   
 - [**ARAnalytics**](https://github.com/orta/ARAnalytics)
 
    Abstract analytics library includes most of the common analytics services and combines them into a single component.  
