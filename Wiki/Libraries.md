@@ -12,7 +12,7 @@ Below is the list of iOS libraries that are common to use in almost every iOS pr
    
 - [**Alpha**](https://github.com/legoless/Alpha)
 
-   Next generation debugging framework for iOS.   
+   Next generation debugging framework for iOS with pluginable architecture.   
    `pod 'Alpha'`
    
 - [**ARAnalytics**](https://github.com/orta/ARAnalytics)
