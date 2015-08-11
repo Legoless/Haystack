@@ -28,7 +28,7 @@ Haystack is **not limited only** to Objective-C code, but contains multiple reso
 
 - **SDK**
 
-   Contains Objective-C classes and categories that are installed part of a CocoaPods install. The classes are general and extend base Apple SDK's. SDK supports iOS 7 and up.  
+   Contains Objective-C classes and categories that are installed part of a CocoaPods install. The classes are general and extend base Apple SDK's. **SDK supports iOS 7 and up**.  
    
    - **[Categories](https://github.com/Legoless/Haystack/blob/master/Wiki/Categories.md)**
      - *Foundation*
