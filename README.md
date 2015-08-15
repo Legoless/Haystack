@@ -24,7 +24,7 @@ Haystack is **not limited only** to Objective-C code, but contains multiple reso
    
 - **Scripts**
 
-   Handful of bash and Ruby scripts that help with iOS development. Scripts include management of Xcode SDK's, copying them around, which is useful for Beta development.
+   Handful of Bash and Ruby scripts that speed up iOS development. Scripts include management of Xcode SDK's, copying them around, which is useful for Beta development.
 
 - **SDK**
 
