@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		389397E51B813F780096F4DF /* UIStoryboard+Initialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 389397E41B813F780096F4DF /* UIStoryboard+Initialization.m */; };
 		38A3BF7D1A1123F000F2B8F9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 38A3BF7C1A1123F000F2B8F9 /* main.m */; };
 		38A3BF801A1123F000F2B8F9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 38A3BF7F1A1123F000F2B8F9 /* AppDelegate.m */; };
 		38A3BF831A1123F000F2B8F9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38A3BF821A1123F000F2B8F9 /* ViewController.m */; };
@@ -64,6 +65,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		389397E31B813F780096F4DF /* UIStoryboard+Initialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIStoryboard+Initialization.h"; sourceTree = "<group>"; };
+		389397E41B813F780096F4DF /* UIStoryboard+Initialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIStoryboard+Initialization.m"; sourceTree = "<group>"; };
 		38A3BF771A1123F000F2B8F9 /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		38A3BF7B1A1123F000F2B8F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		38A3BF7C1A1123F000F2B8F9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -172,6 +175,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		389397E21B813F780096F4DF /* UIStoryboard+Initialization */ = {
+			isa = PBXGroup;
+			children = (
+				389397E31B813F780096F4DF /* UIStoryboard+Initialization.h */,
+				389397E41B813F780096F4DF /* UIStoryboard+Initialization.m */,
+			);
+			path = "UIStoryboard+Initialization";
+			sourceTree = "<group>";
+		};
 		38A3BF6E1A1123F000F2B8F9 = {
 			isa = PBXGroup;
 			children = (
@@ -273,6 +285,7 @@
 				38AF33561B498A410066E2D9 /* UIDevice+Network */,
 				38AF33591B498A410066E2D9 /* UIDevice+Software */,
 				38AF335C1B498A410066E2D9 /* UIFont+SmallCaps */,
+				389397E21B813F780096F4DF /* UIStoryboard+Initialization */,
 				38AF335F1B498A410066E2D9 /* UIView+Cell */,
 				38AF33621B498A410066E2D9 /* UIView+Debug */,
 				38AF33651B498A410066E2D9 /* UIView+Hierarchy */,
@@ -718,6 +731,7 @@
 				38AF339A1B498A410066E2D9 /* UIView+Hierarchy.m in Sources */,
 				38AF33801B498A410066E2D9 /* NSDate+Timestamp.m in Sources */,
 				38AF33861B498A410066E2D9 /* NSObject+Swizzle.m in Sources */,
+				389397E51B813F780096F4DF /* UIStoryboard+Initialization.m in Sources */,
 				38AF33B01B498C7B0066E2D9 /* HAYMath.m in Sources */,
 				38AF33871B498A410066E2D9 /* NSString+Additional.m in Sources */,
 				38AF33841B498A410066E2D9 /* NSObject+PropertyList.m in Sources */,
