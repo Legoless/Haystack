@@ -60,6 +60,7 @@ Haystack is **not limited only** to Objective-C code, but contains multiple reso
         - UIDevice+Network
         - UIDevice+Software
         - UIFont+SmallCaps
+        - UIStoryboard+Initialization
         - UIView+Cell
         - UIView+Debug
         - UIView+Hierarchy
