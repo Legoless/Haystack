@@ -123,7 +123,13 @@ This category extends the UIDevice functionality with additional information abo
 
 - (BOOL)hasTouchID;
 ```
+### UIStoryboard+Initialization
 
+UIStoryboard category that makes initialization of view controllers quick and easy from Storyboards.
+
+```objective-c
++ (UIViewController *)hay_initialViewControllerInStoryboardWithName:(NSString *)name;
+```
 
 ### UIView+Cell
 
