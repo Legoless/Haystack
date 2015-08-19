@@ -125,7 +125,7 @@ This category extends the UIDevice functionality with additional information abo
 ```
 ### UIStoryboard+Initialization
 
-UIStoryboard category that makes initialization of view controllers quick and easy from Storyboards.
+A convenience category that makes initialization of view controllers quick and easy from Storyboards.
 
 ```objective-c
 + (UIViewController *)hay_initialViewControllerInStoryboardWithName:(NSString *)name;
