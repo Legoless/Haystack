@@ -64,6 +64,11 @@ Below is the list of iOS libraries that are common to use in almost every iOS pr
 
    An UI manager that allows theming of the application using a special variant of the CSS styles.  
    `pod 'NUI'`
+   
+- [**Realm**](http://realm.io)
+   
+   Realm is a high performance database designed from ground up for mobile devices.   
+   `pod 'Realm'`
 
 - [**Reveal-iOS-SDK**](http://revealapp.com/)
    
