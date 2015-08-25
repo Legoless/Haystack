@@ -13,6 +13,10 @@ Haystack SDK contains multiple extensions and enhancements for **iOS** developme
 
 Project is actively developed and as the Apple SDK's changes, project is updated. Note that the project is not finished and might contain bugs. Feel free to open an issue. To avoid clashing with any future framework improvements, all Haystack classes are prefixed with `HAY` and category methods are prefixed with lowercase `hay`.
 
+### Swift Support
+
+*Haystack supports Swift, but as it is written in Objective-C, it currently needs to be added to the bridging header.*
+
 Contents
 ========
 Haystack is **not limited only** to Objective-C code, but contains multiple resources used in development. Resources are divided into sections, each of which is represented by a folder of the same name:
