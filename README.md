@@ -15,7 +15,7 @@ Project is actively developed and as the Apple SDK's changes, project is updated
 
 ### Swift Support
 
-*Haystack supports Swift, but as it is written in Objective-C, it currently needs to be added to the bridging header.*
+*Haystack supports Swift, but as it is written in Objective-C, it currently needs to be added to the bridging header. Framework support on the way.*
 
 Contents
 ========
