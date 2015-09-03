@@ -3,7 +3,7 @@ Libraries
 
 iOS / OSX
 --------
-Below is the list of iOS libraries that are common to use in almost every iOS project (in addition to **Haystack SDK**).
+Below is the list of iOS libraries that are really common to use in almost every iOS project (in addition to **Haystack SDK**).
 
 - [**AFNetworking**](https://github.com/AFNetworking/AFNetworking)
 
