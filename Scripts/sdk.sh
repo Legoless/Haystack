@@ -11,9 +11,9 @@ echo '[COPY]: Searching for Xcode app...'
 XCODE_STABLE=$(find / -name Xcode.app -type d -maxdepth 2)
 
 echo '[COPY]: Stable Xcode found.'
-echo '[COPY]: Searching for Xcode6 app...'
+echo '[COPY]: Searching for Xcode7 Beta app...'
 
-XCODE_BETA=$(find / -name Xcode6*.app -type d -maxdepth 2)
+XCODE_BETA=$(find / -name Xcode-*.app -type d -maxdepth 2)
 
 echo '[COPY]: Beta Xcode6 found.'
 
