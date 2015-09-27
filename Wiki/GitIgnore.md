@@ -34,6 +34,9 @@ dominus.cfg
 # CocoaPods
 #Pods
 
+# Carthage
+Carthage/Build
+
 # KZBootstrap
 KZBootstrapUserMacros.h
 
