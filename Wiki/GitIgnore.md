@@ -25,6 +25,10 @@ DerivedData
 *.hmap
 *.ipa
 
+# Code Coverage
+*.gcda
+*.gcno
+
 # AppCode
 .idea/
 
