@@ -1,6 +1,10 @@
 #!/bin/bash
 
 #
+# This script finds old SDK and copies it into the Beta Xcode 
+#
+
+#
 # Find Xcode 6 Beta
 #
 
