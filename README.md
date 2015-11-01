@@ -19,7 +19,7 @@ Project is actively developed and as the Apple SDK's changes, project is updated
 
 Contents
 ========
-Haystack is **not limited only** to Objective-C code, but contains multiple resources used in development. Resources are divided into sections, each of which is represented by a folder of the same name:
+Haystack is **not limited only** to code resources, but contains multiple other resources used in development, such as scripts. Resources are divided into sections, each of which is represented by a folder of the same name:
 
 - **Pods**
 
