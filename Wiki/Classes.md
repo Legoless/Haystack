@@ -5,7 +5,7 @@ This wiki describes utility classes in Haystack SDK.
 
 HAYMath
 --------
-A basic class for all the missing mathematical and arithmetic operations and functions.
+A basic class for all the missing mathematical and arithmetic operations and functions that are of common usage.
 
 ```objective-c
 + (double)degreesToRadians:(double)angle;
