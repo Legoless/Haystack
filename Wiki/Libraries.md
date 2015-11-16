@@ -84,3 +84,12 @@ Below is the list of iOS libraries that are really common to use in almost every
    
    Cross-platform push notification handling.  
    `pod 'UrbanAirship-iOS-SDK'`
+
+
+The following libraries are Swift based.
+
+- [**Alamofire**](https://github.com/Alamofire/Alamofire)
+
+   Networking library similar to AFNetworking with automatic JSON parsing and NSURLSession support.  
+   `pod 'Alamofire'`
+   
