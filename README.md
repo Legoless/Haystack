@@ -77,7 +77,7 @@ Haystack is **not limited only** to code resources, but contains multiple other 
 
 - **Templates**
 
-   Contains Liftoff templates for different types of iOS or Mac OS X projects.
+   Contains Liftoff templates to generate different types of iOS or Mac OS X projects.
 
 - **Wiki**
 
