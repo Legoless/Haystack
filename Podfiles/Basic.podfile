@@ -1,5 +1,7 @@
 platform :ios, '7.0'
 
+use_frameworks! # If using dynamic framework loading
+
 pod 'AFNetworking'
 pod 'DOSingleton'
 pod 'JSONModel'

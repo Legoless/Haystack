@@ -3,7 +3,7 @@ Libraries
 
 iOS / OSX
 --------
-Below is the list of iOS libraries that are really common to use in almost every iOS project (in addition to **Haystack SDK**).
+Below is the list of iOS libraries that are really common to use in almost every iOS project (in addition to **Haystack SDK**). The following libraries are Objective-C based.
 
 - [**AFNetworking**](https://github.com/AFNetworking/AFNetworking)
 
@@ -12,7 +12,7 @@ Below is the list of iOS libraries that are really common to use in almost every
    
 - [**Alpha**](https://github.com/legoless/Alpha)
 
-   Next generation debugging framework for iOS with pluginable architecture.   
+   Next generation debugging framework for iOS with scalable plugin architecture.   
    `pod 'Alpha'`
    
 - [**ARAnalytics**](https://github.com/orta/ARAnalytics)
@@ -84,3 +84,12 @@ Below is the list of iOS libraries that are really common to use in almost every
    
    Cross-platform push notification handling.  
    `pod 'UrbanAirship-iOS-SDK'`
+
+
+The following libraries are Swift based and can be used only in iOS 8+ targets.
+
+- [**Alamofire**](https://github.com/Alamofire/Alamofire)
+
+   Networking library similar to AFNetworking with automatic JSON parsing and NSURLSession support.  
+   `pod 'Alamofire'`
+   

@@ -11,15 +11,15 @@ Haystack
 
 Haystack SDK contains multiple extensions and enhancements for **iOS** development, including a collection of simple Objective-C classes and categories that fit in almost every project. Most of these classes are not large or structured enough to fit in a special library or framework, but are regurarely needed throughout the most projects you are working on. Basically it is meant to fill the void of classes without entire libraries.
 
-Project is actively developed and as the Apple SDK's changes, project is updated. Note that the project is not finished and might contain bugs. Feel free to open an issue. To avoid clashing with any future framework improvements, all Haystack classes are prefixed with `HAY` and category methods are prefixed with lowercase `hay`.
+Project is actively developed and as the Apple SDK's changes, project is updated. Note that the project is not finished and might contain bugs. Feel free to open an issue. To avoid clashing with any future framework improvements, all Haystack classes are prefixed with `HAY` and category methods are also prefixed with lowercase `hay`.
 
 ### Swift Support
 
-*Haystack supports Swift, but as it is written in Objective-C, it currently needs to be added to the bridging header. Framework and Carthage support on the way.*
+*Haystack supports Swift, but as it is written in Objective-C, it currently needs to be added to the bridging header. Framework and Carthage support on the way. If you are only supporting iOS 8.x and greater, you can use Haystack as a framework.*
 
 Contents
 ========
-Haystack is **not limited only** to Objective-C code, but contains multiple resources used in development. Resources are divided into sections, each of which is represented by a folder of the same name:
+Haystack is **not limited only** to code resources, but contains multiple other resources used in development, such as scripts. Resources are divided into sections, each of which is represented by a folder of the same name:
 
 - **Pods**
 
@@ -77,7 +77,7 @@ Haystack is **not limited only** to Objective-C code, but contains multiple reso
 
 - **Templates**
 
-   Contains Liftoff templates for different types of iOS or Mac OS X projects.
+   Contains Liftoff templates to generate different types of iOS or Mac OS X projects.
 
 - **Wiki**
 
@@ -93,7 +93,7 @@ Usage
 
 Documentation
 -------
-All header files and fully documented for ease of use. Only method stubs are displayed in readme, to keep it short. The documentation is in DoxyGen format, allowing Xcode to parse documentation headers or generate HTML docs.
+All header files and fully documented for ease of use. Only method stubs are displayed in readme, to keep it short. The documentation is in **DoxyGen** format, allowing Xcode to parse documentation headers or generate HTML docs.
 
 Installation & Setup
 --------
