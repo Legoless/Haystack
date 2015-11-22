@@ -6,6 +6,7 @@
 #import "NSInvocation+Argument.h"
 
 #import "NSArray+Class.h"
+#import "NSArray+Shuffle.h"
 #import "NSData+Base64.h"
 #import "NSDate+Timestamp.h"
 #import "NSString+Additional.h"

@@ -86,6 +86,9 @@
     NSLog (@"Alpha string: %@", [NSString hay_randomAlphaStringOfLength:10]);
     NSLog (@"Alpha-numeric string: %@", [NSString hay_randomAlphaNumericStringOfLength:10]);
     NSLog (@"Random string: %@", [NSString hay_randomStringOfLength:10]);
+    
+    NSLog (@"--- Array shuffle ---");
+    NSLog (@"Array: %@", [@[ @1, @2, @3, @4 ] hay_shuffledArray]);
 }
 
 @end

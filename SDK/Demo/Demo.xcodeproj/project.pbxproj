@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		380169901C023DB7008DE3AB /* NSArray+Shuffle.m in Sources */ = {isa = PBXBuildFile; fileRef = 3801698F1C023DB7008DE3AB /* NSArray+Shuffle.m */; };
 		389397E51B813F780096F4DF /* UIStoryboard+Initialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 389397E41B813F780096F4DF /* UIStoryboard+Initialization.m */; };
 		38A3BF7D1A1123F000F2B8F9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 38A3BF7C1A1123F000F2B8F9 /* main.m */; };
 		38A3BF801A1123F000F2B8F9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 38A3BF7F1A1123F000F2B8F9 /* AppDelegate.m */; };
@@ -65,6 +66,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3801698E1C023DB7008DE3AB /* NSArray+Shuffle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Shuffle.h"; sourceTree = "<group>"; };
+		3801698F1C023DB7008DE3AB /* NSArray+Shuffle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Shuffle.m"; sourceTree = "<group>"; };
 		389397E31B813F780096F4DF /* UIStoryboard+Initialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIStoryboard+Initialization.h"; sourceTree = "<group>"; };
 		389397E41B813F780096F4DF /* UIStoryboard+Initialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIStoryboard+Initialization.m"; sourceTree = "<group>"; };
 		38A3BF771A1123F000F2B8F9 /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -175,6 +178,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3801698D1C023DB7008DE3AB /* NSArray+Shuffle */ = {
+			isa = PBXGroup;
+			children = (
+				3801698E1C023DB7008DE3AB /* NSArray+Shuffle.h */,
+				3801698F1C023DB7008DE3AB /* NSArray+Shuffle.m */,
+			);
+			path = "NSArray+Shuffle";
+			sourceTree = "<group>";
+		};
 		389397E21B813F780096F4DF /* UIStoryboard+Initialization */ = {
 			isa = PBXGroup;
 			children = (
@@ -259,6 +271,7 @@
 			isa = PBXGroup;
 			children = (
 				38AF330E1B498A410066E2D9 /* NSArray+Class */,
+				3801698D1C023DB7008DE3AB /* NSArray+Shuffle */,
 				38AF33111B498A410066E2D9 /* NSData+Base64 */,
 				38AF33141B498A410066E2D9 /* NSDate+Additional */,
 				38AF33171B498A410066E2D9 /* NSDate+Timestamp */,
@@ -670,7 +683,7 @@
 		38A3BF6F1A1123F000F2B8F9 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0610;
+				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = "Dal Rupnik";
 				TargetAttributes = {
 					38A3BF761A1123F000F2B8F9 = {
@@ -765,6 +778,7 @@
 				38AF338C1B498A410066E2D9 /* UIApplication+Information.m in Sources */,
 				38AF339B1B498A410066E2D9 /* UIView+Snapshot.m in Sources */,
 				38AF33971B498A410066E2D9 /* UIFont+SmallCaps.m in Sources */,
+				380169901C023DB7008DE3AB /* NSArray+Shuffle.m in Sources */,
 				38AF33891B498A410066E2D9 /* NSString+Validation.m in Sources */,
 				38AF33811B498A410066E2D9 /* NSDictionary+Class.m in Sources */,
 				38AF33B31B498C7B0066E2D9 /* HAYUnitFormatterUnit.m in Sources */,
@@ -810,6 +824,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -875,6 +890,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Demo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.unifiedsense.Haystack.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -886,6 +902,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Demo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.unifiedsense.Haystack.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -904,6 +921,7 @@
 				);
 				INFOPLIST_FILE = ../Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.arvystate.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Demo.app/Demo";
 			};
@@ -919,6 +937,7 @@
 				);
 				INFOPLIST_FILE = ../Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.arvystate.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Demo.app/Demo";
 			};
