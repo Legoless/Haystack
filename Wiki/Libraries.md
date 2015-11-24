@@ -93,3 +93,5 @@ The following libraries are Swift based and can be used only in iOS 8+ targets.
    Networking library similar to AFNetworking with automatic JSON parsing and NSURLSession support.  
    `pod 'Alamofire'`
    
+- [**Object Mapper**](https://github.com/Hearst-DD/ObjectMapper)
+   
