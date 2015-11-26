@@ -86,7 +86,7 @@ Below is the list of iOS libraries that are really common to use in almost every
    `pod 'UrbanAirship-iOS-SDK'`
 
 
-The following libraries are Swift based and can be used only in iOS 8+ targets.
+The following libraries are Swift based and can be used only in iOS 8+ targets. Those libraries require the modifier: `use_frameworks!` in your podfile.
 
 - [**Alamofire**](https://github.com/Alamofire/Alamofire)
 
@@ -94,4 +94,7 @@ The following libraries are Swift based and can be used only in iOS 8+ targets.
    `pod 'Alamofire'`
    
 - [**Object Mapper**](https://github.com/Hearst-DD/ObjectMapper)
+ 
+   Utility library for converting JSON dictionaries into your object models.  
+   `pod 'ObjectMapper'`
    
