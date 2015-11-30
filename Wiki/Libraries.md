@@ -97,4 +97,6 @@ The following libraries are Swift based and can be used only in iOS 8+ targets. 
  
    Utility library for converting JSON dictionaries into your object models.  
    `pod 'ObjectMapper'`
+
+- [**MagicalRecord**]()
    
