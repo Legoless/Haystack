@@ -103,7 +103,7 @@ The following libraries are Swift based and can be used only in iOS 8+ targets. 
    Active Record like fetching from Core Data database. Version 3.0 supports Swift.   
    `pod 'MagicalRecord'`
    
-- [**SnapKit**]()
+- [**SnapKit**](https://github.com/SnapKit/SnapKit)
    
    Similar to Masonry, SnapKit is a Swift based DSL for Auto-Layout.   
    `pod 'SnapKit'`
