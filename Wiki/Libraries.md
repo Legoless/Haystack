@@ -113,3 +113,8 @@ Functional Reactive Programming
 --------
 Libraries under this category fall into FRP.
 
+- ReactiveCocoa
+
+- RxSwift
+
+
