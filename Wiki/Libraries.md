@@ -113,8 +113,10 @@ Functional Reactive Programming
 --------
 Libraries under this category fall into FRP.
 
-- ReactiveCocoa
+- [ReactiveCocoa]()
 
-- RxSwift
+  Started in Objective-C, but now fully supporting Swift.
+
+- [RxSwift]()
 
 
