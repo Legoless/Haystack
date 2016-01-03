@@ -117,6 +117,6 @@ Libraries under this category fall into FRP.
 
   Started in Objective-C, but now fully supporting Swift.
 
-- [RxSwift]()
+- [RxSwift](https://github.com/ReactiveX/RxSwift)
 
 
