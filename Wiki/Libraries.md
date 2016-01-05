@@ -119,6 +119,6 @@ Libraries under this category fall into FRP.
 
 - [RxSwift](https://github.com/ReactiveX/RxSwift)
 
-  Rx Swift extensions.
+  Swift Reactive Extensions that originated with .NET.
 
 
