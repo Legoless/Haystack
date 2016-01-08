@@ -115,7 +115,8 @@ Libraries under this category fall into FRP.
 
 - [ReactiveCocoa](https://github.com/ReactiveCocoa/ReactiveCocoa)
 
-  Started in Objective-C, but now fully supporting Swift.
+  Started in Objective-C, but now fully supporting Swift.    
+  `pod 'ReactiveCocoa'`
 
 - [RxSwift](https://github.com/ReactiveX/RxSwift)
 
