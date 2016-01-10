@@ -17,7 +17,7 @@ It consists of multiple steps, which are combined from smaller steps. Each step 
 
 # Project creation
 
-Project structure is configured in an app called LiftOff.
+Project structure is configured with a command line app called Liftoff.
 
 ### Testing application schemes
 
