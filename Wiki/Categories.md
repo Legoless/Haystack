@@ -75,7 +75,7 @@ An UIColor category that allows the creation of UIColors from Hex HTML strings a
 
 ### UIColor+Flat
 
-An UIColor category that encapsulates flat colors used in multiple applications.
+An UIColor category that encapsulates basic flat colors used in multiple applications.
 
 ```objective-c
 + (UIColor *)hay_turquoiseColor;
