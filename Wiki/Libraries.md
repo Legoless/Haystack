@@ -113,7 +113,7 @@ Functional Reactive Programming
 --------
 Libraries under this category fall into FRP.
 
-- [ReactiveCocoa](https://github.com/ReactiveCocoa/ReactiveCocoa)
+- [**ReactiveCocoa**](https://github.com/ReactiveCocoa/ReactiveCocoa)
 
   Started in Objective-C, but now fully supporting Swift.    
   `pod 'ReactiveCocoa'`
