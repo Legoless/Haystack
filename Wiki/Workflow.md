@@ -25,5 +25,5 @@ For testing different application schemes we use an app called: [Launch Center P
 
 ## Beta
 
-To deploy an application, we use TestFlight or Crashlytics Beta to where our testers and clients are signed up.
+To deploy an application, we use TestFlight or Crashlytics (Fabric) Beta to where our testers and clients are signed up.
 For most of the apps I use [Fastlane](https://fastlane.tools) for testing, building and distributing.
