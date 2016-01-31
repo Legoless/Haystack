@@ -118,7 +118,7 @@ Libraries under this category fall into FRP.
   Started in Objective-C, but now fully supporting Swift.    
   `pod 'ReactiveCocoa'`
 
-- [RxSwift](https://github.com/ReactiveX/RxSwift)
+- [**RxSwift**](https://github.com/ReactiveX/RxSwift)
 
   Swift Reactive Extensions that originated with .NET.
 
