@@ -1,6 +1,6 @@
 Default **Gitignore** I use with most projects.
 
-For most cases we also commit Pods directory into repository, to keep the project buildable on any system, including test servers. There are some exceptions to this rule, so it is entirely up to you.
+For most cases I also commit Pods directory into repository, to keep the project buildable on any system, including test servers. There are some exceptions to this rule, so it is entirely up to you.
 
 I also use [**Dominus**](https://github.com/Legoless/Dominus) to build the projects, so I skip it's configuration file, because it may have sensitive data such as API keys in some cases. Also AppCode (.idea) and Carthage is skipped.
 
