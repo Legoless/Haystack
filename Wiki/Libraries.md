@@ -121,5 +121,5 @@ Libraries under this category fall into FRP.
 - [**RxSwift**](https://github.com/ReactiveX/RxSwift)
 
   Swift Reactive Extensions that originated with .NET.
-
+  `pod 'RxSwift'`
 
