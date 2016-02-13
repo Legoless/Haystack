@@ -1,7 +1,7 @@
 Classes
 =======
 
-This wiki describes utility classes and methods in Haystack SDK.
+This wiki describes utility classes and methods in Haystack.
 
 HAYMath
 --------
