@@ -12,7 +12,7 @@ It consists of multiple steps, which are combined from smaller steps. Each step 
 - Deployment
   - Testing
   - Continuous Integration
-  - Beta
+  - Beta (TestFlight)
 - App Store
 
 # Project creation
