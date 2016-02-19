@@ -110,6 +110,8 @@ The following libraries are Swift based and can be used only in iOS 8+ targets. 
    Similar to Masonry, SnapKit is a Swift based DSL for Auto-Layout.   
    `pod 'SnapKit'`
 
+- [**XCGLogger**]()
+
 
 Functional Reactive Programming
 --------
