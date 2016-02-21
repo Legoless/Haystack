@@ -111,6 +111,8 @@ The following libraries are Swift based and can be used only in iOS 8+ targets. 
    `pod 'SnapKit'`
 
 - [**XCGLogger**]()
+   
+   Logger for Swift, that supports Xcode Colors.
 
 
 Functional Reactive Programming
