@@ -106,6 +106,8 @@ The following libraries are Swift based and can be used only in iOS 8+ targets. 
    `pod 'MagicalRecord'`
    
 - [**Moya**](https://github.com/Moya/Moya)
+
+   Separate networking layer based on AFNetworking.
    
 - [**SnapKit**](https://github.com/SnapKit/SnapKit)
    
