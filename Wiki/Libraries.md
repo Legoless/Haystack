@@ -118,7 +118,8 @@ The following libraries are Swift based and can be used only in iOS 8+ targets. 
 
 - [**XCGLogger**](https://github.com/DaveWoodCom/XCGLogger)
    
-   Logger for Swift, that supports Xcode Colors.
+   Logger for Swift, that supports Xcode Colors.   
+   `pod 'XCGLogger'`
 
 
 Functional Reactive Programming
