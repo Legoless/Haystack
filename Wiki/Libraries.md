@@ -94,6 +94,8 @@ The following libraries are Swift based and can be used only in iOS 8+ targets. 
    `pod 'Alamofire'`
    
 - [**Locksmith**](https://github.com/matthewpalmer/Locksmith)
+  
+  A powerful, protocol-oriented library for working with the keychain in Swift.   
   `pod 'Locksmith'`
    
 - [**ObjectMapper**](https://github.com/Hearst-DD/ObjectMapper)
