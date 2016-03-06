@@ -143,6 +143,6 @@ Xcode Plugins
 --------
 Useful Xcode plugins
 
-- [**Xcode Colors**]()
+- [**Xcode Colors**](https://github.com/robbiehanson/XcodeColors)
   
   A plugin that displays colors in the Xcode console.
