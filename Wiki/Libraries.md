@@ -145,4 +145,4 @@ Useful Xcode plugins
 
 - [**Xcode Colors**](https://github.com/robbiehanson/XcodeColors)
   
-  A plugin that displays colors in the Xcode console.
+  A plugin that displays colors in the Xcode console, works great together with XCGLogger.
