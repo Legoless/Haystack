@@ -143,6 +143,8 @@ Xcode Plugins
 --------
 Useful Xcode plugins
 
+- [**Alcatraz**]()
+
 - [**Xcode Colors**](https://github.com/robbiehanson/XcodeColors)
   
   A plugin that displays colors in the Xcode console, works great together with XCGLogger.
