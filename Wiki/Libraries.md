@@ -145,7 +145,7 @@ Useful Xcode plugins
 
 - [**Alcatraz**](http://alcatraz.io)   
   
-  Package manager for Xcode.
+  Package manager for Xcode that installs any plugin with a single click.
 
 - [**Xcode Colors**](https://github.com/robbiehanson/XcodeColors)
   
