@@ -147,6 +147,8 @@ Useful Xcode plugins
   
   Package manager for Xcode that installs any plugin with a single click.
 
+- [**VVDocumenter**](https://github.com/onevcat/VVDocumenter-Xcode)
+
 - [**Xcode Colors**](https://github.com/robbiehanson/XcodeColors)
   
   A plugin that displays colors in the Xcode console, works great together with XCGLogger.
