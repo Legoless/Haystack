@@ -1,6 +1,8 @@
 Resources
 =======
 
+This document contains a couple of libraries and tools that I use daily.
+
 iOS
 --------
 Below is the list of iOS libraries that are really common to use in almost every iOS project (in addition to **Haystack SDK**). The following libraries are Objective-C based, but can usually be used in Swift projects as well.
