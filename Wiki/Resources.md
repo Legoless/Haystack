@@ -151,6 +151,8 @@ Useful Xcode plugins
 
 - [**VVDocumenter**](https://github.com/onevcat/VVDocumenter-Xcode)
 
+  Easy autocomplete for commenting.
+
 - [**Xcode Colors**](https://github.com/robbiehanson/XcodeColors)
   
   A plugin that displays colors in the Xcode console, works great together with XCGLogger.
