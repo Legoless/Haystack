@@ -151,7 +151,7 @@ Useful Xcode plugins
 
 - [**VVDocumenter**](https://github.com/onevcat/VVDocumenter-Xcode)
 
-  Easy autocomplete for commenting.
+  Easy autocompletion for commenting methods and properties.
 
 - [**Xcode Colors**](https://github.com/robbiehanson/XcodeColors)
   
