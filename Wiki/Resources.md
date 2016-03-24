@@ -149,6 +149,8 @@ Useful Xcode plugins
   
   Package manager for Xcode that installs any plugin with a single click.
 
+- [**AtAutoCompletion**]()
+
 - [**FuzzyAutocomplete**]()
 
 - [**VVDocumenter**](https://github.com/onevcat/VVDocumenter-Xcode)
