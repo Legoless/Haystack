@@ -151,7 +151,7 @@ Useful Xcode plugins
 
 - [**AtAutoCompletion**]()
 
-- [**FuzzyAutocomplete**]()
+- [**FuzzyAutocomplete**](https://github.com/FuzzyAutocomplete/FuzzyAutocompletePlugin)
 
 - [**VVDocumenter**](https://github.com/onevcat/VVDocumenter-Xcode)
 
