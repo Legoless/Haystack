@@ -153,6 +153,8 @@ Useful Xcode plugins
 
 - [**FuzzyAutocomplete**](https://github.com/FuzzyAutocomplete/FuzzyAutocompletePlugin)
 
+  Fuzzy autocompletion for Xcode.
+
 - [**VVDocumenter**](https://github.com/onevcat/VVDocumenter-Xcode)
 
   Easy autocompletion for commenting methods and properties.
