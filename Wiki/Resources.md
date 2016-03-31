@@ -151,7 +151,7 @@ Useful Xcode plugins
 
 - [**AtAutoCompletion**](https://github.com/wzqcongcong/AtAutoCompletion/)
 
-  Autocompletion for @ in Xcode 6+.
+  Autocompletion for @ signs in Xcode 6+.
 
 - [**FuzzyAutocomplete**](https://github.com/FuzzyAutocomplete/FuzzyAutocompletePlugin)
 
