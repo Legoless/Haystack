@@ -68,6 +68,8 @@ Below is the list of iOS libraries that are really common to use in almost every
    `pod 'NUI'`
    
 - [**RBStoryboardLink**](https://github.com/rob-brown/RBStoryboardLink)
+
+  A simple library that helps with separating storyboards.
    
 - [**Realm**](http://realm.io)
    
