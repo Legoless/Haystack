@@ -1,7 +1,7 @@
 Categories
 =======
 
-This document describes functions in categories in detail. Categories are not in any particular order. To be updated.
+This document describes methods in Objective-C categories in detail. Categories are not in any particular order. To be updated.
 
 ## UIKit
 
