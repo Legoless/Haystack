@@ -85,7 +85,7 @@ Haystack is **not limited only** to code resources, but contains multiple other 
    
    - [Categories](https://github.com/Legoless/Haystack/blob/master/Wiki/Categories.md)
    - [Classes](https://github.com/Legoless/Haystack/blob/master/Wiki/Classes.md)
-   - [GitIgnore](https://github.com/Legoless/Haystack/blob/master/Wiki/GitIgnore.md)
+   - [Gitignore](https://github.com/Legoless/Haystack/blob/master/Wiki/GitIgnore.md)
    - [Libraries](https://github.com/Legoless/Haystack/blob/master/Wiki/Libraries.md)
 
 Usage
