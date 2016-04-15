@@ -5,7 +5,7 @@ This document describes methods in Objective-C categories in detail. Categories 
 
 ## UIKit
 
-Extensions to Apple's most used framework on iOS.
+Extensions to Apple's most used UI framework on iOS.
 
 ### UIAlertView+Short
 
