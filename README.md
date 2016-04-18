@@ -9,7 +9,7 @@ Haystack
 [![Pod Platform](http://img.shields.io/cocoapods/p/Haystack.svg?style=flat)](http://cocoadocs.org/docsets/Haystack/)
 [![Pod License](http://img.shields.io/cocoapods/l/Haystack.svg?style=flat)](http://opensource.org/licenses/MIT)
 
-Haystack SDK contains multiple extensions and enhancements for **iOS** development, including a collection of simple Objective-C classes and categories that fit in almost every project. Most of these classes are not large or structured enough to fit in a special library or framework, but are regurarely needed throughout the most projects you are working on. Basically it is meant to fill the void of classes without entire libraries.
+Haystack contains multiple extensions and enhancements for **iOS** development, including a collection of simple Objective-C classes and categories that fit in almost every project. Most of these classes are not large or structured enough to fit in a special library or framework, but are regurarely needed throughout the most projects you are working on. Basically it is meant to fill the void of classes without entire libraries.
 
 Project is actively developed and as the Apple SDK's changes, project is updated. Note that the project is not finished and might contain bugs. Feel free to open an issue. To avoid clashing with any future framework improvements, all Haystack classes are prefixed with `HAY` and category methods are also prefixed with lowercase `hay`, to separate them from rest of the frameworks.
 
