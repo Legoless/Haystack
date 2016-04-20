@@ -98,7 +98,7 @@ All header files and fully documented for ease of use. Only method stubs are dis
 Installation & Setup
 --------
 You can install the SDK via CocoaPods:
-```ruby
+```
 pod 'Haystack'
 ```
 
