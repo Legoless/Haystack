@@ -1,7 +1,7 @@
 Resources
 =======
 
-This document contains a list of libraries and tools that I use daily.
+This document contains a list of libraries and tools that help with Mac / iOS productivity.
 
 iOS
 --------
