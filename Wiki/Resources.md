@@ -82,7 +82,9 @@ Below is the list of iOS libraries that are really common to use in almost every
    Reveal App is an easy to use application to debug UIView hierarchy. Only for debug builds.  
    `pod 'Reveal-iOS-SDK'`
 
-- [**SDWebImage**]()
+- [**SDWebImage**](https://github.com/rs/SDWebImage)
+
+   A very handy image caching library.
 
 - [**SVPullToRefresh**](https://github.com/samvermette/SVPullToRefresh)
    
