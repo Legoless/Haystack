@@ -9,4 +9,4 @@ env:
   - ACTION=test
   global:
   - SDK=9.0
-  - DIR_PATH='./SDK/Demo'
+  - DIR_PATH='./SDK/Demo'#
