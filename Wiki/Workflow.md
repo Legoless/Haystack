@@ -1,7 +1,7 @@
 Workflow
 ========
 
-This document describes workflow used to develop iOS applications. The cycle begins by creating the project and ends with releasing a version to the App Store.
+This document describes workflow used to develop iOS applications. It cycle begins by creating the project and ends with releasing a version to the App Store.
 
 It consists of multiple steps, which are combined from smaller steps. Each step can be repeated multiple times, as features are added to the project and issues are corrected
 
