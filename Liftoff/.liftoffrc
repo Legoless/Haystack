@@ -26,7 +26,6 @@ templates:
   - StyleSettings.plist: StyleSettings.plist
 
 warnings:
-
 xcode_command: open -a 'Xcode' .
 
 project_template: objc
