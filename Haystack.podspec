@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.homepage     = "http://github.com/Legoless/Haystack"
   s.license      = 'MIT'
   s.author       = { "Dal Rupnik" => "legoless@gmail.com" }
-  s.platform     = :ios, '7.0'
+  s.platform     = :ios, '8.0'
   s.source       = { :git => "https://github.com/Legoless/Haystack.git", :tag => s.version }
 
   s.frameworks   = 'CoreText' 
