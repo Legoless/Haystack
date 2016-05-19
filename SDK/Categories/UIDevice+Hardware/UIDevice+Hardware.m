@@ -21,8 +21,6 @@
         self.batteryMonitoringEnabled = YES;
     }
     
-    [self setBatteryMonitoringEnabled:YES];
-    
     float batteryLevel = self.batteryLevel;
     
     if (!batteryMonitoring)
