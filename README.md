@@ -15,7 +15,9 @@ Project is actively developed and as the Apple SDK's changes, the project is upd
 
 ### Swift Support
 
-*Haystack supports Swift, but as it is written in Objective-C, it currently needs to be added to the bridging header. Framework and Carthage support on the way. If you are only supporting iOS 8.x and greater, you can use Haystack as a framework. For Swift projects an alternate version of Haystack will be released.*
+*Haystack supports Swift, but as it is written in Objective-C, it currently needs to be added to the bridging header. Framework and Carthage support on the way. If you are only supporting iOS 8.x and greater, you can use Haystack as a framework.*
+
+*Saystack is the Swift counterpart to Haystack.*
 
 Contents
 ========
