@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		380169901C023DB7008DE3AB /* NSArray+Shuffle.m in Sources */ = {isa = PBXBuildFile; fileRef = 3801698F1C023DB7008DE3AB /* NSArray+Shuffle.m */; };
+		384E9D371D3261F200B4FD8B /* UIView+Position.m in Sources */ = {isa = PBXBuildFile; fileRef = 384E9D361D3261F200B4FD8B /* UIView+Position.m */; };
 		389397E51B813F780096F4DF /* UIStoryboard+Initialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 389397E41B813F780096F4DF /* UIStoryboard+Initialization.m */; };
 		38A3BF7D1A1123F000F2B8F9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 38A3BF7C1A1123F000F2B8F9 /* main.m */; };
 		38A3BF801A1123F000F2B8F9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 38A3BF7F1A1123F000F2B8F9 /* AppDelegate.m */; };
@@ -68,6 +69,8 @@
 /* Begin PBXFileReference section */
 		3801698E1C023DB7008DE3AB /* NSArray+Shuffle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Shuffle.h"; sourceTree = "<group>"; };
 		3801698F1C023DB7008DE3AB /* NSArray+Shuffle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Shuffle.m"; sourceTree = "<group>"; };
+		384E9D351D3261F200B4FD8B /* UIView+Position.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Position.h"; sourceTree = "<group>"; };
+		384E9D361D3261F200B4FD8B /* UIView+Position.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Position.m"; sourceTree = "<group>"; };
 		389397E31B813F780096F4DF /* UIStoryboard+Initialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIStoryboard+Initialization.h"; sourceTree = "<group>"; };
 		389397E41B813F780096F4DF /* UIStoryboard+Initialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIStoryboard+Initialization.m"; sourceTree = "<group>"; };
 		38A3BF771A1123F000F2B8F9 /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -187,6 +190,15 @@
 			path = "NSArray+Shuffle";
 			sourceTree = "<group>";
 		};
+		384E9D341D3261CB00B4FD8B /* UIView+Position */ = {
+			isa = PBXGroup;
+			children = (
+				384E9D351D3261F200B4FD8B /* UIView+Position.h */,
+				384E9D361D3261F200B4FD8B /* UIView+Position.m */,
+			);
+			path = "UIView+Position";
+			sourceTree = "<group>";
+		};
 		389397E21B813F780096F4DF /* UIStoryboard+Initialization */ = {
 			isa = PBXGroup;
 			children = (
@@ -302,6 +314,7 @@
 				38AF335F1B498A410066E2D9 /* UIView+Cell */,
 				38AF33621B498A410066E2D9 /* UIView+Debug */,
 				38AF33651B498A410066E2D9 /* UIView+Hierarchy */,
+				384E9D341D3261CB00B4FD8B /* UIView+Position */,
 				38AF33681B498A410066E2D9 /* UIView+Snapshot */,
 				38AF336B1B498A410066E2D9 /* UIViewController+BackgroundImage */,
 			);
@@ -774,6 +787,7 @@
 				38AF33B41B498C7B0066E2D9 /* HAYWeakPointer.m in Sources */,
 				38AF339C1B498A410066E2D9 /* UIViewController+BackgroundImage.m in Sources */,
 				38AF33831B498A410066E2D9 /* NSObject+Property.m in Sources */,
+				384E9D371D3261F200B4FD8B /* UIView+Position.m in Sources */,
 				38AF33B11B498C7B0066E2D9 /* HAYUnitFormatter.m in Sources */,
 				38AF338C1B498A410066E2D9 /* UIApplication+Information.m in Sources */,
 				38AF339B1B498A410066E2D9 /* UIView+Snapshot.m in Sources */,
