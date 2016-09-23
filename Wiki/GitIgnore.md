@@ -94,4 +94,9 @@ dominus.cfg
 # KZBootstrap
 #
 KZBootstrapUserMacros.h
+
+#
+# R.swift
+#
+*.generated.swift
 ```
