@@ -15,7 +15,7 @@ Project is actively developed and as the Apple SDK's changes, the project is upd
 
 ### Swift Support
 
-*[Saystack](https://github.com/legoless/saystack) is the Swift counterpart to Haystack.*
+*[Saystack](https://github.com/legoless/saystack) is the Swift mirror to Haystack.*
 
 *Haystack generally supports Swift, but as it is written in Objective-C the API was built for Objective-C applications. Carthage support on the way. If you are only supporting iOS 8.x and greater, you can already use Haystack as a framework.*
 
