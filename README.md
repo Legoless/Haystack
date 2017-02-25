@@ -22,7 +22,7 @@ Project is actively developed and as the Apple SDK's changes, the project is upd
 
 Contents
 ========
-Haystack is **not only** for code resources, but contains multiple other resources used in development, such as scripts. Resources are divided into sections, each of which is represented by a folder of the same name:
+Haystack is also contains other resources used in development, such as scripts. Resources are divided into sections, each of which is represented by a folder of the same name:
 
 - **Pods**
 
