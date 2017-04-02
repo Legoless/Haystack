@@ -1,10 +1,10 @@
 Haystack
 ========
 
-[![Issues on Waffle](https://img.shields.io/badge/issues on-Waffle-blue.svg)](http://waffle.io/legoless/Haystack)
-[![Built by Dominus](https://img.shields.io/badge/built by-Dominus-brightgreen.svg)](http://github.com/legoless/Dominus)
+[![Issues on Waffle](https://img.shields.io/badge/issues%20on-Waffle-blue.svg)](http://waffle.io/legoless/Haystack)
+[![Built by Dominus](https://img.shields.io/badge/built%20by-Dominus-brightgreen.svg)](http://github.com/legoless/Dominus)
 [![Build Status](https://travis-ci.org/Legoless/Haystack.svg)](https://travis-ci.org/legoless/Haystack)
-[![Obj-C Code](https://img.shields.io/badge/code in-Objective--C-yellow.svg)](http://github.com/legoless/Haystack)
+[![Obj-C Code](https://img.shields.io/badge/code%20in-Objective--C-yellow.svg)](http://github.com/legoless/Haystack)
 [![Pod Version](http://img.shields.io/cocoapods/v/Haystack.svg?style=flat)](http://cocoadocs.org/docsets/Haystack/)
 [![Pod Platform](http://img.shields.io/cocoapods/p/Haystack.svg?style=flat)](http://cocoadocs.org/docsets/Haystack/)
 [![Pod License](http://img.shields.io/cocoapods/l/Haystack.svg?style=flat)](http://opensource.org/licenses/MIT)
